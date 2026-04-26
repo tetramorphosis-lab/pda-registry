@@ -1,0 +1,149 @@
+{
+  "name": "Black Hole",
+  "description": "Black Hole — private .s9pk registry for Black Hole servers. Built with pda.",
+  "generated_at": "2026-04-25T14:27:19.190Z",
+  "packages": [
+    {
+      "name": "moneropay",
+      "version": "0.1.0-pda1",
+      "description": "MoneroPay — HTTP API for accepting Monero payments (bundled monerod + wallet-rpc)",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-0.1.0-pda1/moneropay_x86_64_0.1.0-pda1.s9pk",
+      "sha256": "5799cdb74c10890b4bee98f5006bb7e3bf9e958022258c61ee1556a30225042e",
+      "size_bytes": 25080936,
+      "upstream": "https://gitlab.com/moneropay/moneropay",
+      "tags": [
+        "monero",
+        "payments",
+        "xmr"
+      ],
+      "source_repo": "packages/moneropay"
+    },
+    {
+      "name": "ntfy",
+      "version": "2.11.0-pda1",
+      "description": "ntfy — self-hosted pub/sub push notifications",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-ntfy-2.11.0-pda1/ntfy_x86_64_2.11.0-pda1.s9pk",
+      "sha256": "3a1979cfbac94e5f2b5bc4df34e95867cac2206623540f49ce638a2eac992ab3",
+      "size_bytes": 26768337,
+      "tags": [
+        "push",
+        "notifications",
+        "ntfy"
+      ],
+      "source_repo": "packages/ntfy"
+    },
+    {
+      "name": "pairdrop",
+      "version": "1.11.1-pda1",
+      "description": "PairDrop — LAN-first peer-to-peer file sharing over WebRTC",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-1.11.1-pda1/pairdrop_x86_64_1.11.1-pda1.s9pk",
+      "sha256": "80e93ad789db24258ac1a4b6f6eb3f6596363800b0a00980a1ae536c222f94df",
+      "size_bytes": 40031117,
+      "tags": [
+        "p2p",
+        "filesharing",
+        "webrtc"
+      ],
+      "source_repo": "packages/pairdrop"
+    },
+    {
+      "name": "tailscale",
+      "version": "1.84.0-pda1",
+      "description": "Tailscale — zero-config WireGuard mesh VPN",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-pda1/tailscale_x86_64_1.84.0-pda1.s9pk",
+      "sha256": "cc36f3240ed88c5457ab939ab55b19fda9302e7abea8962de68d15e5accc5294",
+      "size_bytes": 45929450,
+      "tags": [
+        "vpn",
+        "wireguard",
+        "tailscale"
+      ],
+      "source_repo": "packages/tailscale"
+    },
+    {
+      "name": "shadowsocks",
+      "version": "1.24.0-pda0",
+      "description": "Shadowsocks — fast tunnel proxy. Default cipher chacha20-ietf-poly1305",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-1.24.0-pda0/shadowsocks_x86_64_1.24.0-pda0.s9pk",
+      "sha256": "9228b197f659f69a92d248904464c62ffd64c36616f99518b801af9b9f32c681",
+      "size_bytes": 7906460,
+      "tags": [
+        "proxy",
+        "vpn",
+        "tunnel"
+      ],
+      "source_repo": "packages/shadowsocks"
+    },
+    {
+      "name": "cloak",
+      "version": "0.1.0-pda1",
+      "description": "Cloak McAfee — on-box RAG chat oracle. qwen2.5:1.5b default (smaller, faster).",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-cloak-0.1.0-pda1/cloak_x86_64_0.1.0-pda1.s9pk",
+      "sha256": "e9a271d5ada40e94d4832cc9b6045c15af64233d6943aee9fbc92cef881ed498",
+      "size_bytes": 189237290,
+      "upstream": "https://github.com/primordialsoup/peripheral-debug-agent",
+      "tags": [
+        "rag",
+        "chat",
+        "llm",
+        "voice"
+      ],
+      "source_repo": "packages/cloak"
+    },
+    {
+      "name": "i2pd",
+      "version": "1.0.0-pda1",
+      "description": "i2pd — full I2P router (HTTP proxy 4444, SOCKS 4447, SAM 7656)",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-1.0.0-pda1/i2pd_x86_64_1.0.0-pda1.s9pk",
+      "sha256": "69e6a8e072a5d6106f1771daa81e290153dbbfc4898292df69221e4fae6ef9c0",
+      "size_bytes": 7878415,
+      "tags": [
+        "i2p",
+        "privacy",
+        "router"
+      ],
+      "source_repo": "packages/i2pd"
+    },
+    {
+      "name": "cloak",
+      "version": "0.1.0-pda2",
+      "description": "Cloak McAfee — on-box RAG chat oracle. qwen2.5:1.5b default (smaller, faster than 3b).",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-cloak-0.1.0-pda2/cloak_x86_64_0.1.0-pda2.s9pk",
+      "sha256": "e9a271d5ada40e94d4832cc9b6045c15af64233d6943aee9fbc92cef881ed498",
+      "size_bytes": 189237290,
+      "upstream": "https://github.com/primordialsoup/peripheral-debug-agent",
+      "tags": [
+        "rag",
+        "chat",
+        "llm",
+        "voice"
+      ],
+      "source_repo": "packages/cloak"
+    }
+  ],
+  "schema_version": 1
+}
