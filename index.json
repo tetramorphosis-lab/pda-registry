@@ -19,7 +19,9 @@
         "payments",
         "xmr"
       ],
-      "source_repo": "packages/moneropay"
+      "source_repo": "packages/moneropay",
+      "merkle_root_sighash": "pETGC7STPNElYGJszdZOhb4y0A78fWHMlYdvrsptDe0",
+      "merkle_root_maxsize": 380
     },
     {
       "name": "ntfy",
@@ -36,7 +38,9 @@
         "notifications",
         "ntfy"
       ],
-      "source_repo": "packages/ntfy"
+      "source_repo": "packages/ntfy",
+      "merkle_root_sighash": "Z7lkn1KyUDLhbGOW5HJXRnmH9V4EUu2AsWMSkBBiySw",
+      "merkle_root_maxsize": 380
     },
     {
       "name": "pairdrop",
@@ -53,7 +57,9 @@
         "filesharing",
         "webrtc"
       ],
-      "source_repo": "packages/pairdrop"
+      "source_repo": "packages/pairdrop",
+      "merkle_root_sighash": "AvRG4EX4R4TXOmYyF8qFVJaN49uoEN/P6gxcuKyPDyg",
+      "merkle_root_maxsize": 380
     },
     {
       "name": "tailscale",
@@ -70,7 +76,9 @@
         "wireguard",
         "tailscale"
       ],
-      "source_repo": "packages/tailscale"
+      "source_repo": "packages/tailscale",
+      "merkle_root_sighash": "R21Zm52awjRQm8W/CLbr7ciuxbakajZumgZLPrL3cSM",
+      "merkle_root_maxsize": 380
     },
     {
       "name": "shadowsocks",
@@ -87,7 +95,9 @@
         "vpn",
         "tunnel"
       ],
-      "source_repo": "packages/shadowsocks"
+      "source_repo": "packages/shadowsocks",
+      "merkle_root_sighash": "MEReYrSdSOFm7H0Zh3xaFk+aYsmN5mwOKVQs4cz4JsU",
+      "merkle_root_maxsize": 380
     },
     {
       "name": "cloak",
@@ -106,7 +116,9 @@
         "llm",
         "voice"
       ],
-      "source_repo": "packages/cloak"
+      "source_repo": "packages/cloak",
+      "merkle_root_sighash": "RQ1jn1OkpK2WZz/X2d1dqyFtI+Z4A3nRWCNlBv9wJ8k",
+      "merkle_root_maxsize": 380
     },
     {
       "name": "i2pd",
@@ -123,7 +135,9 @@
         "privacy",
         "router"
       ],
-      "source_repo": "packages/i2pd"
+      "source_repo": "packages/i2pd",
+      "merkle_root_sighash": "EDq/7ep62mok2Yvasl9cHjJXCh8rqXBNfK5YPkB8V4U",
+      "merkle_root_maxsize": 380
     },
     {
       "name": "cloak",
@@ -142,7 +156,9 @@
         "llm",
         "voice"
       ],
-      "source_repo": "packages/cloak"
+      "source_repo": "packages/cloak",
+      "merkle_root_sighash": "RQ1jn1OkpK2WZz/X2d1dqyFtI+Z4A3nRWCNlBv9wJ8k",
+      "merkle_root_maxsize": 380
     }
   ],
   "schema_version": 1
