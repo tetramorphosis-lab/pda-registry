@@ -1,12 +1,12 @@
 {
   "name": "Black Hole",
-  "description": "Black Hole — private .s9pk registry for Black Hole servers. Built with pda.",
+  "description": "Black Hole \u2014 private .s9pk registry for Black Hole servers. Built with pda.",
   "generated_at": "2026-04-25T14:27:19.190Z",
   "packages": [
     {
       "name": "moneropay",
       "version": "0.1.0-pda1",
-      "description": "MoneroPay — HTTP API for accepting Monero payments (bundled monerod + wallet-rpc)",
+      "description": "MoneroPay \u2014 HTTP API for accepting Monero payments (bundled monerod + wallet-rpc)",
       "architectures": [
         "x86_64"
       ],
@@ -26,7 +26,7 @@
     {
       "name": "ntfy",
       "version": "2.11.0-pda1",
-      "description": "ntfy — self-hosted pub/sub push notifications",
+      "description": "ntfy \u2014 self-hosted pub/sub push notifications",
       "architectures": [
         "x86_64"
       ],
@@ -45,7 +45,7 @@
     {
       "name": "pairdrop",
       "version": "1.11.1-pda1",
-      "description": "PairDrop — LAN-first peer-to-peer file sharing over WebRTC",
+      "description": "PairDrop \u2014 LAN-first peer-to-peer file sharing over WebRTC",
       "architectures": [
         "x86_64"
       ],
@@ -64,7 +64,7 @@
     {
       "name": "tailscale",
       "version": "1.84.0-pda1",
-      "description": "Tailscale — zero-config WireGuard mesh VPN",
+      "description": "Tailscale \u2014 zero-config WireGuard mesh VPN",
       "architectures": [
         "x86_64"
       ],
@@ -83,7 +83,7 @@
     {
       "name": "shadowsocks",
       "version": "1.24.0-pda0",
-      "description": "Shadowsocks — fast tunnel proxy. Default cipher chacha20-ietf-poly1305",
+      "description": "Shadowsocks \u2014 fast tunnel proxy. Default cipher chacha20-ietf-poly1305",
       "architectures": [
         "x86_64"
       ],
@@ -102,7 +102,7 @@
     {
       "name": "cloak",
       "version": "0.1.0-pda1",
-      "description": "Cloak McAfee — on-box RAG chat oracle. qwen2.5:1.5b default (smaller, faster).",
+      "description": "Cloak McAfee \u2014 on-box RAG chat oracle. qwen2.5:1.5b default (smaller, faster).",
       "architectures": [
         "x86_64"
       ],
@@ -123,7 +123,7 @@
     {
       "name": "i2pd",
       "version": "1.0.0-pda1",
-      "description": "i2pd — full I2P router (HTTP proxy 4444, SOCKS 4447, SAM 7656)",
+      "description": "i2pd \u2014 full I2P router (HTTP proxy 4444, SOCKS 4447, SAM 7656)",
       "architectures": [
         "x86_64"
       ],
@@ -142,7 +142,7 @@
     {
       "name": "cloak",
       "version": "0.1.0-pda2",
-      "description": "Cloak McAfee — on-box RAG chat oracle. qwen2.5:1.5b default (smaller, faster than 3b).",
+      "description": "Cloak McAfee \u2014 on-box RAG chat oracle. qwen2.5:1.5b default (smaller, faster than 3b).",
       "architectures": [
         "x86_64"
       ],
@@ -158,6 +158,27 @@
       ],
       "source_repo": "packages/cloak",
       "merkle_root_sighash": "RQ1jn1OkpK2WZz/X2d1dqyFtI+Z4A3nRWCNlBv9wJ8k",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "wireguard",
+      "version": "0.1.0-pda1",
+      "description": "WireGuard VPN server. Sovereign tunnel for Mudi-as-relay (when phone roams via Mudi's 4G); also general WG endpoint for any client.",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.0-pda1/wireguard_x86_64_0.1.0-pda1.s9pk",
+      "sha256": "628ed14cc0549147aab415bfa231b221393b2abf4ceab1bfae2f185b09bb7c3d",
+      "size_bytes": 5899677,
+      "upstream": "https://www.wireguard.com/",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "mudi",
+        "tunnel"
+      ],
+      "source_repo": "packages/wireguard",
+      "merkle_root_sighash": "2fJdCuDT2PieIVmy/DQTCejyEBlnAgLhgU04PhBowow",
       "merkle_root_maxsize": 380
     }
   ],
