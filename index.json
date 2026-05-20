@@ -1,186 +1,134 @@
 {
   "name": "Wormhole",
-  "description": "Wormhole \u2014 private .s9pk registry for Wormhole servers. Built with pda.",
-  "generated_at": "2026-04-25T14:27:19.190Z",
+  "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
+  "generated_at": "2026-05-20T20:03:28Z",
+  "schema_version": 1,
   "packages": [
     {
-      "name": "moneropay",
-      "version": "0.1.0-pda1",
-      "description": "MoneroPay \u2014 HTTP API for accepting Monero payments (bundled monerod + wallet-rpc)",
+      "name": "video-bot",
+      "version": "0.1.2-1",
+      "description": "Headless Telegram video helper that downloads supported links with yt-dlp and replies with Telegram-native videos.",
       "architectures": [
         "x86_64"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-0.1.0-pda1/moneropay_x86_64_0.1.0-pda1.s9pk",
-      "sha256": "5799cdb74c10890b4bee98f5006bb7e3bf9e958022258c61ee1556a30225042e",
-      "size_bytes": 25080936,
-      "upstream": "https://gitlab.com/moneropay/moneropay",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-video-bot-0.1.2-1/video-bot_x86_64_0.1.2-1.s9pk",
+      "sha256": "8e137e991d58860e41fbd127e6b1a4c65cbe3f8e3aeee9f004670d3abe07bf68",
+      "size_bytes": 183455197,
+      "source_repo": "packages/video-bot",
       "tags": [
-        "monero",
-        "payments",
-        "xmr"
+        "s9pk",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
       ],
-      "source_repo": "packages/moneropay",
-      "merkle_root_sighash": "pETGC7STPNElYGJszdZOhb4y0A78fWHMlYdvrsptDe0",
+      "merkle_root_sighash": "glpNTsI0QwWn6V5uHhpEEVdU6VQAop1QPkEKcmPBBbk",
       "merkle_root_maxsize": 380
     },
     {
-      "name": "ntfy",
-      "version": "2.11.0-pda1",
-      "description": "ntfy \u2014 self-hosted pub/sub push notifications",
+      "name": "news-aggregation",
+      "version": "0.1.2-1",
+      "description": "Telegram news and research digest bot with a routed StartOS web UI.",
       "architectures": [
         "x86_64"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-ntfy-2.11.0-pda1/ntfy_x86_64_2.11.0-pda1.s9pk",
-      "sha256": "3a1979cfbac94e5f2b5bc4df34e95867cac2206623540f49ce638a2eac992ab3",
-      "size_bytes": 26768337,
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-news-aggregation-0.1.2-1/news-aggregation_x86_64_0.1.2-1.s9pk",
+      "sha256": "5a19356c0236ec99569da6fe0af811d121653babea048f8d403e8484c4583840",
+      "size_bytes": 56151545,
+      "source_repo": "packages/news-aggregation",
       "tags": [
-        "push",
-        "notifications",
-        "ntfy"
+        "s9pk",
+        "tier-2",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
       ],
-      "source_repo": "packages/ntfy",
-      "merkle_root_sighash": "Z7lkn1KyUDLhbGOW5HJXRnmH9V4EUu2AsWMSkBBiySw",
+      "merkle_root_sighash": "1HDzWbJ5qfsVSKEfi9Aud0mi+f80ymyZbyRvQYt8gdY",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "space-weather",
+      "version": "0.1.0-1",
+      "description": "Self-hosted space-weather dashboard for solar and geomagnetic conditions.",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-space-weather-0.1.0-1/space-weather_x86_64_0.1.0-1.s9pk",
+      "sha256": "8c6a020c48a9df97a2a0ea640815029e36441861b1f77e74c87874415f28ef95",
+      "size_bytes": 35794181,
+      "source_repo": "packages/space-weather",
+      "tags": [
+        "s9pk",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "merkle_root_sighash": "M4talY5g0BiXSeY802pZOsWjdeK8f5CwxR0RcHMgFJE",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "freshrss",
+      "version": "0.1.1-1",
+      "description": "Self-hosted RSS reader with a routed web UI and SQLite storage.",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_x86_64_0.1.1-1.s9pk",
+      "sha256": "a141e630606a64fc9e19518065a5e6a7f7152f13e369662eafe99f8029959fe9",
+      "size_bytes": 70102593,
+      "source_repo": "packages/freshrss",
+      "tags": [
+        "s9pk",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "merkle_root_sighash": "imPDAV7s/hNEGYct8PeQmz33Di0ODBfHv65gr3IAptQ",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "privatebin",
+      "version": "0.1.1-1",
+      "description": "Zero-knowledge encrypted pastebin with a routed web UI.",
+      "architectures": [
+        "x86_64"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-1/privatebin_x86_64_0.1.1-1.s9pk",
+      "sha256": "16ad7854cccdd8672116168bdba3fb1f06e60c7a36a13f0c7859ace3abb5daea",
+      "size_bytes": 33737994,
+      "source_repo": "packages/privatebin",
+      "tags": [
+        "s9pk",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "merkle_root_sighash": "cks0a4dekfHjgdTVTab2P3uHHjhHyFBx1U1DIm7dTWQ",
       "merkle_root_maxsize": 380
     },
     {
       "name": "pairdrop",
-      "version": "1.11.1-pda1",
-      "description": "PairDrop \u2014 LAN-first peer-to-peer file sharing over WebRTC",
+      "version": "0.1.1-1",
+      "description": "Browser-based local file and text sharing with a routed web UI.",
       "architectures": [
         "x86_64"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-1.11.1-pda1/pairdrop_x86_64_1.11.1-pda1.s9pk",
-      "sha256": "80e93ad789db24258ac1a4b6f6eb3f6596363800b0a00980a1ae536c222f94df",
-      "size_bytes": 40031117,
-      "tags": [
-        "p2p",
-        "filesharing",
-        "webrtc"
-      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.1-1/pairdrop_x86_64_0.1.1-1.s9pk",
+      "sha256": "43433d06efab3dae05ee232f939cec563979f99fbe687d62aa249f29514952d6",
+      "size_bytes": 44926425,
       "source_repo": "packages/pairdrop",
-      "merkle_root_sighash": "AvRG4EX4R4TXOmYyF8qFVJaN49uoEN/P6gxcuKyPDyg",
-      "merkle_root_maxsize": 380
-    },
-    {
-      "name": "tailscale",
-      "version": "1.84.0-pda1",
-      "description": "Tailscale \u2014 zero-config WireGuard mesh VPN",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-pda1/tailscale_x86_64_1.84.0-pda1.s9pk",
-      "sha256": "cc36f3240ed88c5457ab939ab55b19fda9302e7abea8962de68d15e5accc5294",
-      "size_bytes": 45929450,
       "tags": [
-        "vpn",
-        "wireguard",
-        "tailscale"
+        "s9pk",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
       ],
-      "source_repo": "packages/tailscale",
-      "merkle_root_sighash": "R21Zm52awjRQm8W/CLbr7ciuxbakajZumgZLPrL3cSM",
-      "merkle_root_maxsize": 380
-    },
-    {
-      "name": "shadowsocks",
-      "version": "1.24.0-pda0",
-      "description": "Shadowsocks \u2014 fast tunnel proxy. Default cipher chacha20-ietf-poly1305",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-1.24.0-pda0/shadowsocks_x86_64_1.24.0-pda0.s9pk",
-      "sha256": "9228b197f659f69a92d248904464c62ffd64c36616f99518b801af9b9f32c681",
-      "size_bytes": 7906460,
-      "tags": [
-        "proxy",
-        "vpn",
-        "tunnel"
-      ],
-      "source_repo": "packages/shadowsocks",
-      "merkle_root_sighash": "MEReYrSdSOFm7H0Zh3xaFk+aYsmN5mwOKVQs4cz4JsU",
-      "merkle_root_maxsize": 380
-    },
-    {
-      "name": "cloak",
-      "version": "0.1.0-pda1",
-      "description": "Cloak McAfee \u2014 on-box RAG chat oracle. qwen2.5:1.5b default (smaller, faster).",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-cloak-0.1.0-pda1/cloak_x86_64_0.1.0-pda1.s9pk",
-      "sha256": "e9a271d5ada40e94d4832cc9b6045c15af64233d6943aee9fbc92cef881ed498",
-      "size_bytes": 189237290,
-      "upstream": "https://github.com/primordialsoup/peripheral-debug-agent",
-      "tags": [
-        "rag",
-        "chat",
-        "llm",
-        "voice"
-      ],
-      "source_repo": "packages/cloak",
-      "merkle_root_sighash": "RQ1jn1OkpK2WZz/X2d1dqyFtI+Z4A3nRWCNlBv9wJ8k",
-      "merkle_root_maxsize": 380
-    },
-    {
-      "name": "i2pd",
-      "version": "1.0.0-pda1",
-      "description": "i2pd \u2014 full I2P router (HTTP proxy 4444, SOCKS 4447, SAM 7656)",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-1.0.0-pda1/i2pd_x86_64_1.0.0-pda1.s9pk",
-      "sha256": "69e6a8e072a5d6106f1771daa81e290153dbbfc4898292df69221e4fae6ef9c0",
-      "size_bytes": 7878415,
-      "tags": [
-        "i2p",
-        "privacy",
-        "router"
-      ],
-      "source_repo": "packages/i2pd",
-      "merkle_root_sighash": "EDq/7ep62mok2Yvasl9cHjJXCh8rqXBNfK5YPkB8V4U",
-      "merkle_root_maxsize": 380
-    },
-    {
-      "name": "cloak",
-      "version": "0.1.0-pda2",
-      "description": "Cloak McAfee \u2014 on-box RAG chat oracle. qwen2.5:1.5b default (smaller, faster than 3b).",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-cloak-0.1.0-pda2/cloak_x86_64_0.1.0-pda2.s9pk",
-      "sha256": "e9a271d5ada40e94d4832cc9b6045c15af64233d6943aee9fbc92cef881ed498",
-      "size_bytes": 189237290,
-      "upstream": "https://github.com/primordialsoup/peripheral-debug-agent",
-      "tags": [
-        "rag",
-        "chat",
-        "llm",
-        "voice"
-      ],
-      "source_repo": "packages/cloak",
-      "merkle_root_sighash": "RQ1jn1OkpK2WZz/X2d1dqyFtI+Z4A3nRWCNlBv9wJ8k",
-      "merkle_root_maxsize": 380
-    },
-    {
-      "name": "wireguard",
-      "version": "0.1.1-pda0",
-      "description": "WireGuard VPN server. Sovereign tunnel for Mudi-as-relay (when phone roams via Mudi's 4G); also general WG endpoint for any client.",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-pda0/wireguard_x86_64_0.1.1-pda0.s9pk",
-      "sha256": "115319f26bf8777e09a3d85516aea9c496dfc7d559e3992e38873d667f773fbb",
-      "size_bytes": 5899717,
-      "upstream": "https://www.wireguard.com/",
-      "tags": [
-        "vpn",
-        "wireguard",
-        "mudi",
-        "tunnel"
-      ],
-      "source_repo": "packages/wireguard",
-      "merkle_root_sighash": "ETSC5SmRvPLOCzYbigUR32DpwP5xKNYCL2vSCK4vo30",
+      "merkle_root_sighash": "5rH5Rn5SvXlA2UbYUYYha5LAhWW2a+dUBKcLF+gN0oA",
       "merkle_root_maxsize": 380
     }
-  ],
-  "schema_version": 1
+  ]
 }
