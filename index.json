@@ -60,8 +60,8 @@
     },
     {
       "name": "crowdsec",
-      "manifest_version": "1.7.8:0",
-      "registry_version": "1.7.8-0",
+      "manifest_version": "1.7.8:2",
+      "registry_version": "1.7.8-2",
       "description": "CrowdSec - local log processor for attack detection without automatic banning.",
       "source_repo": "packages/crowdsec",
       "metadata": "metadata/crowdsec.json",
@@ -74,21 +74,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/crowdsec_x86_64_1.7.8-0.s9pk",
-          "sha256": "5dc234a8e6c2abed99e9d02286fad8487d3a90e05b42f0501b493e9ce5c3e2d9",
-          "size_bytes": 111152543,
-          "merkle_root_sighash": "wU6ZUTnB5s3VcBpz2Fv/963L9ku1zirUSn5662Ihab0",
+          "path": "s9pks/crowdsec_x86_64_1.7.8-2.s9pk",
+          "sha256": "ce34b06dd92fb56cbccf79de50b73ae2b75b864fdd137541f023be743fd148bc",
+          "size_bytes": 111152477,
+          "merkle_root_sighash": "oUZaMNDk+th7PP90YMr32oE+RkAkJz24Ztm6uw1jaS8",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-0/crowdsec_x86_64_1.7.8-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-2/crowdsec_x86_64_1.7.8-2.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/crowdsec_aarch64_1.7.8-0.s9pk",
-          "sha256": "eeb9e8398d3f53ef2d532de32a032dac1f03f992052212d65be883d396687a92",
-          "size_bytes": 99765666,
-          "merkle_root_sighash": "MtediL4+XHUrgO6FPRw0Xvjg0Zf/2kalar/VbteV5pA",
+          "path": "s9pks/crowdsec_aarch64_1.7.8-2.s9pk",
+          "sha256": "2857a375d3e41d56446773f2784b21769e415e869e3a86d1f49c6a56b49474db",
+          "size_bytes": 99765600,
+          "merkle_root_sighash": "TQw7P2wVHZPmA2pjRVkfCWnvjbRAF3cdQYRvzsgXmvs",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-0/crowdsec_aarch64_1.7.8-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-2/crowdsec_aarch64_1.7.8-2.s9pk"
         }
       ],
       "lanes": [
@@ -96,7 +96,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.7.8-0",
+      "version": "1.7.8-2",
       "tags": [
         "s9pk",
         "security",
@@ -105,10 +105,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-0/crowdsec_x86_64_1.7.8-0.s9pk",
-      "sha256": "5dc234a8e6c2abed99e9d02286fad8487d3a90e05b42f0501b493e9ce5c3e2d9",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-2/crowdsec_x86_64_1.7.8-2.s9pk",
+      "sha256": "ce34b06dd92fb56cbccf79de50b73ae2b75b864fdd137541f023be743fd148bc",
       "size_bytes": 111152543,
-      "merkle_root_sighash": "wU6ZUTnB5s3VcBpz2Fv/963L9ku1zirUSn5662Ihab0",
+      "merkle_root_sighash": "oUZaMNDk+th7PP90YMr32oE+RkAkJz24Ztm6uw1jaS8",
       "merkle_root_maxsize": 380
     },
     {
@@ -572,8 +572,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:1",
-      "registry_version": "1.84.0-1",
+      "manifest_version": "1.84.0:2",
+      "registry_version": "1.84.0-2",
       "description": "Tailscale - zero-config WireGuard mesh VPN for reaching Wormhole from your devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -586,21 +586,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-1.s9pk",
-          "sha256": "e8b5bd29e7a31bf53bdc0db65989a87f030f1db2298b8e0b71a89e2b590165b8",
-          "size_bytes": 45929459,
-          "merkle_root_sighash": "/zAkIW0x7iiiFnE41V+CW9bZbG/GmTDjd6lQAmUuEuo",
+          "path": "s9pks/tailscale_x86_64_1.84.0-2.s9pk",
+          "sha256": "71cb9fb8f021ff8a2815521d1a168e8aac6e9bb37132e6e0f00221fc07ede822",
+          "size_bytes": 45929468,
+          "merkle_root_sighash": "sFsUMhuEvj6eOgzJ6Q++Ol7rfz9UyiqtuRZn6jjk6VM",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-1/tailscale_x86_64_1.84.0-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-2/tailscale_x86_64_1.84.0-2.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-1.s9pk",
-          "sha256": "a9c7469beb224e275673ab6c7856644eeba2196736b8f74ad3731bd6eb53615c",
-          "size_bytes": 42656758,
-          "merkle_root_sighash": "dqzmjARMAmYaiRmSKJGr7DSMFBvpAjW1ca6h+KGGoQI",
+          "path": "s9pks/tailscale_aarch64_1.84.0-2.s9pk",
+          "sha256": "01ba5167c9ff991586c8bc3b19e71fbaba37b09ce43bc80b76e70c7ed7d89246",
+          "size_bytes": 42656767,
+          "merkle_root_sighash": "KRVMiguJpzlrbI4Q81LsqXdHugA3mqlivEWhogkyaAg",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-1/tailscale_aarch64_1.84.0-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-2/tailscale_aarch64_1.84.0-2.s9pk"
         }
       ],
       "lanes": [
@@ -608,7 +608,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-1",
+      "version": "1.84.0-2",
       "tags": [
         "s9pk",
         "vpn",
@@ -618,10 +618,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-1/tailscale_x86_64_1.84.0-1.s9pk",
-      "sha256": "e8b5bd29e7a31bf53bdc0db65989a87f030f1db2298b8e0b71a89e2b590165b8",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-2/tailscale_x86_64_1.84.0-2.s9pk",
+      "sha256": "71cb9fb8f021ff8a2815521d1a168e8aac6e9bb37132e6e0f00221fc07ede822",
       "size_bytes": 45929459,
-      "merkle_root_sighash": "/zAkIW0x7iiiFnE41V+CW9bZbG/GmTDjd6lQAmUuEuo",
+      "merkle_root_sighash": "sFsUMhuEvj6eOgzJ6Q++Ol7rfz9UyiqtuRZn6jjk6VM",
       "merkle_root_maxsize": 380
     },
     {
@@ -731,8 +731,8 @@
     },
     {
       "name": "wormhole-launcher",
-      "manifest_version": "0.1.0:1",
-      "registry_version": "0.1.0-1",
+      "manifest_version": "0.1.0:3",
+      "registry_version": "0.1.0-3",
       "description": "Wormhole Launcher - one screen for every local Wormhole workflow.",
       "source_repo": "packages/wormhole-launcher",
       "metadata": "metadata/wormhole-launcher.json",
@@ -745,21 +745,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-1.s9pk",
-          "sha256": "200ba6c2afc3ae26ca2d41a8b45794980e050e4d1460b343fbb89214fa1175ad",
-          "size_bytes": 3785999,
-          "merkle_root_sighash": "dP5+THlpPuzwscuaEzOh9rvoJMvfBqrbJwAxKcvoWUE",
+          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-3.s9pk",
+          "sha256": "896a2c3da922c172875a813478005405e20ef09cd06df7e1944ca753bd51aaa9",
+          "size_bytes": 3785893,
+          "merkle_root_sighash": "hY6y8P/CpLcA4ab6NvQh6GmLCQh5hnu1cJZd5s29nnI",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-1/wormhole-launcher_x86_64_0.1.0-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-3/wormhole-launcher_x86_64_0.1.0-3.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-1.s9pk",
-          "sha256": "43884e71f716d4d4f9600e734a90213d0264c7125474b731880b7150bc89f936",
-          "size_bytes": 3986706,
-          "merkle_root_sighash": "lXARfYrMCuCrMIy7raTaVBj7R4prCgSmMH9E66OvzoU",
+          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-3.s9pk",
+          "sha256": "26c1667c2722987252457fdf4261a50f97970fd3b9a8caa624d430d9cc78b077",
+          "size_bytes": 3986600,
+          "merkle_root_sighash": "uR+CpajxgnRb/wMRW+xShkF0qwWmAbMbDY0TXn+w3Rk",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-1/wormhole-launcher_aarch64_0.1.0-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-3/wormhole-launcher_aarch64_0.1.0-3.s9pk"
         }
       ],
       "lanes": [
@@ -767,7 +767,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-1",
+      "version": "0.1.0-3",
       "tags": [
         "s9pk",
         "launcher",
@@ -777,10 +777,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-1/wormhole-launcher_x86_64_0.1.0-1.s9pk",
-      "sha256": "200ba6c2afc3ae26ca2d41a8b45794980e050e4d1460b343fbb89214fa1175ad",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-3/wormhole-launcher_x86_64_0.1.0-3.s9pk",
+      "sha256": "896a2c3da922c172875a813478005405e20ef09cd06df7e1944ca753bd51aaa9",
       "size_bytes": 3785999,
-      "merkle_root_sighash": "dP5+THlpPuzwscuaEzOh9rvoJMvfBqrbJwAxKcvoWUE",
+      "merkle_root_sighash": "hY6y8P/CpLcA4ab6NvQh6GmLCQh5hnu1cJZd5s29nnI",
       "merkle_root_maxsize": 380
     }
   ]
