@@ -1,9 +1,116 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-05-21T15:40:19Z",
+  "generated_at": "2026-05-21T16:39:53Z",
   "schema_version": 2,
   "packages": [
+    {
+      "name": "adguardhome",
+      "manifest_version": "0.107.74:0",
+      "registry_version": "0.107.74-0",
+      "description": "AdGuard Home - DNS-level ad, tracker, and malware blocking for the LAN and tailnet.",
+      "source_repo": "packages/adguardhome",
+      "metadata": "metadata/adguardhome.json",
+      "tier": 1,
+      "upstream": "https://github.com/AdguardTeam/AdGuardHome",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/adguardhome_x86_64_0.107.74-0.s9pk",
+          "sha256": "9edda67f322778a89463e39ed9a5fb90efa599b375375e6bf250682d774351f7",
+          "size_bytes": 13946500,
+          "merkle_root_sighash": "9ejgLs+nVlU+3N9KkDNtuLcZ4bgKqtmAThzmItSSPuY",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-adguardhome-0.107.74-0/adguardhome_x86_64_0.107.74-0.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/adguardhome_aarch64_0.107.74-0.s9pk",
+          "sha256": "475d1b88ef06e7b65ea278eaee9a02b461f7d429cd35f5e1e6fc1c7f80116ed1",
+          "size_bytes": 12963463,
+          "merkle_root_sighash": "pJg6cCoOq0pPXPePboKw5pBkOXq7medjJNm/TXpD8IU",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-adguardhome-0.107.74-0/adguardhome_aarch64_0.107.74-0.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.107.74-0",
+      "tags": [
+        "s9pk",
+        "dns",
+        "privacy",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-adguardhome-0.107.74-0/adguardhome_x86_64_0.107.74-0.s9pk",
+      "sha256": "9edda67f322778a89463e39ed9a5fb90efa599b375375e6bf250682d774351f7",
+      "size_bytes": 13946500,
+      "merkle_root_sighash": "9ejgLs+nVlU+3N9KkDNtuLcZ4bgKqtmAThzmItSSPuY",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "crowdsec",
+      "manifest_version": "1.7.8:0",
+      "registry_version": "1.7.8-0",
+      "description": "CrowdSec - local log processor for attack detection without automatic banning.",
+      "source_repo": "packages/crowdsec",
+      "metadata": "metadata/crowdsec.json",
+      "tier": 1,
+      "upstream": "https://github.com/crowdsecurity/crowdsec",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/crowdsec_x86_64_1.7.8-0.s9pk",
+          "sha256": "5dc234a8e6c2abed99e9d02286fad8487d3a90e05b42f0501b493e9ce5c3e2d9",
+          "size_bytes": 111152543,
+          "merkle_root_sighash": "wU6ZUTnB5s3VcBpz2Fv/963L9ku1zirUSn5662Ihab0",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-0/crowdsec_x86_64_1.7.8-0.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/crowdsec_aarch64_1.7.8-0.s9pk",
+          "sha256": "eeb9e8398d3f53ef2d532de32a032dac1f03f992052212d65be883d396687a92",
+          "size_bytes": 99765666,
+          "merkle_root_sighash": "MtediL4+XHUrgO6FPRw0Xvjg0Zf/2kalar/VbteV5pA",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-0/crowdsec_aarch64_1.7.8-0.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "1.7.8-0",
+      "tags": [
+        "s9pk",
+        "security",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-0/crowdsec_x86_64_1.7.8-0.s9pk",
+      "sha256": "5dc234a8e6c2abed99e9d02286fad8487d3a90e05b42f0501b493e9ce5c3e2d9",
+      "size_bytes": 111152543,
+      "merkle_root_sighash": "wU6ZUTnB5s3VcBpz2Fv/963L9ku1zirUSn5662Ihab0",
+      "merkle_root_maxsize": 380
+    },
     {
       "name": "freshrss",
       "manifest_version": "0.1.1:1",
@@ -104,6 +211,57 @@
       "sha256": "32abfce3667ab4b044587018f295046976c2b1d786f624ec98804f3aa75ba7de",
       "size_bytes": 70102627,
       "merkle_root_sighash": "s2fRqLZ5SjPZ3ReY/nEZ5NvqOsscrlxEk5tMFbqnpJk",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "moneropay",
+      "manifest_version": "2.0.0:0",
+      "registry_version": "2.0.0-0",
+      "description": "Self-hosted Monero payment processor with bundled node and wallet RPC.",
+      "source_repo": "packages/moneropay",
+      "metadata": "metadata/moneropay.json",
+      "tier": 3,
+      "upstream": "https://github.com/moneropay/moneropay",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/moneropay_x86_64_2.0.0-0.s9pk",
+          "sha256": "526d85f028b3a21756f61e76326185783cdccccc2b1bd47e02e376b8cb8340a6",
+          "size_bytes": 25023601,
+          "merkle_root_sighash": "XPF2TYpJHsydFtoY0e3ruIlb9TwYG0tagr4T3EDOEDU",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-2.0.0-0/moneropay_x86_64_2.0.0-0.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/moneropay_aarch64_2.0.0-0.s9pk",
+          "sha256": "5645be5e7b3cb937a9730a9700c7ccd7ea0310fd00a4aa3975aa9b8a01d2fa9d",
+          "size_bytes": 22021236,
+          "merkle_root_sighash": "38CjVifF3vlvbHfVc5nziKTYFBAHdw63o1fjkR+4aUY",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-2.0.0-0/moneropay_aarch64_2.0.0-0.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-c.1"
+      ],
+      "version": "2.0.0-0",
+      "tags": [
+        "s9pk",
+        "monero",
+        "payments",
+        "xmr",
+        "tier-3",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-2.0.0-0/moneropay_x86_64_2.0.0-0.s9pk",
+      "sha256": "526d85f028b3a21756f61e76326185783cdccccc2b1bd47e02e376b8cb8340a6",
+      "size_bytes": 25023601,
+      "merkle_root_sighash": "XPF2TYpJHsydFtoY0e3ruIlb9TwYG0tagr4T3EDOEDU",
       "merkle_root_maxsize": 380
     },
     {
@@ -413,6 +571,60 @@
       "merkle_root_maxsize": 380
     },
     {
+      "name": "tailscale",
+      "manifest_version": "1.84.0:1",
+      "registry_version": "1.84.0-1",
+      "description": "Tailscale - zero-config WireGuard mesh VPN for reaching Wormhole from your devices.",
+      "source_repo": "packages/tailscale",
+      "metadata": "metadata/tailscale.json",
+      "tier": 1,
+      "upstream": "https://github.com/tailscale/tailscale",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/tailscale_x86_64_1.84.0-1.s9pk",
+          "sha256": "e8b5bd29e7a31bf53bdc0db65989a87f030f1db2298b8e0b71a89e2b590165b8",
+          "size_bytes": 45929459,
+          "merkle_root_sighash": "/zAkIW0x7iiiFnE41V+CW9bZbG/GmTDjd6lQAmUuEuo",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-1/tailscale_x86_64_1.84.0-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/tailscale_aarch64_1.84.0-1.s9pk",
+          "sha256": "a9c7469beb224e275673ab6c7856644eeba2196736b8f74ad3731bd6eb53615c",
+          "size_bytes": 42656758,
+          "merkle_root_sighash": "dqzmjARMAmYaiRmSKJGr7DSMFBvpAjW1ca6h+KGGoQI",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-1/tailscale_aarch64_1.84.0-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "1.84.0-1",
+      "tags": [
+        "s9pk",
+        "vpn",
+        "mesh",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-1/tailscale_x86_64_1.84.0-1.s9pk",
+      "sha256": "e8b5bd29e7a31bf53bdc0db65989a87f030f1db2298b8e0b71a89e2b590165b8",
+      "size_bytes": 45929459,
+      "merkle_root_sighash": "/zAkIW0x7iiiFnE41V+CW9bZbG/GmTDjd6lQAmUuEuo",
+      "merkle_root_maxsize": 380
+    },
+    {
       "name": "video-bot",
       "manifest_version": "0.1.2:1",
       "registry_version": "0.1.2-1",
@@ -461,6 +673,114 @@
       "sha256": "8e137e991d58860e41fbd127e6b1a4c65cbe3f8e3aeee9f004670d3abe07bf68",
       "size_bytes": 183455197,
       "merkle_root_sighash": "glpNTsI0QwWn6V5uHhpEEVdU6VQAop1QPkEKcmPBBbk",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "wireguard",
+      "manifest_version": "0.1.1:0",
+      "registry_version": "0.1.1-0",
+      "description": "WireGuard - sovereign VPN server for tunneling trusted devices back into Wormhole.",
+      "source_repo": "packages/wireguard",
+      "metadata": "metadata/wireguard.json",
+      "tier": 1,
+      "upstream": "https://www.wireguard.com/",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/wireguard_x86_64_0.1.1-0.s9pk",
+          "sha256": "93ce47d5107876ec3199a01e4c0e8675b78e2c067a4959f9a203de0b1e87902b",
+          "size_bytes": 5899711,
+          "merkle_root_sighash": "PThYAX555HGYBv0WpTY2HXInWpYmrN+DPW6Md1A9lg4",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-0/wireguard_x86_64_0.1.1-0.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/wireguard_aarch64_0.1.1-0.s9pk",
+          "sha256": "24d50f1225ae4aea2daae4795da5bef16161639fa0acb1d491b00db0be012de5",
+          "size_bytes": 6190530,
+          "merkle_root_sighash": "+XYoSLfZUsiTz7g3u4MLTt4WrLkLyFRR2WA7kF8Xkds",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-0/wireguard_aarch64_0.1.1-0.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.1-0",
+      "tags": [
+        "s9pk",
+        "vpn",
+        "tunnel",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-0/wireguard_x86_64_0.1.1-0.s9pk",
+      "sha256": "93ce47d5107876ec3199a01e4c0e8675b78e2c067a4959f9a203de0b1e87902b",
+      "size_bytes": 5899711,
+      "merkle_root_sighash": "PThYAX555HGYBv0WpTY2HXInWpYmrN+DPW6Md1A9lg4",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "wormhole-launcher",
+      "manifest_version": "0.1.0:1",
+      "registry_version": "0.1.0-1",
+      "description": "Wormhole Launcher - one screen for every local Wormhole workflow.",
+      "source_repo": "packages/wormhole-launcher",
+      "metadata": "metadata/wormhole-launcher.json",
+      "tier": 1,
+      "upstream": "https://github.com/tetramorphosis-lab/peripheral-debug-agent",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-1.s9pk",
+          "sha256": "200ba6c2afc3ae26ca2d41a8b45794980e050e4d1460b343fbb89214fa1175ad",
+          "size_bytes": 3785999,
+          "merkle_root_sighash": "dP5+THlpPuzwscuaEzOh9rvoJMvfBqrbJwAxKcvoWUE",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-1/wormhole-launcher_x86_64_0.1.0-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-1.s9pk",
+          "sha256": "43884e71f716d4d4f9600e734a90213d0264c7125474b731880b7150bc89f936",
+          "size_bytes": 3986706,
+          "merkle_root_sighash": "lXARfYrMCuCrMIy7raTaVBj7R4prCgSmMH9E66OvzoU",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-1/wormhole-launcher_aarch64_0.1.0-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.0-1",
+      "tags": [
+        "s9pk",
+        "launcher",
+        "wormhole",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-1/wormhole-launcher_x86_64_0.1.0-1.s9pk",
+      "sha256": "200ba6c2afc3ae26ca2d41a8b45794980e050e4d1460b343fbb89214fa1175ad",
+      "size_bytes": 3785999,
+      "merkle_root_sighash": "dP5+THlpPuzwscuaEzOh9rvoJMvfBqrbJwAxKcvoWUE",
       "merkle_root_maxsize": 380
     }
   ]
