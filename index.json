@@ -1,20 +1,47 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-05-20T20:03:28Z",
-  "schema_version": 1,
+  "generated_at": "2026-05-21T02:59:33Z",
+  "schema_version": 2,
   "packages": [
     {
       "name": "video-bot",
-      "version": "0.1.2-1",
+      "manifest_version": "0.1.2:1",
+      "registry_version": "0.1.2-1",
       "description": "Headless Telegram video helper that downloads supported links with yt-dlp and replies with Telegram-native videos.",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-video-bot-0.1.2-1/video-bot_x86_64_0.1.2-1.s9pk",
-      "sha256": "8e137e991d58860e41fbd127e6b1a4c65cbe3f8e3aeee9f004670d3abe07bf68",
-      "size_bytes": 183455197,
       "source_repo": "packages/video-bot",
+      "metadata": "metadata/video-bot.json",
+      "tier": 1,
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/video-bot_x86_64_0.1.2-1.s9pk",
+          "sha256": "8e137e991d58860e41fbd127e6b1a4c65cbe3f8e3aeee9f004670d3abe07bf68",
+          "size_bytes": 183455197,
+          "merkle_root_sighash": "glpNTsI0QwWn6V5uHhpEEVdU6VQAop1QPkEKcmPBBbk",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-video-bot-0.1.2-1/video-bot_x86_64_0.1.2-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/video-bot_aarch64_0.1.2-1.s9pk",
+          "sha256": "394aa7d4b2b60d049c32733cf61d461aa92fa972910c91e83d0d9049ee90c3ba",
+          "size_bytes": 163212768,
+          "merkle_root_sighash": "Pi0hcBTEhKT1UhxSrInZvRj7+L1hwADd2pGCMxpDjD0",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-video-bot-0.1.2-1/video-bot_aarch64_0.1.2-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.2-1",
       "tags": [
         "s9pk",
         "tier-1",
@@ -22,20 +49,50 @@
         "lane-b",
         "lane-c.1"
       ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-video-bot-0.1.2-1/video-bot_x86_64_0.1.2-1.s9pk",
+      "sha256": "8e137e991d58860e41fbd127e6b1a4c65cbe3f8e3aeee9f004670d3abe07bf68",
+      "size_bytes": 183455197,
       "merkle_root_sighash": "glpNTsI0QwWn6V5uHhpEEVdU6VQAop1QPkEKcmPBBbk",
       "merkle_root_maxsize": 380
     },
     {
       "name": "news-aggregation",
-      "version": "0.1.2-1",
+      "manifest_version": "0.1.2:1",
+      "registry_version": "0.1.2-1",
       "description": "Telegram news and research digest bot with a routed StartOS web UI.",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-news-aggregation-0.1.2-1/news-aggregation_x86_64_0.1.2-1.s9pk",
-      "sha256": "5a19356c0236ec99569da6fe0af811d121653babea048f8d403e8484c4583840",
-      "size_bytes": 56151545,
       "source_repo": "packages/news-aggregation",
+      "metadata": "metadata/news-aggregation.json",
+      "tier": 2,
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/news-aggregation_x86_64_0.1.2-1.s9pk",
+          "sha256": "5a19356c0236ec99569da6fe0af811d121653babea048f8d403e8484c4583840",
+          "size_bytes": 56151545,
+          "merkle_root_sighash": "1HDzWbJ5qfsVSKEfi9Aud0mi+f80ymyZbyRvQYt8gdY",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-news-aggregation-0.1.2-1/news-aggregation_x86_64_0.1.2-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/news-aggregation_aarch64_0.1.2-1.s9pk",
+          "sha256": "8a4b493f6c467fe961695f8d7b8426eab6a1ed0bbf88c4c57505f5e6aa338112",
+          "size_bytes": 54160892,
+          "merkle_root_sighash": "LDlOftY89hWBiC6Gzpp/XQlhOwO3hTrYtC7qsgvt7g4",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-news-aggregation-0.1.2-1/news-aggregation_aarch64_0.1.2-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.2-1",
       "tags": [
         "s9pk",
         "tier-2",
@@ -43,20 +100,50 @@
         "lane-b",
         "lane-c.1"
       ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-news-aggregation-0.1.2-1/news-aggregation_x86_64_0.1.2-1.s9pk",
+      "sha256": "5a19356c0236ec99569da6fe0af811d121653babea048f8d403e8484c4583840",
+      "size_bytes": 56151545,
       "merkle_root_sighash": "1HDzWbJ5qfsVSKEfi9Aud0mi+f80ymyZbyRvQYt8gdY",
       "merkle_root_maxsize": 380
     },
     {
       "name": "space-weather",
-      "version": "0.1.0-1",
+      "manifest_version": "0.1.0:1",
+      "registry_version": "0.1.0-1",
       "description": "Self-hosted space-weather dashboard for solar and geomagnetic conditions.",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-space-weather-0.1.0-1/space-weather_x86_64_0.1.0-1.s9pk",
-      "sha256": "8c6a020c48a9df97a2a0ea640815029e36441861b1f77e74c87874415f28ef95",
-      "size_bytes": 35794181,
       "source_repo": "packages/space-weather",
+      "metadata": "metadata/space-weather.json",
+      "tier": 1,
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/space-weather_x86_64_0.1.0-1.s9pk",
+          "sha256": "8c6a020c48a9df97a2a0ea640815029e36441861b1f77e74c87874415f28ef95",
+          "size_bytes": 35794181,
+          "merkle_root_sighash": "M4talY5g0BiXSeY802pZOsWjdeK8f5CwxR0RcHMgFJE",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-space-weather-0.1.0-1/space-weather_x86_64_0.1.0-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/space-weather_aarch64_0.1.0-1.s9pk",
+          "sha256": "11e52190c7abf64d9bb30417928394bf5b7b3beb8f9d909f4978af16076280b8",
+          "size_bytes": 34139400,
+          "merkle_root_sighash": "5+W5zLXNJNxebAjeRJr3c0rVd7+7xPJ71pVeIhmxs/s",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-space-weather-0.1.0-1/space-weather_aarch64_0.1.0-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.0-1",
       "tags": [
         "s9pk",
         "tier-1",
@@ -64,20 +151,50 @@
         "lane-b",
         "lane-c.1"
       ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-space-weather-0.1.0-1/space-weather_x86_64_0.1.0-1.s9pk",
+      "sha256": "8c6a020c48a9df97a2a0ea640815029e36441861b1f77e74c87874415f28ef95",
+      "size_bytes": 35794181,
       "merkle_root_sighash": "M4talY5g0BiXSeY802pZOsWjdeK8f5CwxR0RcHMgFJE",
       "merkle_root_maxsize": 380
     },
     {
       "name": "freshrss",
-      "version": "0.1.1-1",
+      "manifest_version": "0.1.1:1",
+      "registry_version": "0.1.1-1",
       "description": "Self-hosted RSS reader with a routed web UI and SQLite storage.",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_x86_64_0.1.1-1.s9pk",
-      "sha256": "a141e630606a64fc9e19518065a5e6a7f7152f13e369662eafe99f8029959fe9",
-      "size_bytes": 70102593,
       "source_repo": "packages/freshrss",
+      "metadata": "metadata/freshrss.json",
+      "tier": 1,
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/freshrss_x86_64_0.1.1-1.s9pk",
+          "sha256": "a141e630606a64fc9e19518065a5e6a7f7152f13e369662eafe99f8029959fe9",
+          "size_bytes": 70102593,
+          "merkle_root_sighash": "imPDAV7s/hNEGYct8PeQmz33Di0ODBfHv65gr3IAptQ",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_x86_64_0.1.1-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/freshrss_aarch64_0.1.1-1.s9pk",
+          "sha256": "92e4b68d3156bdca95706df018e96ebc60aae03931cfd1f8db8f6ed7757bb4a8",
+          "size_bytes": 67857988,
+          "merkle_root_sighash": "JRYPi0SWNu1zWMWvpMfVoWaM9QE9B/vvH5IBlvOs4AM",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_aarch64_0.1.1-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.1-1",
       "tags": [
         "s9pk",
         "tier-1",
@@ -85,20 +202,50 @@
         "lane-b",
         "lane-c.1"
       ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_x86_64_0.1.1-1.s9pk",
+      "sha256": "a141e630606a64fc9e19518065a5e6a7f7152f13e369662eafe99f8029959fe9",
+      "size_bytes": 70102593,
       "merkle_root_sighash": "imPDAV7s/hNEGYct8PeQmz33Di0ODBfHv65gr3IAptQ",
       "merkle_root_maxsize": 380
     },
     {
       "name": "privatebin",
-      "version": "0.1.1-1",
+      "manifest_version": "0.1.1:1",
+      "registry_version": "0.1.1-1",
       "description": "Zero-knowledge encrypted pastebin with a routed web UI.",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-1/privatebin_x86_64_0.1.1-1.s9pk",
-      "sha256": "16ad7854cccdd8672116168bdba3fb1f06e60c7a36a13f0c7859ace3abb5daea",
-      "size_bytes": 33737994,
       "source_repo": "packages/privatebin",
+      "metadata": "metadata/privatebin.json",
+      "tier": 1,
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/privatebin_x86_64_0.1.1-1.s9pk",
+          "sha256": "16ad7854cccdd8672116168bdba3fb1f06e60c7a36a13f0c7859ace3abb5daea",
+          "size_bytes": 33737994,
+          "merkle_root_sighash": "cks0a4dekfHjgdTVTab2P3uHHjhHyFBx1U1DIm7dTWQ",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-1/privatebin_x86_64_0.1.1-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/privatebin_aarch64_0.1.1-1.s9pk",
+          "sha256": "1b26f639423616e081108d95115cb1c8909b833467a8029bbd54062aafea05b0",
+          "size_bytes": 32308493,
+          "merkle_root_sighash": "kjHpVzoOj3D3Lo3vWNXPPDyilq+ams0KrsZy+O7TeYQ",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-1/privatebin_aarch64_0.1.1-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.1-1",
       "tags": [
         "s9pk",
         "tier-1",
@@ -106,20 +253,50 @@
         "lane-b",
         "lane-c.1"
       ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-1/privatebin_x86_64_0.1.1-1.s9pk",
+      "sha256": "16ad7854cccdd8672116168bdba3fb1f06e60c7a36a13f0c7859ace3abb5daea",
+      "size_bytes": 33737994,
       "merkle_root_sighash": "cks0a4dekfHjgdTVTab2P3uHHjhHyFBx1U1DIm7dTWQ",
       "merkle_root_maxsize": 380
     },
     {
       "name": "pairdrop",
-      "version": "0.1.1-1",
+      "manifest_version": "0.1.1:1",
+      "registry_version": "0.1.1-1",
       "description": "Browser-based local file and text sharing with a routed web UI.",
-      "architectures": [
-        "x86_64"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.1-1/pairdrop_x86_64_0.1.1-1.s9pk",
-      "sha256": "43433d06efab3dae05ee232f939cec563979f99fbe687d62aa249f29514952d6",
-      "size_bytes": 44926425,
       "source_repo": "packages/pairdrop",
+      "metadata": "metadata/pairdrop.json",
+      "tier": 1,
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/pairdrop_x86_64_0.1.1-1.s9pk",
+          "sha256": "43433d06efab3dae05ee232f939cec563979f99fbe687d62aa249f29514952d6",
+          "size_bytes": 44926425,
+          "merkle_root_sighash": "5rH5Rn5SvXlA2UbYUYYha5LAhWW2a+dUBKcLF+gN0oA",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.1-1/pairdrop_x86_64_0.1.1-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/pairdrop_aarch64_0.1.1-1.s9pk",
+          "sha256": "b05109e9cccf4c03e656901fa161262d3d870c8784ec98ff2d6bc3c6ccf55390",
+          "size_bytes": 43820508,
+          "merkle_root_sighash": "07Lh+o9+lZczVvuKaZCDWy4IDQrJXB/ZiFCH7PnLG4s",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.1-1/pairdrop_aarch64_0.1.1-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.1-1",
       "tags": [
         "s9pk",
         "tier-1",
@@ -127,6 +304,9 @@
         "lane-b",
         "lane-c.1"
       ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.1-1/pairdrop_x86_64_0.1.1-1.s9pk",
+      "sha256": "43433d06efab3dae05ee232f939cec563979f99fbe687d62aa249f29514952d6",
+      "size_bytes": 44926425,
       "merkle_root_sighash": "5rH5Rn5SvXlA2UbYUYYha5LAhWW2a+dUBKcLF+gN0oA",
       "merkle_root_maxsize": 380
     }
