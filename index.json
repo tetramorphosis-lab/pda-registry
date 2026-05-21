@@ -107,7 +107,7 @@
       ],
       "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-2/crowdsec_x86_64_1.7.8-2.s9pk",
       "sha256": "ce34b06dd92fb56cbccf79de50b73ae2b75b864fdd137541f023be743fd148bc",
-      "size_bytes": 111152543,
+      "size_bytes": 111152477,
       "merkle_root_sighash": "oUZaMNDk+th7PP90YMr32oE+RkAkJz24Ztm6uw1jaS8",
       "merkle_root_maxsize": 380
     },
@@ -620,7 +620,7 @@
       ],
       "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-2/tailscale_x86_64_1.84.0-2.s9pk",
       "sha256": "71cb9fb8f021ff8a2815521d1a168e8aac6e9bb37132e6e0f00221fc07ede822",
-      "size_bytes": 45929459,
+      "size_bytes": 45929468,
       "merkle_root_sighash": "sFsUMhuEvj6eOgzJ6Q++Ol7rfz9UyiqtuRZn6jjk6VM",
       "merkle_root_maxsize": 380
     },
@@ -779,7 +779,7 @@
       ],
       "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-3/wormhole-launcher_x86_64_0.1.0-3.s9pk",
       "sha256": "896a2c3da922c172875a813478005405e20ef09cd06df7e1944ca753bd51aaa9",
-      "size_bytes": 3785999,
+      "size_bytes": 3785893,
       "merkle_root_sighash": "hY6y8P/CpLcA4ab6NvQh6GmLCQh5hnu1cJZd5s29nnI",
       "merkle_root_maxsize": 380
     }
