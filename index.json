@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-05-22T04:50:00Z",
+  "generated_at": "2026-05-22T04:59:00Z",
   "schema_version": 2,
   "packages": [
     {
@@ -578,8 +578,8 @@
     },
     {
       "name": "privatebin",
-      "manifest_version": "0.1.1:1",
-      "registry_version": "0.1.1-1",
+      "manifest_version": "0.1.1:2",
+      "registry_version": "0.1.1-2",
       "description": "Zero-knowledge encrypted pastebin with a routed web UI.",
       "source_repo": "packages/privatebin",
       "metadata": "metadata/privatebin.json",
@@ -591,21 +591,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/privatebin_x86_64_0.1.1-1.s9pk",
-          "sha256": "16ad7854cccdd8672116168bdba3fb1f06e60c7a36a13f0c7859ace3abb5daea",
-          "size_bytes": 33737994,
-          "merkle_root_sighash": "cks0a4dekfHjgdTVTab2P3uHHjhHyFBx1U1DIm7dTWQ",
+          "path": "s9pks/privatebin_x86_64_0.1.1-2.s9pk",
+          "sha256": "0ad4d27f46796467376ca0f383ab73e3ec19493071d88cc0846a1a0e544cd77b",
+          "size_bytes": 33738173,
+          "merkle_root_sighash": "sa0F366smzPhPfMLG7zFCUsqSXxbQiyjYIhk+fKIQx8",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-1/privatebin_x86_64_0.1.1-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-2/privatebin_x86_64_0.1.1-2.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/privatebin_aarch64_0.1.1-1.s9pk",
-          "sha256": "1b26f639423616e081108d95115cb1c8909b833467a8029bbd54062aafea05b0",
-          "size_bytes": 32308493,
-          "merkle_root_sighash": "kjHpVzoOj3D3Lo3vWNXPPDyilq+ams0KrsZy+O7TeYQ",
+          "path": "s9pks/privatebin_aarch64_0.1.1-2.s9pk",
+          "sha256": "2036a77d0d43c30a849be5d416f634282a9c6f71a12de7f562e5f3f915c3ee43",
+          "size_bytes": 32308672,
+          "merkle_root_sighash": "fHb9+hwdeRCu3r9SgEs0Yh+DazOM5LypCnHjEXlnVuk",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-1/privatebin_aarch64_0.1.1-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-2/privatebin_aarch64_0.1.1-2.s9pk"
         }
       ],
       "lanes": [
@@ -613,7 +613,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.1-1",
+      "version": "0.1.1-2",
       "tags": [
         "s9pk",
         "tier-1",
@@ -621,10 +621,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-1/privatebin_x86_64_0.1.1-1.s9pk",
-      "sha256": "16ad7854cccdd8672116168bdba3fb1f06e60c7a36a13f0c7859ace3abb5daea",
-      "size_bytes": 33737994,
-      "merkle_root_sighash": "cks0a4dekfHjgdTVTab2P3uHHjhHyFBx1U1DIm7dTWQ",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.1-2/privatebin_x86_64_0.1.1-2.s9pk",
+      "sha256": "0ad4d27f46796467376ca0f383ab73e3ec19493071d88cc0846a1a0e544cd77b",
+      "size_bytes": 33738173,
+      "merkle_root_sighash": "sa0F366smzPhPfMLG7zFCUsqSXxbQiyjYIhk+fKIQx8",
       "merkle_root_maxsize": 380
     },
     {
