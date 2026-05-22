@@ -786,8 +786,8 @@
     },
     {
       "name": "wormhole-launcher",
-      "manifest_version": "0.1.0:3",
-      "registry_version": "0.1.0-3",
+      "manifest_version": "0.1.0:4",
+      "registry_version": "0.1.0-4",
       "description": "Wormhole Launcher - one screen for every local Wormhole workflow.",
       "source_repo": "packages/wormhole-launcher",
       "metadata": "metadata/wormhole-launcher.json",
@@ -800,21 +800,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-3.s9pk",
-          "sha256": "896a2c3da922c172875a813478005405e20ef09cd06df7e1944ca753bd51aaa9",
-          "size_bytes": 3785893,
-          "merkle_root_sighash": "hY6y8P/CpLcA4ab6NvQh6GmLCQh5hnu1cJZd5s29nnI",
+          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-4.s9pk",
+          "sha256": "b5be2aa5315dafd162ecc1f6d4295ab8d671c6494e85f7bc1daeb081f6745548",
+          "size_bytes": 3785926,
+          "merkle_root_sighash": "Cl/tG/BzyRUnMz6OvD632+3/JS25Gsv46ABGCr1xUds",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-3/wormhole-launcher_x86_64_0.1.0-3.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-4/wormhole-launcher_x86_64_0.1.0-4.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-3.s9pk",
-          "sha256": "26c1667c2722987252457fdf4261a50f97970fd3b9a8caa624d430d9cc78b077",
-          "size_bytes": 3986600,
-          "merkle_root_sighash": "uR+CpajxgnRb/wMRW+xShkF0qwWmAbMbDY0TXn+w3Rk",
+          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-4.s9pk",
+          "sha256": "4ea232477f3539542de3b630c9cd23ac37d946a90411c07090cfb0a380b49a6f",
+          "size_bytes": 3986633,
+          "merkle_root_sighash": "PXNsfThW48DEhaZt/RJRpYPF8pDV85BPYFXWmhq4ymA",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-3/wormhole-launcher_aarch64_0.1.0-3.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-4/wormhole-launcher_aarch64_0.1.0-4.s9pk"
         }
       ],
       "lanes": [
@@ -822,7 +822,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-3",
+      "version": "0.1.0-4",
       "tags": [
         "s9pk",
         "launcher",
@@ -832,10 +832,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-3/wormhole-launcher_x86_64_0.1.0-3.s9pk",
-      "sha256": "896a2c3da922c172875a813478005405e20ef09cd06df7e1944ca753bd51aaa9",
-      "size_bytes": 3785893,
-      "merkle_root_sighash": "hY6y8P/CpLcA4ab6NvQh6GmLCQh5hnu1cJZd5s29nnI",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-4/wormhole-launcher_x86_64_0.1.0-4.s9pk",
+      "sha256": "b5be2aa5315dafd162ecc1f6d4295ab8d671c6494e85f7bc1daeb081f6745548",
+      "size_bytes": 3785926,
+      "merkle_root_sighash": "Cl/tG/BzyRUnMz6OvD632+3/JS25Gsv46ABGCr1xUds",
       "merkle_root_maxsize": 380
     }
   ]
