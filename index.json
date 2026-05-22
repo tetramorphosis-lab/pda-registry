@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-05-22T04:59:00Z",
+  "generated_at": "2026-05-22T05:18:00Z",
   "schema_version": 2,
   "packages": [
     {
@@ -323,8 +323,8 @@
     },
     {
       "name": "moneropay",
-      "manifest_version": "2.0.0:0",
-      "registry_version": "2.0.0-0",
+      "manifest_version": "2.0.0:1",
+      "registry_version": "2.0.0-1",
       "description": "Self-hosted Monero payment processor with bundled node and wallet RPC.",
       "source_repo": "packages/moneropay",
       "metadata": "metadata/moneropay.json",
@@ -337,27 +337,27 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/moneropay_x86_64_2.0.0-0.s9pk",
-          "sha256": "526d85f028b3a21756f61e76326185783cdccccc2b1bd47e02e376b8cb8340a6",
-          "size_bytes": 25023601,
-          "merkle_root_sighash": "XPF2TYpJHsydFtoY0e3ruIlb9TwYG0tagr4T3EDOEDU",
+          "path": "s9pks/moneropay_x86_64_2.0.0-1.s9pk",
+          "sha256": "578944fde84ad584b5298d6dba40ebad775733e70f3ec24b87350930ea42f2b5",
+          "size_bytes": 25023317,
+          "merkle_root_sighash": "VLUQOSDmuYm0m7TOHHgF2n1cPd7aAX8sAnsMEfD1gEg",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-2.0.0-0/moneropay_x86_64_2.0.0-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-2.0.0-1/moneropay_x86_64_2.0.0-1.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/moneropay_aarch64_2.0.0-0.s9pk",
-          "sha256": "5645be5e7b3cb937a9730a9700c7ccd7ea0310fd00a4aa3975aa9b8a01d2fa9d",
-          "size_bytes": 22021236,
-          "merkle_root_sighash": "38CjVifF3vlvbHfVc5nziKTYFBAHdw63o1fjkR+4aUY",
+          "path": "s9pks/moneropay_aarch64_2.0.0-1.s9pk",
+          "sha256": "08c17d10192849bb1ba36a4a01f50c3d4dd3aa54944d18ea7185b74b43f673b3",
+          "size_bytes": 22020952,
+          "merkle_root_sighash": "DW+9dpJaZgcY+6Q6gd0IQRzJ/gV/IdY98tNZ71fvDfI",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-2.0.0-0/moneropay_aarch64_2.0.0-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-2.0.0-1/moneropay_aarch64_2.0.0-1.s9pk"
         }
       ],
       "lanes": [
         "lane-c.1"
       ],
-      "version": "2.0.0-0",
+      "version": "2.0.0-1",
       "tags": [
         "s9pk",
         "monero",
@@ -366,10 +366,10 @@
         "tier-3",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-2.0.0-0/moneropay_x86_64_2.0.0-0.s9pk",
-      "sha256": "526d85f028b3a21756f61e76326185783cdccccc2b1bd47e02e376b8cb8340a6",
-      "size_bytes": 25023601,
-      "merkle_root_sighash": "XPF2TYpJHsydFtoY0e3ruIlb9TwYG0tagr4T3EDOEDU",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-moneropay-2.0.0-1/moneropay_x86_64_2.0.0-1.s9pk",
+      "sha256": "578944fde84ad584b5298d6dba40ebad775733e70f3ec24b87350930ea42f2b5",
+      "size_bytes": 25023317,
+      "merkle_root_sighash": "VLUQOSDmuYm0m7TOHHgF2n1cPd7aAX8sAnsMEfD1gEg",
       "merkle_root_maxsize": 380
     },
     {
@@ -629,8 +629,8 @@
     },
     {
       "name": "shadowsocks",
-      "manifest_version": "0.1.0:3",
-      "registry_version": "0.1.0-3",
+      "manifest_version": "0.1.0:4",
+      "registry_version": "0.1.0-4",
       "description": "Shadowsocks - lightweight encrypted proxy server using shadowsocks-rust.",
       "source_repo": "packages/shadowsocks",
       "metadata": "metadata/shadowsocks.json",
@@ -643,21 +643,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/shadowsocks_x86_64_0.1.0-3.s9pk",
-          "sha256": "c6e46111a6a2f2a849377064553983d7dc200e6878cf3cba88ac9343e2336dd5",
-          "size_bytes": 12685419,
-          "merkle_root_sighash": "ISlvr0cjCHpjAf13LHCSZMkeFig5i47+j1BpQOBSGb4",
+          "path": "s9pks/shadowsocks_x86_64_0.1.0-4.s9pk",
+          "sha256": "b0de7b839ccde337d43b0ad99ddbdeaedc83ff826881f984093cfdf8c7f51ad8",
+          "size_bytes": 12685417,
+          "merkle_root_sighash": "WBEe+Q3TJ0RU1XJ/XbMX6ptcqcrnDGNZIttNXm6P0h8",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-3/shadowsocks_x86_64_0.1.0-3.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-4/shadowsocks_x86_64_0.1.0-4.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/shadowsocks_aarch64_0.1.0-3.s9pk",
-          "sha256": "0829e0435c18d81db74a33fbfd1b4873c7147a7e70326d82153670612d83ab06",
-          "size_bytes": 11710574,
-          "merkle_root_sighash": "V0diHg5wliSB02YDPg2tXR4dyzqyMAKCw9tn1EMSE3s",
+          "path": "s9pks/shadowsocks_aarch64_0.1.0-4.s9pk",
+          "sha256": "0eef834c4327bd0be78944aca788c30f8e9ccbeb6c0f3e5350e0de75db16555d",
+          "size_bytes": 11710572,
+          "merkle_root_sighash": "qsW05R5LbzRzdAP/Q7R7GPhnES6cLCK6x7tSgiRI478",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-3/shadowsocks_aarch64_0.1.0-3.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-4/shadowsocks_aarch64_0.1.0-4.s9pk"
         }
       ],
       "lanes": [
@@ -665,7 +665,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-3",
+      "version": "0.1.0-4",
       "tags": [
         "s9pk",
         "proxy",
@@ -676,10 +676,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-3/shadowsocks_x86_64_0.1.0-3.s9pk",
-      "sha256": "c6e46111a6a2f2a849377064553983d7dc200e6878cf3cba88ac9343e2336dd5",
-      "size_bytes": 12685419,
-      "merkle_root_sighash": "ISlvr0cjCHpjAf13LHCSZMkeFig5i47+j1BpQOBSGb4",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-4/shadowsocks_x86_64_0.1.0-4.s9pk",
+      "sha256": "b0de7b839ccde337d43b0ad99ddbdeaedc83ff826881f984093cfdf8c7f51ad8",
+      "size_bytes": 12685417,
+      "merkle_root_sighash": "WBEe+Q3TJ0RU1XJ/XbMX6ptcqcrnDGNZIttNXm6P0h8",
       "merkle_root_maxsize": 380
     },
     {
@@ -840,8 +840,8 @@
     },
     {
       "name": "wireguard",
-      "manifest_version": "0.1.1:1",
-      "registry_version": "0.1.1-1",
+      "manifest_version": "0.1.1:2",
+      "registry_version": "0.1.1-2",
       "description": "WireGuard - sovereign VPN server for tunneling trusted devices back into Wormhole.",
       "source_repo": "packages/wireguard",
       "metadata": "metadata/wireguard.json",
@@ -854,21 +854,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/wireguard_x86_64_0.1.1-1.s9pk",
-          "sha256": "53f97d8ab38958157f1987f41e3c9789a2d4f0075fd882c64b3d4cd28fe85826",
-          "size_bytes": 5900025,
-          "merkle_root_sighash": "DxEe8u8ifA7lTgLOT2BWE5/c3AAPzCbnxQq7i1dKj8A",
+          "path": "s9pks/wireguard_x86_64_0.1.1-2.s9pk",
+          "sha256": "c28f6ba53f0d675d9bc1335fb558fb0a4e7cbddeca08d00188e72a5f0347118f",
+          "size_bytes": 5899837,
+          "merkle_root_sighash": "yn23hAeParBV90DgoOpv2a/1BgGPB7x4eBAxR4wW1NE",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-1/wireguard_x86_64_0.1.1-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-2/wireguard_x86_64_0.1.1-2.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/wireguard_aarch64_0.1.1-1.s9pk",
-          "sha256": "a4ec4b364096cee56e1a8648edaee13772e3ccf8d50fec4a9e61e8b98ced6ec0",
-          "size_bytes": 6190844,
-          "merkle_root_sighash": "RgyQsrv7n4qah2nxMu8hQnyD3x8kbppc46DwSIkNReQ",
+          "path": "s9pks/wireguard_aarch64_0.1.1-2.s9pk",
+          "sha256": "56f30a75ec9f8feba03d5102da324402d74c53966c5c15b91ceb1ea94cb378d1",
+          "size_bytes": 6190656,
+          "merkle_root_sighash": "z0evyIGzFCTsCzF0gW0WEeFvjYfh4sWv+/N+LzcdDiA",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-1/wireguard_aarch64_0.1.1-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-2/wireguard_aarch64_0.1.1-2.s9pk"
         }
       ],
       "lanes": [
@@ -876,7 +876,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.1-1",
+      "version": "0.1.1-2",
       "tags": [
         "s9pk",
         "vpn",
@@ -886,10 +886,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-1/wireguard_x86_64_0.1.1-1.s9pk",
-      "sha256": "53f97d8ab38958157f1987f41e3c9789a2d4f0075fd882c64b3d4cd28fe85826",
-      "size_bytes": 5900025,
-      "merkle_root_sighash": "DxEe8u8ifA7lTgLOT2BWE5/c3AAPzCbnxQq7i1dKj8A",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-2/wireguard_x86_64_0.1.1-2.s9pk",
+      "sha256": "c28f6ba53f0d675d9bc1335fb558fb0a4e7cbddeca08d00188e72a5f0347118f",
+      "size_bytes": 5899837,
+      "merkle_root_sighash": "yn23hAeParBV90DgoOpv2a/1BgGPB7x4eBAxR4wW1NE",
       "merkle_root_maxsize": 380
     },
     {
