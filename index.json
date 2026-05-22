@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-05-22T00:18:49Z",
+  "generated_at": "2026-05-22T03:27:08Z",
   "schema_version": 2,
   "packages": [
     {
@@ -60,8 +60,8 @@
     },
     {
       "name": "crowdsec",
-      "manifest_version": "1.7.8:2",
-      "registry_version": "1.7.8-2",
+      "manifest_version": "1.7.8:3",
+      "registry_version": "1.7.8-3",
       "description": "CrowdSec - local log processor for attack detection without automatic banning.",
       "source_repo": "packages/crowdsec",
       "metadata": "metadata/crowdsec.json",
@@ -74,21 +74,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/crowdsec_x86_64_1.7.8-2.s9pk",
-          "sha256": "ce34b06dd92fb56cbccf79de50b73ae2b75b864fdd137541f023be743fd148bc",
-          "size_bytes": 111152477,
-          "merkle_root_sighash": "oUZaMNDk+th7PP90YMr32oE+RkAkJz24Ztm6uw1jaS8",
+          "path": "s9pks/crowdsec_x86_64_1.7.8-3.s9pk",
+          "sha256": "22e0b6a6eecdf586f3276a8c0cb456ec0773b4f0589679228e757e49a925821a",
+          "size_bytes": 111153839,
+          "merkle_root_sighash": "4JEqufqFEI+7DaXIrQsGWWFSS1m2Rg0RMNKOpPE8F8Y",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-2/crowdsec_x86_64_1.7.8-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-3/crowdsec_x86_64_1.7.8-3.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/crowdsec_aarch64_1.7.8-2.s9pk",
-          "sha256": "2857a375d3e41d56446773f2784b21769e415e869e3a86d1f49c6a56b49474db",
-          "size_bytes": 99765600,
-          "merkle_root_sighash": "TQw7P2wVHZPmA2pjRVkfCWnvjbRAF3cdQYRvzsgXmvs",
+          "path": "s9pks/crowdsec_aarch64_1.7.8-3.s9pk",
+          "sha256": "41de2a720d90a51739b7fa0ef36da00de0f76bbcee80fb69c25b8e5c41566171",
+          "size_bytes": 99766962,
+          "merkle_root_sighash": "ZgO6nv++9vAE9yVYzcrKaxK31zhci1yoSVicj5htXZ8",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-2/crowdsec_aarch64_1.7.8-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-3/crowdsec_aarch64_1.7.8-3.s9pk"
         }
       ],
       "lanes": [
@@ -96,7 +96,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.7.8-2",
+      "version": "1.7.8-3",
       "tags": [
         "s9pk",
         "security",
@@ -105,10 +105,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-2/crowdsec_x86_64_1.7.8-2.s9pk",
-      "sha256": "ce34b06dd92fb56cbccf79de50b73ae2b75b864fdd137541f023be743fd148bc",
-      "size_bytes": 111152477,
-      "merkle_root_sighash": "oUZaMNDk+th7PP90YMr32oE+RkAkJz24Ztm6uw1jaS8",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-3/crowdsec_x86_64_1.7.8-3.s9pk",
+      "sha256": "22e0b6a6eecdf586f3276a8c0cb456ec0773b4f0589679228e757e49a925821a",
+      "size_bytes": 111153839,
+      "merkle_root_sighash": "4JEqufqFEI+7DaXIrQsGWWFSS1m2Rg0RMNKOpPE8F8Y",
       "merkle_root_maxsize": 380
     },
     {
