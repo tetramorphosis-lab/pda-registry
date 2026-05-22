@@ -113,57 +113,6 @@
     },
     {
       "name": "freshrss",
-      "manifest_version": "0.1.1:1",
-      "registry_version": "0.1.1-1",
-      "description": "Self-hosted RSS reader with a routed web UI and SQLite storage.",
-      "source_repo": "packages/freshrss",
-      "metadata": "metadata/freshrss.json",
-      "tier": 1,
-      "architectures": [
-        "x86_64",
-        "aarch64"
-      ],
-      "artifacts": [
-        {
-          "arch": "x86_64",
-          "path": "s9pks/freshrss_x86_64_0.1.1-1.s9pk",
-          "sha256": "a141e630606a64fc9e19518065a5e6a7f7152f13e369662eafe99f8029959fe9",
-          "size_bytes": 70102593,
-          "merkle_root_sighash": "imPDAV7s/hNEGYct8PeQmz33Di0ODBfHv65gr3IAptQ",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_x86_64_0.1.1-1.s9pk"
-        },
-        {
-          "arch": "aarch64",
-          "path": "s9pks/freshrss_aarch64_0.1.1-1.s9pk",
-          "sha256": "92e4b68d3156bdca95706df018e96ebc60aae03931cfd1f8db8f6ed7757bb4a8",
-          "size_bytes": 67857988,
-          "merkle_root_sighash": "JRYPi0SWNu1zWMWvpMfVoWaM9QE9B/vvH5IBlvOs4AM",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_aarch64_0.1.1-1.s9pk"
-        }
-      ],
-      "lanes": [
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "version": "0.1.1-1",
-      "tags": [
-        "s9pk",
-        "tier-1",
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_x86_64_0.1.1-1.s9pk",
-      "sha256": "a141e630606a64fc9e19518065a5e6a7f7152f13e369662eafe99f8029959fe9",
-      "size_bytes": 70102593,
-      "merkle_root_sighash": "imPDAV7s/hNEGYct8PeQmz33Di0ODBfHv65gr3IAptQ",
-      "merkle_root_maxsize": 380
-    },
-    {
-      "name": "freshrss",
       "manifest_version": "0.1.0:1",
       "registry_version": "0.1.0-1",
       "description": "Self-hosted RSS reader with a routed web UI and SQLite storage.",
@@ -211,6 +160,57 @@
       "sha256": "32abfce3667ab4b044587018f295046976c2b1d786f624ec98804f3aa75ba7de",
       "size_bytes": 70102627,
       "merkle_root_sighash": "s2fRqLZ5SjPZ3ReY/nEZ5NvqOsscrlxEk5tMFbqnpJk",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "freshrss",
+      "manifest_version": "0.1.1:1",
+      "registry_version": "0.1.1-1",
+      "description": "Self-hosted RSS reader with a routed web UI and SQLite storage.",
+      "source_repo": "packages/freshrss",
+      "metadata": "metadata/freshrss.json",
+      "tier": 1,
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/freshrss_x86_64_0.1.1-1.s9pk",
+          "sha256": "a141e630606a64fc9e19518065a5e6a7f7152f13e369662eafe99f8029959fe9",
+          "size_bytes": 70102593,
+          "merkle_root_sighash": "imPDAV7s/hNEGYct8PeQmz33Di0ODBfHv65gr3IAptQ",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_x86_64_0.1.1-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/freshrss_aarch64_0.1.1-1.s9pk",
+          "sha256": "92e4b68d3156bdca95706df018e96ebc60aae03931cfd1f8db8f6ed7757bb4a8",
+          "size_bytes": 67857988,
+          "merkle_root_sighash": "JRYPi0SWNu1zWMWvpMfVoWaM9QE9B/vvH5IBlvOs4AM",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_aarch64_0.1.1-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.1-1",
+      "tags": [
+        "s9pk",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-1/freshrss_x86_64_0.1.1-1.s9pk",
+      "sha256": "a141e630606a64fc9e19518065a5e6a7f7152f13e369662eafe99f8029959fe9",
+      "size_bytes": 70102593,
+      "merkle_root_sighash": "imPDAV7s/hNEGYct8PeQmz33Di0ODBfHv65gr3IAptQ",
       "merkle_root_maxsize": 380
     },
     {
@@ -266,6 +266,59 @@
       "sha256": "5a82173ff0343e85104023dca0dbb5d81717bc2deecf455d9e0b4d60165241d8",
       "size_bytes": 22258346,
       "merkle_root_sighash": "dI4gol92fvQZhGrHRBMt19JrCrvSqIdlMo9ztGrQPZM",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "i2pd",
+      "manifest_version": "0.1.0:0",
+      "registry_version": "0.1.0-0",
+      "description": "i2pd - lightweight I2P router with HTTP proxy, SOCKS proxy, and SAM bridge.",
+      "source_repo": "packages/i2pd",
+      "metadata": "metadata/i2pd.json",
+      "tier": 2,
+      "upstream": "https://github.com/PurpleI2P/i2pd",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/i2pd_x86_64_0.1.0-0.s9pk",
+          "sha256": "e9b694b00b8d3b627e63b59b495920efe4005f3309884acdf46aa2065fe1c728",
+          "size_bytes": 5918766,
+          "merkle_root_sighash": "Ysw0YnVKdCBqAgtkE7AlI8x/XHi5sfeB+bQUrqCbqYg",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-0.1.0-0/i2pd_x86_64_0.1.0-0.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/i2pd_aarch64_0.1.0-0.s9pk",
+          "sha256": "5029e416acf443e67289163a762b4d82b38a0a7002f3b440ebdb905fa842590f",
+          "size_bytes": 5902385,
+          "merkle_root_sighash": "Ywp80kMy6WQgkW53ddc0GuUb5oJAmRHQjwGqhzVW7+Q",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-0.1.0-0/i2pd_aarch64_0.1.0-0.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.0-0",
+      "tags": [
+        "s9pk",
+        "i2p",
+        "proxy",
+        "privacy",
+        "tier-2",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-0.1.0-0/i2pd_x86_64_0.1.0-0.s9pk",
+      "sha256": "e9b694b00b8d3b627e63b59b495920efe4005f3309884acdf46aa2065fe1c728",
+      "size_bytes": 5918766,
+      "merkle_root_sighash": "Ysw0YnVKdCBqAgtkE7AlI8x/XHi5sfeB+bQUrqCbqYg",
       "merkle_root_maxsize": 380
     },
     {
@@ -372,6 +425,57 @@
     },
     {
       "name": "pairdrop",
+      "manifest_version": "0.1.0:1",
+      "registry_version": "0.1.0-1",
+      "description": "Browser-based local file and text sharing with a routed web UI.",
+      "source_repo": "packages/pairdrop",
+      "metadata": "metadata/pairdrop.json",
+      "tier": 1,
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/pairdrop_x86_64_0.1.0-1.s9pk",
+          "sha256": "71167913c671fed819b83df461cbd1d4a44f0c3a69b37ccb68aaf815a1ad9404",
+          "size_bytes": 44926431,
+          "merkle_root_sighash": "rq3Ak4DbrMNUVN7pRz+jkfdbdG9VTYxiLRsX2Q/J2A4",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.0-1/pairdrop_x86_64_0.1.0-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/pairdrop_aarch64_0.1.0-1.s9pk",
+          "sha256": "16f8a04635ac1e4601864918596295b4523ed68a4e37a52cce0d3694bbd8596f",
+          "size_bytes": 43816418,
+          "merkle_root_sighash": "00pzaqA182YDvX+2Mc7jCjsaMs/WGXu1VmOmKdfb5Zo",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.0-1/pairdrop_aarch64_0.1.0-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.0-1",
+      "tags": [
+        "s9pk",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.0-1/pairdrop_x86_64_0.1.0-1.s9pk",
+      "sha256": "71167913c671fed819b83df461cbd1d4a44f0c3a69b37ccb68aaf815a1ad9404",
+      "size_bytes": 44926431,
+      "merkle_root_sighash": "rq3Ak4DbrMNUVN7pRz+jkfdbdG9VTYxiLRsX2Q/J2A4",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "pairdrop",
       "manifest_version": "0.1.1:1",
       "registry_version": "0.1.1-1",
       "description": "Browser-based local file and text sharing with a routed web UI.",
@@ -422,12 +526,12 @@
       "merkle_root_maxsize": 380
     },
     {
-      "name": "pairdrop",
+      "name": "privatebin",
       "manifest_version": "0.1.0:1",
       "registry_version": "0.1.0-1",
-      "description": "Browser-based local file and text sharing with a routed web UI.",
-      "source_repo": "packages/pairdrop",
-      "metadata": "metadata/pairdrop.json",
+      "description": "Zero-knowledge encrypted pastebin with a routed web UI.",
+      "source_repo": "packages/privatebin",
+      "metadata": "metadata/privatebin.json",
       "tier": 1,
       "architectures": [
         "x86_64",
@@ -436,21 +540,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/pairdrop_x86_64_0.1.0-1.s9pk",
-          "sha256": "71167913c671fed819b83df461cbd1d4a44f0c3a69b37ccb68aaf815a1ad9404",
-          "size_bytes": 44926431,
-          "merkle_root_sighash": "rq3Ak4DbrMNUVN7pRz+jkfdbdG9VTYxiLRsX2Q/J2A4",
+          "path": "s9pks/privatebin_x86_64_0.1.0-1.s9pk",
+          "sha256": "3823723771b91fbcfa3422385b9637c1fbe6d59ac80cfae415e427474a9aa78d",
+          "size_bytes": 33738006,
+          "merkle_root_sighash": "/Q/fChglQw+p+vWWLkLgmcPgpenaidlJsMWhO3eJnlI",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.0-1/pairdrop_x86_64_0.1.0-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.0-1/privatebin_x86_64_0.1.0-1.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/pairdrop_aarch64_0.1.0-1.s9pk",
-          "sha256": "16f8a04635ac1e4601864918596295b4523ed68a4e37a52cce0d3694bbd8596f",
-          "size_bytes": 43816418,
-          "merkle_root_sighash": "00pzaqA182YDvX+2Mc7jCjsaMs/WGXu1VmOmKdfb5Zo",
+          "path": "s9pks/privatebin_aarch64_0.1.0-1.s9pk",
+          "sha256": "92e2eaeb0619785b53e4c9fa32a76b74a9200d5f74537497b4492791eb2ba96d",
+          "size_bytes": 32308505,
+          "merkle_root_sighash": "+W6Bt14qBcAS9G2X/asFfmVG7NkvBl/id7krYFUL36o",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.0-1/pairdrop_aarch64_0.1.0-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.0-1/privatebin_aarch64_0.1.0-1.s9pk"
         }
       ],
       "lanes": [
@@ -466,10 +570,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.0-1/pairdrop_x86_64_0.1.0-1.s9pk",
-      "sha256": "71167913c671fed819b83df461cbd1d4a44f0c3a69b37ccb68aaf815a1ad9404",
-      "size_bytes": 44926431,
-      "merkle_root_sighash": "rq3Ak4DbrMNUVN7pRz+jkfdbdG9VTYxiLRsX2Q/J2A4",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.0-1/privatebin_x86_64_0.1.0-1.s9pk",
+      "sha256": "3823723771b91fbcfa3422385b9637c1fbe6d59ac80cfae415e427474a9aa78d",
+      "size_bytes": 33738006,
+      "merkle_root_sighash": "/Q/fChglQw+p+vWWLkLgmcPgpenaidlJsMWhO3eJnlI",
       "merkle_root_maxsize": 380
     },
     {
@@ -524,13 +628,14 @@
       "merkle_root_maxsize": 380
     },
     {
-      "name": "privatebin",
-      "manifest_version": "0.1.0:1",
-      "registry_version": "0.1.0-1",
-      "description": "Zero-knowledge encrypted pastebin with a routed web UI.",
-      "source_repo": "packages/privatebin",
-      "metadata": "metadata/privatebin.json",
+      "name": "shadowsocks",
+      "manifest_version": "0.1.0:0",
+      "registry_version": "0.1.0-0",
+      "description": "Shadowsocks - lightweight encrypted proxy server using shadowsocks-rust.",
+      "source_repo": "packages/shadowsocks",
+      "metadata": "metadata/shadowsocks.json",
       "tier": 1,
+      "upstream": "https://github.com/shadowsocks/shadowsocks-rust",
       "architectures": [
         "x86_64",
         "aarch64"
@@ -538,21 +643,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/privatebin_x86_64_0.1.0-1.s9pk",
-          "sha256": "3823723771b91fbcfa3422385b9637c1fbe6d59ac80cfae415e427474a9aa78d",
-          "size_bytes": 33738006,
-          "merkle_root_sighash": "/Q/fChglQw+p+vWWLkLgmcPgpenaidlJsMWhO3eJnlI",
+          "path": "s9pks/shadowsocks_x86_64_0.1.0-0.s9pk",
+          "sha256": "8312a9603183a769aaafb5493e819dd598e95b7364f4f3fef0df9ff6b1385d6f",
+          "size_bytes": 12627955,
+          "merkle_root_sighash": "h4xeUEB0cLmDwH4ydaK3dY6IKhOS2QI/08hpn35xLUE",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.0-1/privatebin_x86_64_0.1.0-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-0/shadowsocks_x86_64_0.1.0-0.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/privatebin_aarch64_0.1.0-1.s9pk",
-          "sha256": "92e2eaeb0619785b53e4c9fa32a76b74a9200d5f74537497b4492791eb2ba96d",
-          "size_bytes": 32308505,
-          "merkle_root_sighash": "+W6Bt14qBcAS9G2X/asFfmVG7NkvBl/id7krYFUL36o",
+          "path": "s9pks/shadowsocks_aarch64_0.1.0-0.s9pk",
+          "sha256": "c8f192aa06af00720c88f1f6a18e8d755db5ebc7a1993dc74476d0408cb4fa37",
+          "size_bytes": 11657206,
+          "merkle_root_sighash": "X7bTGXVquaaneI6X8c2RXrytV3uQVEAmKR5SXpwcgEo",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.0-1/privatebin_aarch64_0.1.0-1.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-0/shadowsocks_aarch64_0.1.0-0.s9pk"
         }
       ],
       "lanes": [
@@ -560,18 +665,21 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-1",
+      "version": "0.1.0-0",
       "tags": [
         "s9pk",
+        "proxy",
+        "tunnel",
+        "privacy",
         "tier-1",
         "lane-a",
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.0-1/privatebin_x86_64_0.1.0-1.s9pk",
-      "sha256": "3823723771b91fbcfa3422385b9637c1fbe6d59ac80cfae415e427474a9aa78d",
-      "size_bytes": 33738006,
-      "merkle_root_sighash": "/Q/fChglQw+p+vWWLkLgmcPgpenaidlJsMWhO3eJnlI",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-0/shadowsocks_x86_64_0.1.0-0.s9pk",
+      "sha256": "8312a9603183a769aaafb5493e819dd598e95b7364f4f3fef0df9ff6b1385d6f",
+      "size_bytes": 12627955,
+      "merkle_root_sighash": "h4xeUEB0cLmDwH4ydaK3dY6IKhOS2QI/08hpn35xLUE",
       "merkle_root_maxsize": 380
     },
     {
