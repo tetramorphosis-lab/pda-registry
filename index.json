@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-05-22T05:18:00Z",
+  "generated_at": "2026-05-22T06:10:00Z",
   "schema_version": 2,
   "packages": [
     {
@@ -56,6 +56,61 @@
       "sha256": "9edda67f322778a89463e39ed9a5fb90efa599b375375e6bf250682d774351f7",
       "size_bytes": 13946500,
       "merkle_root_sighash": "9ejgLs+nVlU+3N9KkDNtuLcZ4bgKqtmAThzmItSSPuY",
+      "merkle_root_maxsize": 380
+    },
+    {
+      "name": "authelia",
+      "manifest_version": "4.39.19:0",
+      "registry_version": "4.39.19-0",
+      "description": "Authelia - self-hosted authentication and single sign-on gateway for protected services.",
+      "source_repo": "packages/authelia",
+      "metadata": "metadata/authelia.json",
+      "tier": 1,
+      "upstream": "https://github.com/authelia/authelia",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "path": "s9pks/authelia_x86_64_4.39.19-0.s9pk",
+          "sha256": "b540b5e346a551d2f9c1e8add05baf71f63c6cf0a93d31264a7017c34e33a0ee",
+          "size_bytes": 21724538,
+          "merkle_root_sighash": "wW5AdAhOIbm0q8LHA53CiJ35CMK46L3P7L0qwa927iM",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-authelia-4.39.19-0/authelia_x86_64_4.39.19-0.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "path": "s9pks/authelia_aarch64_4.39.19-0.s9pk",
+          "sha256": "1cfc33150229b278faecd7f22cde3282f4c1d70525946ab5d98906e32a809716",
+          "size_bytes": 18742653,
+          "merkle_root_sighash": "VMuDwjJNHOMhMocECMSrTc8PC4BRR73QB/Q1CqNxJbk",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-authelia-4.39.19-0/authelia_aarch64_4.39.19-0.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "4.39.19-0",
+      "tags": [
+        "s9pk",
+        "auth",
+        "sso",
+        "security",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-authelia-4.39.19-0/authelia_x86_64_4.39.19-0.s9pk",
+      "sha256": "b540b5e346a551d2f9c1e8add05baf71f63c6cf0a93d31264a7017c34e33a0ee",
+      "size_bytes": 21724538,
+      "merkle_root_sighash": "wW5AdAhOIbm0q8LHA53CiJ35CMK46L3P7L0qwa927iM",
       "merkle_root_maxsize": 380
     },
     {
