@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-05-22T03:27:08Z",
+  "generated_at": "2026-05-22T03:57:46Z",
   "schema_version": 2,
   "packages": [
     {
@@ -215,8 +215,8 @@
     },
     {
       "name": "headscale",
-      "manifest_version": "0.28.0:2",
-      "registry_version": "0.28.0-2",
+      "manifest_version": "0.28.0:3",
+      "registry_version": "0.28.0-3",
       "description": "Self-hosted Tailscale coordination server for Wormhole-managed tailnets.",
       "source_repo": "packages/headscale",
       "metadata": "metadata/headscale.json",
@@ -229,21 +229,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/headscale_x86_64_0.28.0-2.s9pk",
-          "sha256": "5a82173ff0343e85104023dca0dbb5d81717bc2deecf455d9e0b4d60165241d8",
-          "size_bytes": 22258346,
-          "merkle_root_sighash": "dI4gol92fvQZhGrHRBMt19JrCrvSqIdlMo9ztGrQPZM",
+          "path": "s9pks/headscale_x86_64_0.28.0-3.s9pk",
+          "sha256": "169bedf02bcb1a30f73bd62ecf785438cacc95a57e480fdf3e607ac7b856637e",
+          "size_bytes": 22258631,
+          "merkle_root_sighash": "vC/K0Ec2hKzJ1hGNvIMVmALoJVXMH2YVs98nmcb+jjU",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-2/headscale_x86_64_0.28.0-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-3/headscale_x86_64_0.28.0-3.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/headscale_aarch64_0.28.0-2.s9pk",
-          "sha256": "55deb2c16dc5bba3433423e0cd021779c5a266a61d7ac98edee7d50ed452907c",
-          "size_bytes": 20198061,
-          "merkle_root_sighash": "egNshqbs4XKvRJ0QiFh43qcg4sFRe0nMSPDukjQobcM",
+          "path": "s9pks/headscale_aarch64_0.28.0-3.s9pk",
+          "sha256": "87e1dada35753101a729fbb0ead78a510add350c0bb067559b09d748d83badbe",
+          "size_bytes": 20198346,
+          "merkle_root_sighash": "i1Y/9G3iF3dfHj4PbopjpLaLrtu5ojUOr78vuAIkE1k",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-2/headscale_aarch64_0.28.0-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-3/headscale_aarch64_0.28.0-3.s9pk"
         }
       ],
       "lanes": [
@@ -251,7 +251,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.28.0-2",
+      "version": "0.28.0-3",
       "tags": [
         "s9pk",
         "networking",
@@ -262,10 +262,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-2/headscale_x86_64_0.28.0-2.s9pk",
-      "sha256": "5a82173ff0343e85104023dca0dbb5d81717bc2deecf455d9e0b4d60165241d8",
-      "size_bytes": 22258346,
-      "merkle_root_sighash": "dI4gol92fvQZhGrHRBMt19JrCrvSqIdlMo9ztGrQPZM",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-3/headscale_x86_64_0.28.0-3.s9pk",
+      "sha256": "169bedf02bcb1a30f73bd62ecf785438cacc95a57e480fdf3e607ac7b856637e",
+      "size_bytes": 22258631,
+      "merkle_root_sighash": "vC/K0Ec2hKzJ1hGNvIMVmALoJVXMH2YVs98nmcb+jjU",
       "merkle_root_maxsize": 380
     },
     {
