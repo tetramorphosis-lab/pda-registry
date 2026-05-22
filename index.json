@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-05-22T04:35:00Z",
+  "generated_at": "2026-05-22T04:42:00Z",
   "schema_version": 2,
   "packages": [
     {
@@ -840,8 +840,8 @@
     },
     {
       "name": "wireguard",
-      "manifest_version": "0.1.1:0",
-      "registry_version": "0.1.1-0",
+      "manifest_version": "0.1.1:1",
+      "registry_version": "0.1.1-1",
       "description": "WireGuard - sovereign VPN server for tunneling trusted devices back into Wormhole.",
       "source_repo": "packages/wireguard",
       "metadata": "metadata/wireguard.json",
@@ -854,21 +854,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/wireguard_x86_64_0.1.1-0.s9pk",
-          "sha256": "93ce47d5107876ec3199a01e4c0e8675b78e2c067a4959f9a203de0b1e87902b",
-          "size_bytes": 5899711,
-          "merkle_root_sighash": "PThYAX555HGYBv0WpTY2HXInWpYmrN+DPW6Md1A9lg4",
+          "path": "s9pks/wireguard_x86_64_0.1.1-1.s9pk",
+          "sha256": "53f97d8ab38958157f1987f41e3c9789a2d4f0075fd882c64b3d4cd28fe85826",
+          "size_bytes": 5900025,
+          "merkle_root_sighash": "DxEe8u8ifA7lTgLOT2BWE5/c3AAPzCbnxQq7i1dKj8A",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-0/wireguard_x86_64_0.1.1-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-1/wireguard_x86_64_0.1.1-1.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/wireguard_aarch64_0.1.1-0.s9pk",
-          "sha256": "24d50f1225ae4aea2daae4795da5bef16161639fa0acb1d491b00db0be012de5",
-          "size_bytes": 6190530,
-          "merkle_root_sighash": "+XYoSLfZUsiTz7g3u4MLTt4WrLkLyFRR2WA7kF8Xkds",
+          "path": "s9pks/wireguard_aarch64_0.1.1-1.s9pk",
+          "sha256": "a4ec4b364096cee56e1a8648edaee13772e3ccf8d50fec4a9e61e8b98ced6ec0",
+          "size_bytes": 6190844,
+          "merkle_root_sighash": "RgyQsrv7n4qah2nxMu8hQnyD3x8kbppc46DwSIkNReQ",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-0/wireguard_aarch64_0.1.1-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-1/wireguard_aarch64_0.1.1-1.s9pk"
         }
       ],
       "lanes": [
@@ -876,7 +876,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.1-0",
+      "version": "0.1.1-1",
       "tags": [
         "s9pk",
         "vpn",
@@ -886,10 +886,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-0/wireguard_x86_64_0.1.1-0.s9pk",
-      "sha256": "93ce47d5107876ec3199a01e4c0e8675b78e2c067a4959f9a203de0b1e87902b",
-      "size_bytes": 5899711,
-      "merkle_root_sighash": "PThYAX555HGYBv0WpTY2HXInWpYmrN+DPW6Md1A9lg4",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-1/wireguard_x86_64_0.1.1-1.s9pk",
+      "sha256": "53f97d8ab38958157f1987f41e3c9789a2d4f0075fd882c64b3d4cd28fe85826",
+      "size_bytes": 5900025,
+      "merkle_root_sighash": "DxEe8u8ifA7lTgLOT2BWE5/c3AAPzCbnxQq7i1dKj8A",
       "merkle_root_maxsize": 380
     },
     {
