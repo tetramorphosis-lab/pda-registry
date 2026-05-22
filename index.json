@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-05-22T03:57:46Z",
+  "generated_at": "2026-05-22T04:18:00Z",
   "schema_version": 2,
   "packages": [
     {
@@ -629,8 +629,8 @@
     },
     {
       "name": "shadowsocks",
-      "manifest_version": "0.1.0:0",
-      "registry_version": "0.1.0-0",
+      "manifest_version": "0.1.0:1",
+      "registry_version": "0.1.0-1",
       "description": "Shadowsocks - lightweight encrypted proxy server using shadowsocks-rust.",
       "source_repo": "packages/shadowsocks",
       "metadata": "metadata/shadowsocks.json",
@@ -643,21 +643,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/shadowsocks_x86_64_0.1.0-0.s9pk",
-          "sha256": "8312a9603183a769aaafb5493e819dd598e95b7364f4f3fef0df9ff6b1385d6f",
-          "size_bytes": 12627955,
-          "merkle_root_sighash": "h4xeUEB0cLmDwH4ydaK3dY6IKhOS2QI/08hpn35xLUE",
+          "path": "s9pks/shadowsocks_x86_64_0.1.0-1.s9pk",
+          "sha256": "9c9019acfba8a0af4d28a8ba94b40ecf084834151b0a0b0e0e16a7d51c941689",
+          "size_bytes": 12628065,
+          "merkle_root_sighash": "myEXc5rPimov/B+Grnrk1XTwBn04KSwfPwAJmAJaPjI",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-0/shadowsocks_x86_64_0.1.0-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-1/shadowsocks_x86_64_0.1.0-1.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/shadowsocks_aarch64_0.1.0-0.s9pk",
-          "sha256": "c8f192aa06af00720c88f1f6a18e8d755db5ebc7a1993dc74476d0408cb4fa37",
-          "size_bytes": 11657206,
-          "merkle_root_sighash": "X7bTGXVquaaneI6X8c2RXrytV3uQVEAmKR5SXpwcgEo",
+          "path": "s9pks/shadowsocks_aarch64_0.1.0-1.s9pk",
+          "sha256": "cf658fa98bc7b0a8195f3d95cdd1475b0733abf5a0da5929adcc6798fa1f8e15",
+          "size_bytes": 11657316,
+          "merkle_root_sighash": "P0rt2jYxj9yYzSKFQq/5/JYrwsjulyRp1WJ3C4PJ30c",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-0/shadowsocks_aarch64_0.1.0-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-1/shadowsocks_aarch64_0.1.0-1.s9pk"
         }
       ],
       "lanes": [
@@ -665,7 +665,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-0",
+      "version": "0.1.0-1",
       "tags": [
         "s9pk",
         "proxy",
@@ -676,10 +676,10 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-0/shadowsocks_x86_64_0.1.0-0.s9pk",
-      "sha256": "8312a9603183a769aaafb5493e819dd598e95b7364f4f3fef0df9ff6b1385d6f",
-      "size_bytes": 12627955,
-      "merkle_root_sighash": "h4xeUEB0cLmDwH4ydaK3dY6IKhOS2QI/08hpn35xLUE",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-shadowsocks-0.1.0-1/shadowsocks_x86_64_0.1.0-1.s9pk",
+      "sha256": "9c9019acfba8a0af4d28a8ba94b40ecf084834151b0a0b0e0e16a7d51c941689",
+      "size_bytes": 12628065,
+      "merkle_root_sighash": "myEXc5rPimov/B+Grnrk1XTwBn04KSwfPwAJmAJaPjI",
       "merkle_root_maxsize": 380
     },
     {
