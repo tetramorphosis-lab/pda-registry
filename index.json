@@ -1,6 +1,6 @@
 {
   "name": "Wormhole",
-  "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
+  "description": "Wormhole service registry for live package testing.",
   "generated_at": "2026-05-22T06:10:00Z",
   "schema_version": 2,
   "packages": [
@@ -56,7 +56,10 @@
       "sha256": "9edda67f322778a89463e39ed9a5fb90efa599b375375e6bf250682d774351f7",
       "size_bytes": 13946500,
       "merkle_root_sighash": "9ejgLs+nVlU+3N9KkDNtuLcZ4bgKqtmAThzmItSSPuY",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "security-dns"
+      ]
     },
     {
       "name": "authelia",
@@ -111,7 +114,10 @@
       "sha256": "b540b5e346a551d2f9c1e8add05baf71f63c6cf0a93d31264a7017c34e33a0ee",
       "size_bytes": 21724538,
       "merkle_root_sighash": "wW5AdAhOIbm0q8LHA53CiJ35CMK46L3P7L0qwa927iM",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "security-dns"
+      ]
     },
     {
       "name": "crowdsec",
@@ -164,7 +170,10 @@
       "sha256": "22e0b6a6eecdf586f3276a8c0cb456ec0773b4f0589679228e757e49a925821a",
       "size_bytes": 111153839,
       "merkle_root_sighash": "4JEqufqFEI+7DaXIrQsGWWFSS1m2Rg0RMNKOpPE8F8Y",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "security-dns"
+      ]
     },
     {
       "name": "freshrss",
@@ -215,7 +224,10 @@
       "sha256": "32abfce3667ab4b044587018f295046976c2b1d786f624ec98804f3aa75ba7de",
       "size_bytes": 70102627,
       "merkle_root_sighash": "s2fRqLZ5SjPZ3ReY/nEZ5NvqOsscrlxEk5tMFbqnpJk",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "knowledge"
+      ]
     },
     {
       "name": "freshrss",
@@ -266,7 +278,10 @@
       "sha256": "29d587738c9cd3f335176ded66316ff8f6c6642d18d326fa1f50d38a484828d0",
       "size_bytes": 70102838,
       "merkle_root_sighash": "jUxFWNyVRlVFPWs9G/rPsy/izvru+V3cEoc+p8SzzSg",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "knowledge"
+      ]
     },
     {
       "name": "headscale",
@@ -321,12 +336,15 @@
       "sha256": "169bedf02bcb1a30f73bd62ecf785438cacc95a57e480fdf3e607ac7b856637e",
       "size_bytes": 22258631,
       "merkle_root_sighash": "vC/K0Ec2hKzJ1hGNvIMVmALoJVXMH2YVs98nmcb+jjU",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "networking"
+      ]
     },
     {
       "name": "i2pd",
-      "manifest_version": "0.1.0:0",
-      "registry_version": "0.1.0-0",
+      "manifest_version": "0.1.0:1",
+      "registry_version": "0.1.0-1",
       "description": "i2pd - lightweight I2P router with HTTP proxy, SOCKS proxy, and SAM bridge.",
       "source_repo": "packages/i2pd",
       "metadata": "metadata/i2pd.json",
@@ -339,28 +357,28 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/i2pd_x86_64_0.1.0-0.s9pk",
-          "sha256": "e9b694b00b8d3b627e63b59b495920efe4005f3309884acdf46aa2065fe1c728",
-          "size_bytes": 5918766,
-          "merkle_root_sighash": "Ysw0YnVKdCBqAgtkE7AlI8x/XHi5sfeB+bQUrqCbqYg",
+          "path": "s9pks/i2pd_x86_64_0.1.0-1.s9pk",
+          "sha256": "473958577f570c160468df53a008b470ceb35648a0781bce1033c82562d5adcb",
+          "size_bytes": 5918756,
+          "merkle_root_sighash": "x9sVafdDnezkYYenJZV12zXanT8uP7ZoRQl3YrjYLwE",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-0.1.0-0/i2pd_x86_64_0.1.0-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-0.1.0-1/i2pd_x86_64_0.1.0-1.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/i2pd_aarch64_0.1.0-0.s9pk",
-          "sha256": "5029e416acf443e67289163a762b4d82b38a0a7002f3b440ebdb905fa842590f",
-          "size_bytes": 5902385,
-          "merkle_root_sighash": "Ywp80kMy6WQgkW53ddc0GuUb5oJAmRHQjwGqhzVW7+Q",
+          "path": "s9pks/i2pd_aarch64_0.1.0-1.s9pk",
+          "sha256": "57dd7220974fdeee5206c945a3dd7d2587be97cc1dc8327d1704e8325bb4b7cd",
+          "size_bytes": 5902375,
+          "merkle_root_sighash": "lWJdV8Dcb3Ke6idIg0p2ylaoRorjITePU8l7v501r8I",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-0.1.0-0/i2pd_aarch64_0.1.0-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-0.1.0-1/i2pd_aarch64_0.1.0-1.s9pk"
         }
       ],
       "lanes": [
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-0",
+      "version": "0.1.0-1",
       "tags": [
         "s9pk",
         "i2p",
@@ -370,11 +388,14 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-0.1.0-0/i2pd_x86_64_0.1.0-0.s9pk",
-      "sha256": "e9b694b00b8d3b627e63b59b495920efe4005f3309884acdf46aa2065fe1c728",
-      "size_bytes": 5918766,
-      "merkle_root_sighash": "Ysw0YnVKdCBqAgtkE7AlI8x/XHi5sfeB+bQUrqCbqYg",
-      "merkle_root_maxsize": 380
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-i2pd-0.1.0-1/i2pd_x86_64_0.1.0-1.s9pk",
+      "sha256": "473958577f570c160468df53a008b470ceb35648a0781bce1033c82562d5adcb",
+      "size_bytes": 5918756,
+      "merkle_root_sighash": "x9sVafdDnezkYYenJZV12zXanT8uP7ZoRQl3YrjYLwE",
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "networking"
+      ]
     },
     {
       "name": "moneropay",
@@ -425,13 +446,16 @@
       "sha256": "578944fde84ad584b5298d6dba40ebad775733e70f3ec24b87350930ea42f2b5",
       "size_bytes": 25023317,
       "merkle_root_sighash": "VLUQOSDmuYm0m7TOHHgF2n1cPd7aAX8sAnsMEfD1gEg",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "payments"
+      ]
     },
     {
       "name": "news-aggregation",
       "manifest_version": "0.1.2:1",
       "registry_version": "0.1.2-1",
-      "description": "Telegram news and research digest bot with a routed StartOS web UI.",
+      "description": "Telegram news and research digest bot with a routed Wormhole web UI.",
       "source_repo": "packages/news-aggregation",
       "metadata": "metadata/news-aggregation.json",
       "tier": 2,
@@ -476,7 +500,10 @@
       "sha256": "5a19356c0236ec99569da6fe0af811d121653babea048f8d403e8484c4583840",
       "size_bytes": 56151545,
       "merkle_root_sighash": "1HDzWbJ5qfsVSKEfi9Aud0mi+f80ymyZbyRvQYt8gdY",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "knowledge"
+      ]
     },
     {
       "name": "pairdrop",
@@ -527,7 +554,10 @@
       "sha256": "71167913c671fed819b83df461cbd1d4a44f0c3a69b37ccb68aaf815a1ad9404",
       "size_bytes": 44926431,
       "merkle_root_sighash": "rq3Ak4DbrMNUVN7pRz+jkfdbdG9VTYxiLRsX2Q/J2A4",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "sharing"
+      ]
     },
     {
       "name": "pairdrop",
@@ -578,7 +608,10 @@
       "sha256": "43433d06efab3dae05ee232f939cec563979f99fbe687d62aa249f29514952d6",
       "size_bytes": 44926425,
       "merkle_root_sighash": "5rH5Rn5SvXlA2UbYUYYha5LAhWW2a+dUBKcLF+gN0oA",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "sharing"
+      ]
     },
     {
       "name": "privatebin",
@@ -629,7 +662,10 @@
       "sha256": "3823723771b91fbcfa3422385b9637c1fbe6d59ac80cfae415e427474a9aa78d",
       "size_bytes": 33738006,
       "merkle_root_sighash": "/Q/fChglQw+p+vWWLkLgmcPgpenaidlJsMWhO3eJnlI",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "sharing"
+      ]
     },
     {
       "name": "privatebin",
@@ -680,7 +716,10 @@
       "sha256": "0ad4d27f46796467376ca0f383ab73e3ec19493071d88cc0846a1a0e544cd77b",
       "size_bytes": 33738173,
       "merkle_root_sighash": "sa0F366smzPhPfMLG7zFCUsqSXxbQiyjYIhk+fKIQx8",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "sharing"
+      ]
     },
     {
       "name": "shadowsocks",
@@ -735,7 +774,10 @@
       "sha256": "b0de7b839ccde337d43b0ad99ddbdeaedc83ff826881f984093cfdf8c7f51ad8",
       "size_bytes": 12685417,
       "merkle_root_sighash": "WBEe+Q3TJ0RU1XJ/XbMX6ptcqcrnDGNZIttNXm6P0h8",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "networking"
+      ]
     },
     {
       "name": "space-weather",
@@ -786,7 +828,10 @@
       "sha256": "8c6a020c48a9df97a2a0ea640815029e36441861b1f77e74c87874415f28ef95",
       "size_bytes": 35794181,
       "merkle_root_sighash": "M4talY5g0BiXSeY802pZOsWjdeK8f5CwxR0RcHMgFJE",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "knowledge"
+      ]
     },
     {
       "name": "tailscale",
@@ -840,7 +885,10 @@
       "sha256": "71cb9fb8f021ff8a2815521d1a168e8aac6e9bb37132e6e0f00221fc07ede822",
       "size_bytes": 45929468,
       "merkle_root_sighash": "sFsUMhuEvj6eOgzJ6Q++Ol7rfz9UyiqtuRZn6jjk6VM",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "networking"
+      ]
     },
     {
       "name": "video-bot",
@@ -891,7 +939,10 @@
       "sha256": "8e137e991d58860e41fbd127e6b1a4c65cbe3f8e3aeee9f004670d3abe07bf68",
       "size_bytes": 183455197,
       "merkle_root_sighash": "glpNTsI0QwWn6V5uHhpEEVdU6VQAop1QPkEKcmPBBbk",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "knowledge"
+      ]
     },
     {
       "name": "wireguard",
@@ -945,12 +996,15 @@
       "sha256": "c28f6ba53f0d675d9bc1335fb558fb0a4e7cbddeca08d00188e72a5f0347118f",
       "size_bytes": 5899837,
       "merkle_root_sighash": "yn23hAeParBV90DgoOpv2a/1BgGPB7x4eBAxR4wW1NE",
-      "merkle_root_maxsize": 380
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "networking"
+      ]
     },
     {
       "name": "wormhole-launcher",
-      "manifest_version": "0.1.0:5",
-      "registry_version": "0.1.0-5",
+      "manifest_version": "0.1.0:6",
+      "registry_version": "0.1.0-6",
       "description": "Wormhole Launcher - one screen for every local Wormhole workflow.",
       "source_repo": "packages/wormhole-launcher",
       "metadata": "metadata/wormhole-launcher.json",
@@ -963,21 +1017,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-5.s9pk",
-          "sha256": "6c7095168d15803845ac55fc20e052533878e4dc61bc0d764ed4107b1d9e7de5",
-          "size_bytes": 3785949,
-          "merkle_root_sighash": "froMihRI7pi4X9Ph+RhDSUNM6s2JBcul/sR5U5BOyhY",
+          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-6.s9pk",
+          "sha256": "db86246e1a84a537e43b8fa67984101d6453e68d2b7cc31b18f15496faf026b8",
+          "size_bytes": 3785899,
+          "merkle_root_sighash": "PpNvS0SGFW99zQweqvawbtcC5EehiSLQY1prFkqVtEw",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-5/wormhole-launcher_x86_64_0.1.0-5.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-6/wormhole-launcher_x86_64_0.1.0-6.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-5.s9pk",
-          "sha256": "b9c3a32b120ff0aef8c766072c55eb7014f04b0588496c183b498d33daffcfec",
-          "size_bytes": 3986656,
-          "merkle_root_sighash": "TwNr//VhOyfb3bXVP5Nf8uhn7fb+QUM/wYbidJ8cmXY",
+          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-6.s9pk",
+          "sha256": "845eb127c5b1717efdb17bdc56691fc1f1dd75a35d0fb3d625fc552ba091d3c6",
+          "size_bytes": 3986606,
+          "merkle_root_sighash": "pkocCeX7+95ZZ06tOfhCdqR6m+Dldq+m/KtyNbBhc3k",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-5/wormhole-launcher_aarch64_0.1.0-5.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-6/wormhole-launcher_aarch64_0.1.0-6.s9pk"
         }
       ],
       "lanes": [
@@ -985,7 +1039,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-5",
+      "version": "0.1.0-6",
       "tags": [
         "s9pk",
         "launcher",
@@ -995,11 +1049,40 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-5/wormhole-launcher_x86_64_0.1.0-5.s9pk",
-      "sha256": "6c7095168d15803845ac55fc20e052533878e4dc61bc0d764ed4107b1d9e7de5",
-      "size_bytes": 3785949,
-      "merkle_root_sighash": "froMihRI7pi4X9Ph+RhDSUNM6s2JBcul/sR5U5BOyhY",
-      "merkle_root_maxsize": 380
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-6/wormhole-launcher_x86_64_0.1.0-6.s9pk",
+      "sha256": "db86246e1a84a537e43b8fa67984101d6453e68d2b7cc31b18f15496faf026b8",
+      "size_bytes": 3785899,
+      "merkle_root_sighash": "PpNvS0SGFW99zQweqvawbtcC5EehiSLQY1prFkqVtEw",
+      "merkle_root_maxsize": 380,
+      "categories": [
+        "wormhole-tools"
+      ]
     }
-  ]
+  ],
+  "categories": {
+    "security-dns": {
+      "name": "Security & DNS",
+      "description": "Authentication, filtering, and threat visibility."
+    },
+    "networking": {
+      "name": "Networking",
+      "description": "Tailnet, VPN, proxy, and privacy network services."
+    },
+    "sharing": {
+      "name": "Sharing",
+      "description": "Move files, notes, and links between trusted devices."
+    },
+    "knowledge": {
+      "name": "Knowledge",
+      "description": "Feeds, research, and personal information flows."
+    },
+    "payments": {
+      "name": "Payments",
+      "description": "Payment and commerce infrastructure."
+    },
+    "wormhole-tools": {
+      "name": "Wormhole Tools",
+      "description": "Local Wormhole setup and operator utilities."
+    }
+  }
 }
