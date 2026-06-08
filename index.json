@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-07T23:46:16Z",
+  "generated_at": "2026-06-08T12:15:00Z",
   "schema_version": 2,
   "packages": [
     {
@@ -772,64 +772,6 @@
       "os_version": "0.4.0-alpha.23",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/shadowsocks",
       "release_notes": "Wormhole registry package release 0.1.0:4."
-    },
-    {
-      "name": "space-weather",
-      "manifest_version": "0.1.0:1",
-      "registry_version": "0.1.0-1",
-      "description": "Self-hosted space-weather dashboard for solar and geomagnetic conditions.",
-      "source_repo": "packages/space-weather",
-      "metadata": "metadata/space-weather.json",
-      "tier": 1,
-      "architectures": [
-        "x86_64",
-        "aarch64"
-      ],
-      "artifacts": [
-        {
-          "arch": "x86_64",
-          "path": "s9pks/space-weather_x86_64_0.1.0-1.s9pk",
-          "sha256": "8c6a020c48a9df97a2a0ea640815029e36441861b1f77e74c87874415f28ef95",
-          "size_bytes": 35794181,
-          "merkle_root_sighash": "M4talY5g0BiXSeY802pZOsWjdeK8f5CwxR0RcHMgFJE",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-space-weather-0.1.0-1/space-weather_x86_64_0.1.0-1.s9pk"
-        },
-        {
-          "arch": "aarch64",
-          "path": "s9pks/space-weather_aarch64_0.1.0-1.s9pk",
-          "sha256": "11e52190c7abf64d9bb30417928394bf5b7b3beb8f9d909f4978af16076280b8",
-          "size_bytes": 34139400,
-          "merkle_root_sighash": "5+W5zLXNJNxebAjeRJr3c0rVd7+7xPJ71pVeIhmxs/s",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-space-weather-0.1.0-1/space-weather_aarch64_0.1.0-1.s9pk"
-        }
-      ],
-      "lanes": [
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "version": "0.1.0-1",
-      "tags": [
-        "s9pk",
-        "tier-1",
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-space-weather-0.1.0-1/space-weather_x86_64_0.1.0-1.s9pk",
-      "sha256": "8c6a020c48a9df97a2a0ea640815029e36441861b1f77e74c87874415f28ef95",
-      "size_bytes": 35794181,
-      "merkle_root_sighash": "M4talY5g0BiXSeY802pZOsWjdeK8f5CwxR0RcHMgFJE",
-      "merkle_root_maxsize": 380,
-      "license": "Unknown",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
-      "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
-      "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/space-weather",
-      "release_notes": "Wormhole registry package release 0.1.0:1."
     },
     {
       "name": "tailscale",
