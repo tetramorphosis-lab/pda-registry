@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-08T21:15:00Z",
+  "generated_at": "2026-06-08T21:45:00Z",
   "schema_version": 2,
   "packages": [
     {
@@ -595,8 +595,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:7",
-      "registry_version": "1.84.0-7",
+      "manifest_version": "1.84.0:8",
+      "registry_version": "1.84.0-8",
       "description": "Tailscale - private WireGuard mesh access plus StartOS Tailnet URL export for Wormhole services.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -609,21 +609,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-7.s9pk",
-          "sha256": "30cfff70c42830185227a9dfe82d0c615aec119e26af557ab4e45edca3199a02",
-          "size_bytes": 46113800,
-          "merkle_root_sighash": "suWVPtQHD1wpUwhh38y6NcLulniNHRaZF9dCNW/31zw",
+          "path": "s9pks/tailscale_x86_64_1.84.0-8.s9pk",
+          "sha256": "77067f2e48fe1c2b61dd727399aa2dbbd8925a0fbacf0078a9154a8e59f61a51",
+          "size_bytes": 46113917,
+          "merkle_root_sighash": "or3LtTX7gkXXze0WBCwHkP2g0uHFmzI0rXFeF9RC+pA",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-7/tailscale_x86_64_1.84.0-7.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-8/tailscale_x86_64_1.84.0-8.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-7.s9pk",
-          "sha256": "c5bb66e46148abfc5f8183e7019f0b93e6323e34e71b59b62ca5d95dc8c6b6b0",
-          "size_bytes": 42832907,
-          "merkle_root_sighash": "Vmdv4WKsxnJd9GxwWlXjfJuQqBrEcguUn0WwyU0WkKU",
+          "path": "s9pks/tailscale_aarch64_1.84.0-8.s9pk",
+          "sha256": "dc8b52cfaee2934f577ffd2456ad554ca3dc4ebddc53cd5aac61dd8ef0b0c081",
+          "size_bytes": 42833024,
+          "merkle_root_sighash": "gU4Qnpho09VCNj1L5XhnGIEm0qQL4x+7IBdciULtUiM",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-7/tailscale_aarch64_1.84.0-7.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-8/tailscale_aarch64_1.84.0-8.s9pk"
         }
       ],
       "lanes": [
@@ -631,7 +631,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-7",
+      "version": "1.84.0-8",
       "tags": [
         "s9pk",
         "vpn",
@@ -641,18 +641,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-7/tailscale_x86_64_1.84.0-7.s9pk",
-      "sha256": "30cfff70c42830185227a9dfe82d0c615aec119e26af557ab4e45edca3199a02",
-      "size_bytes": 46113800,
-      "merkle_root_sighash": "suWVPtQHD1wpUwhh38y6NcLulniNHRaZF9dCNW/31zw",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-8/tailscale_x86_64_1.84.0-8.s9pk",
+      "sha256": "77067f2e48fe1c2b61dd727399aa2dbbd8925a0fbacf0078a9154a8e59f61a51",
+      "size_bytes": 46113917,
+      "merkle_root_sighash": "or3LtTX7gkXXze0WBCwHkP2g0uHFmzI0rXFeF9RC+pA",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-06-08T15:35:00Z",
+      "published_at": "2026-06-08T21:45:00Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:7 switches service Tailnet URLs to per-service HTTPS ports and skips tunnel/proxy carriers."
+      "release_notes": "Tailscale 1.84.0:8 adds optional Headscale login-server support via /data/login-server.txt while preserving per-service Tailnet URL routes."
     },
     {
       "name": "video-bot",
