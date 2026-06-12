@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-12T15:28:25Z",
+  "generated_at": "2026-06-12T21:19:10Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -735,8 +735,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:8",
-      "registry_version": "1.84.0-8",
+      "manifest_version": "1.84.0:12",
+      "registry_version": "1.84.0-12",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -749,21 +749,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-8.s9pk",
-          "sha256": "77067f2e48fe1c2b61dd727399aa2dbbd8925a0fbacf0078a9154a8e59f61a51",
-          "size_bytes": 46113917,
-          "merkle_root_sighash": "or3LtTX7gkXXze0WBCwHkP2g0uHFmzI0rXFeF9RC+pA",
+          "path": "s9pks/tailscale_x86_64_1.84.0-12.s9pk",
+          "sha256": "699e67987632eeefe2598e183d367c46a8b1b273e93c89c3eee0785442bc0acc",
+          "size_bytes": 46113752,
+          "merkle_root_sighash": "cN5HscZSTlLTXBKaDkkRJBbte3q2XbdpIZNzbLLzbpE",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-8/tailscale_x86_64_1.84.0-8.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-12/tailscale_x86_64_1.84.0-12.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-8.s9pk",
-          "sha256": "dc8b52cfaee2934f577ffd2456ad554ca3dc4ebddc53cd5aac61dd8ef0b0c081",
-          "size_bytes": 42833024,
-          "merkle_root_sighash": "gU4Qnpho09VCNj1L5XhnGIEm0qQL4x+7IBdciULtUiM",
+          "path": "s9pks/tailscale_aarch64_1.84.0-12.s9pk",
+          "sha256": "62e1a8c95c2b008339d14a7863faf4d9530e514f34862d25fc26a65009a48d30",
+          "size_bytes": 42832859,
+          "merkle_root_sighash": "H8BwTOsA89KuwNv2xczLHz8MbvpgivzDfCNFS1batiQ",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-8/tailscale_aarch64_1.84.0-8.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-12/tailscale_aarch64_1.84.0-12.s9pk"
         }
       ],
       "lanes": [
@@ -771,7 +771,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-8",
+      "version": "1.84.0-12",
       "tags": [
         "s9pk",
         "vpn",
@@ -781,18 +781,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-8/tailscale_x86_64_1.84.0-8.s9pk",
-      "sha256": "77067f2e48fe1c2b61dd727399aa2dbbd8925a0fbacf0078a9154a8e59f61a51",
-      "size_bytes": 46113917,
-      "merkle_root_sighash": "or3LtTX7gkXXze0WBCwHkP2g0uHFmzI0rXFeF9RC+pA",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-12/tailscale_x86_64_1.84.0-12.s9pk",
+      "sha256": "699e67987632eeefe2598e183d367c46a8b1b273e93c89c3eee0785442bc0acc",
+      "size_bytes": 46113752,
+      "merkle_root_sighash": "cN5HscZSTlLTXBKaDkkRJBbte3q2XbdpIZNzbLLzbpE",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-06-08T21:45:00Z",
+      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
+      "published_at": "2026-06-12T21:19:10Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:8 adds optional Headscale login-server support via /data/login-server.txt while preserving per-service Tailnet URL routes."
+      "release_notes": "Tailscale 1.84.0:12 resyncs Tailnet service URL routes on startup and keeps Headscale-backed service links on private HTTP until a trusted TLS layer is added."
     },
     {
       "name": "video-bot",
@@ -854,8 +854,8 @@
     },
     {
       "name": "wireguard",
-      "manifest_version": "0.1.1:2",
-      "registry_version": "0.1.1-2",
+      "manifest_version": "0.1.1:3",
+      "registry_version": "0.1.1-3",
       "description": "WireGuard: your own VPN server.",
       "source_repo": "packages/wireguard",
       "metadata": "metadata/wireguard.json",
@@ -868,21 +868,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/wireguard_x86_64_0.1.1-2.s9pk",
-          "sha256": "c28f6ba53f0d675d9bc1335fb558fb0a4e7cbddeca08d00188e72a5f0347118f",
-          "size_bytes": 5899837,
-          "merkle_root_sighash": "yn23hAeParBV90DgoOpv2a/1BgGPB7x4eBAxR4wW1NE",
+          "path": "s9pks/wireguard_x86_64_0.1.1-3.s9pk",
+          "sha256": "e202458233b08184a52181cfad75a0a654588595666d45d8d6f6b88e42a9e05f",
+          "size_bytes": 5899307,
+          "merkle_root_sighash": "aQdIGvorTEXai46h1QBn8rs5o+JnWJq5F9Ec5jWs4ds",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-2/wireguard_x86_64_0.1.1-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-3/wireguard_x86_64_0.1.1-3.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/wireguard_aarch64_0.1.1-2.s9pk",
-          "sha256": "56f30a75ec9f8feba03d5102da324402d74c53966c5c15b91ceb1ea94cb378d1",
-          "size_bytes": 6190656,
-          "merkle_root_sighash": "z0evyIGzFCTsCzF0gW0WEeFvjYfh4sWv+/N+LzcdDiA",
+          "path": "s9pks/wireguard_aarch64_0.1.1-3.s9pk",
+          "sha256": "e977c3f04102d265fc82277750e5d7c4b607e812717beefb4817a73d21be0103",
+          "size_bytes": 6190126,
+          "merkle_root_sighash": "ALUm0eQtaKe56IoGRUB3vZWJBdw+wlWNjh0p9NoZN9I",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-2/wireguard_aarch64_0.1.1-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-3/wireguard_aarch64_0.1.1-3.s9pk"
         }
       ],
       "lanes": [
@@ -890,7 +890,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.1-2",
+      "version": "0.1.1-3",
       "tags": [
         "s9pk",
         "vpn",
@@ -900,18 +900,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-2/wireguard_x86_64_0.1.1-2.s9pk",
-      "sha256": "c28f6ba53f0d675d9bc1335fb558fb0a4e7cbddeca08d00188e72a5f0347118f",
-      "size_bytes": 5899837,
-      "merkle_root_sighash": "yn23hAeParBV90DgoOpv2a/1BgGPB7x4eBAxR4wW1NE",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wireguard-0.1.1-3/wireguard_x86_64_0.1.1-3.s9pk",
+      "sha256": "e202458233b08184a52181cfad75a0a654588595666d45d8d6f6b88e42a9e05f",
+      "size_bytes": 5899307,
+      "merkle_root_sighash": "aQdIGvorTEXai46h1QBn8rs5o+JnWJq5F9Ec5jWs4ds",
       "merkle_root_maxsize": 380,
       "license": "GPL-2.0",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
+      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
+      "published_at": "2026-06-12T21:19:10Z",
       "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
+      "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/wireguard",
-      "release_notes": "Wormhole registry package release 0.1.1:2."
+      "release_notes": "WireGuard 0.1.1:3 checks the wg0 kernel interface directly so healthy tunnels are not marked failed by a brittle wg show probe."
     },
     {
       "name": "wormhole-launcher",
