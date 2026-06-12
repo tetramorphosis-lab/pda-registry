@@ -1,16 +1,36 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-12T14:32:22Z",
+  "generated_at": "2026-06-12T15:28:25Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
     "blocked_package_ids": [
+      "actual-budget",
+      "archivebox",
+      "bitcoind",
+      "docuseal",
+      "garage",
+      "ghost",
       "i2pd",
+      "jellyfin",
+      "lnbits",
+      "lnd",
+      "minecraft",
       "news-aggregation",
+      "nextcloud",
+      "nostr-rs-relay",
+      "ollama",
+      "open-webui",
+      "openclaw",
+      "phoenixd",
+      "primal-web",
       "shadowsocks",
       "space-weather",
-      "spaceweather"
+      "spaceweather",
+      "spliit",
+      "startos-registry",
+      "thunderhub"
     ],
     "prefer_local_package_ids": [
       "adguardhome",
@@ -32,32 +52,17 @@
         "label": "Start9 Official",
         "url": "https://registry.start9.com/rpc/v0",
         "package_allowlist": [
-          "actual-budget",
-          "bitcoind",
           "btcpayserver",
-          "docuseal",
           "filebrowser",
-          "garage",
-          "ghost",
           "gitea",
           "home-assistant",
           "immich",
-          "jellyfin",
           "jitsi",
-          "lnbits",
-          "lnd",
           "mempool",
-          "nextcloud",
-          "nostr-rs-relay",
           "ntfy",
-          "ollama",
-          "open-webui",
-          "primal-web",
           "searxng",
           "simplex",
-          "spliit",
           "start9-pages",
-          "startos-registry",
           "synapse",
           "uptime-kuma",
           "vaultwarden"
@@ -68,15 +73,10 @@
         "label": "Start9 Community",
         "url": "https://community-registry.start9.com/rpc/v0",
         "package_allowlist": [
-          "archivebox",
           "electrs",
           "holesail",
           "ipfs",
-          "minecraft",
-          "my-speed",
-          "openclaw",
-          "phoenixd",
-          "thunderhub"
+          "my-speed"
         ]
       }
     ]
