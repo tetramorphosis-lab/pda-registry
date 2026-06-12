@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-12T21:19:10Z",
+  "generated_at": "2026-06-12T23:53:18Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -35,7 +35,6 @@
     "prefer_local_package_ids": [
       "adguardhome",
       "crowdsec",
-      "freshrss",
       "headscale",
       "moneropay",
       "pairdrop",
@@ -84,8 +83,8 @@
   "packages": [
     {
       "name": "adguardhome",
-      "manifest_version": "0.107.74:0",
-      "registry_version": "0.107.74-0",
+      "manifest_version": "0.107.74:1",
+      "registry_version": "0.107.74-1",
       "description": "AdGuard Home: ad and malware blocking for your whole network and the devices on it.",
       "source_repo": "packages/adguardhome",
       "metadata": "metadata/adguardhome.json",
@@ -98,21 +97,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/adguardhome_x86_64_0.107.74-0.s9pk",
-          "sha256": "9edda67f322778a89463e39ed9a5fb90efa599b375375e6bf250682d774351f7",
-          "size_bytes": 13946500,
-          "merkle_root_sighash": "9ejgLs+nVlU+3N9KkDNtuLcZ4bgKqtmAThzmItSSPuY",
+          "path": "s9pks/adguardhome_x86_64_0.107.74-1.s9pk",
+          "sha256": "21eac0674c8f297afe67265765a42a130066580ba8d53f0df0b212ea0adcecb2",
+          "size_bytes": 13946290,
+          "merkle_root_sighash": "CeIkW8aTYqk8bpmz+SbKCKt+1LFHwgRmbJxospXMDHA",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-adguardhome-0.107.74-0/adguardhome_x86_64_0.107.74-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-adguardhome-0.107.74-1/adguardhome_x86_64_0.107.74-1.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/adguardhome_aarch64_0.107.74-0.s9pk",
-          "sha256": "475d1b88ef06e7b65ea278eaee9a02b461f7d429cd35f5e1e6fc1c7f80116ed1",
-          "size_bytes": 12963463,
-          "merkle_root_sighash": "pJg6cCoOq0pPXPePboKw5pBkOXq7medjJNm/TXpD8IU",
+          "path": "s9pks/adguardhome_aarch64_0.107.74-1.s9pk",
+          "sha256": "3890198aa41f1d7ca6d746702e2893db87df5629f211d804ccc7dba5ab814c73",
+          "size_bytes": 12963253,
+          "merkle_root_sighash": "f7snGUj4O9ReNM7hY4NmVWB7ROF9HlgcORRpbxuEOvw",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-adguardhome-0.107.74-0/adguardhome_aarch64_0.107.74-0.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-adguardhome-0.107.74-1/adguardhome_aarch64_0.107.74-1.s9pk"
         }
       ],
       "lanes": [
@@ -120,7 +119,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.107.74-0",
+      "version": "0.107.74-1",
       "tags": [
         "s9pk",
         "dns",
@@ -130,18 +129,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-adguardhome-0.107.74-0/adguardhome_x86_64_0.107.74-0.s9pk",
-      "sha256": "9edda67f322778a89463e39ed9a5fb90efa599b375375e6bf250682d774351f7",
-      "size_bytes": 13946500,
-      "merkle_root_sighash": "9ejgLs+nVlU+3N9KkDNtuLcZ4bgKqtmAThzmItSSPuY",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-adguardhome-0.107.74-1/adguardhome_x86_64_0.107.74-1.s9pk",
+      "sha256": "21eac0674c8f297afe67265765a42a130066580ba8d53f0df0b212ea0adcecb2",
+      "size_bytes": 13946290,
+      "merkle_root_sighash": "CeIkW8aTYqk8bpmz+SbKCKt+1LFHwgRmbJxospXMDHA",
       "merkle_root_maxsize": 380,
       "license": "GPL-3.0",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
+      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
+      "published_at": "2026-06-12T23:53:18Z",
       "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
+      "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/adguardhome",
-      "release_notes": "Wormhole registry package release 0.107.74:0."
+      "release_notes": "AdGuardHome 0.107.74:1 fixes first-run setup and exports the DNS filtering endpoint so LAN and tailnet clients can use AdGuard Home."
     },
     {
       "name": "crowdsec",
@@ -204,125 +203,9 @@
       "release_notes": "Wormhole registry package release 1.7.8:3."
     },
     {
-      "name": "freshrss",
-      "manifest_version": "0.1.0:1",
-      "registry_version": "0.1.0-1",
-      "description": "FreshRSS: self-hosted blog and RSS reader.",
-      "source_repo": "packages/freshrss",
-      "metadata": "metadata/freshrss.json",
-      "tier": 1,
-      "architectures": [
-        "x86_64",
-        "aarch64"
-      ],
-      "artifacts": [
-        {
-          "arch": "x86_64",
-          "path": "s9pks/freshrss_x86_64_0.1.0-1.s9pk",
-          "sha256": "32abfce3667ab4b044587018f295046976c2b1d786f624ec98804f3aa75ba7de",
-          "size_bytes": 70102627,
-          "merkle_root_sighash": "s2fRqLZ5SjPZ3ReY/nEZ5NvqOsscrlxEk5tMFbqnpJk",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.0-1/freshrss_x86_64_0.1.0-1.s9pk"
-        },
-        {
-          "arch": "aarch64",
-          "path": "s9pks/freshrss_aarch64_0.1.0-1.s9pk",
-          "sha256": "b71308e07be894070c807b78675a9af4f6d554a56aadb1a125c80b27623474ad",
-          "size_bytes": 67858022,
-          "merkle_root_sighash": "D6gXS8E8xm/9KpcOiZ0TcOxZYOQ4FxT+kKP0mpnWl3g",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.0-1/freshrss_aarch64_0.1.0-1.s9pk"
-        }
-      ],
-      "lanes": [
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "version": "0.1.0-1",
-      "tags": [
-        "s9pk",
-        "tier-1",
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.0-1/freshrss_x86_64_0.1.0-1.s9pk",
-      "sha256": "32abfce3667ab4b044587018f295046976c2b1d786f624ec98804f3aa75ba7de",
-      "size_bytes": 70102627,
-      "merkle_root_sighash": "s2fRqLZ5SjPZ3ReY/nEZ5NvqOsscrlxEk5tMFbqnpJk",
-      "merkle_root_maxsize": 380,
-      "license": "AGPL-3.0",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
-      "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
-      "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/freshrss",
-      "release_notes": "Wormhole registry package release 0.1.0:1."
-    },
-    {
-      "name": "freshrss",
-      "manifest_version": "0.1.1:2",
-      "registry_version": "0.1.1-2",
-      "description": "FreshRSS: self-hosted blog and RSS reader.",
-      "source_repo": "packages/freshrss",
-      "metadata": "metadata/freshrss.json",
-      "tier": 1,
-      "architectures": [
-        "x86_64",
-        "aarch64"
-      ],
-      "artifacts": [
-        {
-          "arch": "x86_64",
-          "path": "s9pks/freshrss_x86_64_0.1.1-2.s9pk",
-          "sha256": "29d587738c9cd3f335176ded66316ff8f6c6642d18d326fa1f50d38a484828d0",
-          "size_bytes": 70102838,
-          "merkle_root_sighash": "jUxFWNyVRlVFPWs9G/rPsy/izvru+V3cEoc+p8SzzSg",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-2/freshrss_x86_64_0.1.1-2.s9pk"
-        },
-        {
-          "arch": "aarch64",
-          "path": "s9pks/freshrss_aarch64_0.1.1-2.s9pk",
-          "sha256": "78b974389d7539c7a2b9166edf5ff4e54c5fb2ffc6847b77b713b9c29afd6404",
-          "size_bytes": 67858233,
-          "merkle_root_sighash": "aDVcwcX+CTqcqDjt2pJv2aj+Fyx4pYakegNN3O6Uuv8",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-2/freshrss_aarch64_0.1.1-2.s9pk"
-        }
-      ],
-      "lanes": [
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "version": "0.1.1-2",
-      "tags": [
-        "s9pk",
-        "tier-1",
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-freshrss-0.1.1-2/freshrss_x86_64_0.1.1-2.s9pk",
-      "sha256": "29d587738c9cd3f335176ded66316ff8f6c6642d18d326fa1f50d38a484828d0",
-      "size_bytes": 70102838,
-      "merkle_root_sighash": "jUxFWNyVRlVFPWs9G/rPsy/izvru+V3cEoc+p8SzzSg",
-      "merkle_root_maxsize": 380,
-      "license": "AGPL-3.0",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
-      "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
-      "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/freshrss",
-      "release_notes": "Wormhole registry package release 0.1.1:2."
-    },
-    {
       "name": "headscale",
-      "manifest_version": "0.28.0:3",
-      "registry_version": "0.28.0-3",
+      "manifest_version": "0.28.0:8",
+      "registry_version": "0.28.0-8",
       "description": "Headscale: self-hosted control plane for private encrypted tunnels.",
       "source_repo": "packages/headscale",
       "metadata": "metadata/headscale.json",
@@ -335,21 +218,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/headscale_x86_64_0.28.0-3.s9pk",
-          "sha256": "169bedf02bcb1a30f73bd62ecf785438cacc95a57e480fdf3e607ac7b856637e",
-          "size_bytes": 22258631,
-          "merkle_root_sighash": "vC/K0Ec2hKzJ1hGNvIMVmALoJVXMH2YVs98nmcb+jjU",
+          "path": "s9pks/headscale_x86_64_0.28.0-8.s9pk",
+          "sha256": "5b58f8f710360c5853e7fa7a2cc99c522bbd72107991ed7df294cb020fbe77cf",
+          "size_bytes": 22262907,
+          "merkle_root_sighash": "KNVjNHhkVPxfygazpp2uAYB84GMYy1YUooQIt54axPQ",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-3/headscale_x86_64_0.28.0-3.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-8/headscale_x86_64_0.28.0-8.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/headscale_aarch64_0.28.0-3.s9pk",
-          "sha256": "87e1dada35753101a729fbb0ead78a510add350c0bb067559b09d748d83badbe",
-          "size_bytes": 20198346,
-          "merkle_root_sighash": "i1Y/9G3iF3dfHj4PbopjpLaLrtu5ojUOr78vuAIkE1k",
+          "path": "s9pks/headscale_aarch64_0.28.0-8.s9pk",
+          "sha256": "4f541a0d921727dc13f349df6d8f1d9d5d5f1d3c8e3270944a7febd919010f9c",
+          "size_bytes": 20202622,
+          "merkle_root_sighash": "Rseac2lhcMhMFcJqOTbk7W7VYBQdV6FNymBvDe15I2M",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-3/headscale_aarch64_0.28.0-3.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-8/headscale_aarch64_0.28.0-8.s9pk"
         }
       ],
       "lanes": [
@@ -357,7 +240,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.28.0-3",
+      "version": "0.28.0-8",
       "tags": [
         "s9pk",
         "networking",
@@ -368,18 +251,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-3/headscale_x86_64_0.28.0-3.s9pk",
-      "sha256": "169bedf02bcb1a30f73bd62ecf785438cacc95a57e480fdf3e607ac7b856637e",
-      "size_bytes": 22258631,
-      "merkle_root_sighash": "vC/K0Ec2hKzJ1hGNvIMVmALoJVXMH2YVs98nmcb+jjU",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-8/headscale_x86_64_0.28.0-8.s9pk",
+      "sha256": "5b58f8f710360c5853e7fa7a2cc99c522bbd72107991ed7df294cb020fbe77cf",
+      "size_bytes": 22262907,
+      "merkle_root_sighash": "KNVjNHhkVPxfygazpp2uAYB84GMYy1YUooQIt54axPQ",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
+      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
+      "published_at": "2026-06-12T23:53:18Z",
       "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
+      "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/headscale",
-      "release_notes": "Wormhole registry package release 0.28.0:3."
+      "release_notes": "Headscale 0.28.0:8 exposes the control endpoint as HTTP metadata for local Android pairing tests."
     },
     {
       "name": "moneropay",
