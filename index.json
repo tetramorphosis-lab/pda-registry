@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-12T23:53:18Z",
+  "generated_at": "2026-06-13T11:30:51Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -144,8 +144,8 @@
     },
     {
       "name": "crowdsec",
-      "manifest_version": "1.7.8:3",
-      "registry_version": "1.7.8-3",
+      "manifest_version": "1.7.8:5",
+      "registry_version": "1.7.8-5",
       "description": "CrowdSec: local attack detection for your Wormhole.",
       "source_repo": "packages/crowdsec",
       "metadata": "metadata/crowdsec.json",
@@ -158,21 +158,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/crowdsec_x86_64_1.7.8-3.s9pk",
-          "sha256": "22e0b6a6eecdf586f3276a8c0cb456ec0773b4f0589679228e757e49a925821a",
-          "size_bytes": 111153839,
-          "merkle_root_sighash": "4JEqufqFEI+7DaXIrQsGWWFSS1m2Rg0RMNKOpPE8F8Y",
+          "path": "s9pks/crowdsec_x86_64_1.7.8-5.s9pk",
+          "sha256": "814935d306859eb841f7a117304ffbe1cfae251caaef6f17074adf8a33a60959",
+          "size_bytes": 111153771,
+          "merkle_root_sighash": "zO3Gma0cWpHyOKe3imRLP2Z17QDuodZYr/tN7IpBWZE",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-3/crowdsec_x86_64_1.7.8-3.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-5/crowdsec_x86_64_1.7.8-5.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/crowdsec_aarch64_1.7.8-3.s9pk",
-          "sha256": "41de2a720d90a51739b7fa0ef36da00de0f76bbcee80fb69c25b8e5c41566171",
-          "size_bytes": 99766962,
-          "merkle_root_sighash": "ZgO6nv++9vAE9yVYzcrKaxK31zhci1yoSVicj5htXZ8",
+          "path": "s9pks/crowdsec_aarch64_1.7.8-5.s9pk",
+          "sha256": "4e3ff2d0a99a8d377acec3054e05fe3cc7176e6849d73eff3178957a77a1eda9",
+          "size_bytes": 99766894,
+          "merkle_root_sighash": "yWqXD4+dxEjZ20RWy9tFUwSZKvvHnz3V1+XfnE7DtwQ",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-3/crowdsec_aarch64_1.7.8-3.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-5/crowdsec_aarch64_1.7.8-5.s9pk"
         }
       ],
       "lanes": [
@@ -180,7 +180,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.7.8-3",
+      "version": "1.7.8-5",
       "tags": [
         "s9pk",
         "security",
@@ -189,23 +189,23 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-3/crowdsec_x86_64_1.7.8-3.s9pk",
-      "sha256": "22e0b6a6eecdf586f3276a8c0cb456ec0773b4f0589679228e757e49a925821a",
-      "size_bytes": 111153839,
-      "merkle_root_sighash": "4JEqufqFEI+7DaXIrQsGWWFSS1m2Rg0RMNKOpPE8F8Y",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-5/crowdsec_x86_64_1.7.8-5.s9pk",
+      "sha256": "814935d306859eb841f7a117304ffbe1cfae251caaef6f17074adf8a33a60959",
+      "size_bytes": 111153771,
+      "merkle_root_sighash": "zO3Gma0cWpHyOKe3imRLP2Z17QDuodZYr/tN7IpBWZE",
       "merkle_root_maxsize": 380,
       "license": "MIT",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
+      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
+      "published_at": "2026-06-13T11:30:51Z",
       "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
+      "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/crowdsec",
-      "release_notes": "Wormhole registry package release 1.7.8:3."
+      "release_notes": "CrowdSec 1.7.8:5 adds real local log acquisition for SSH detection smoke tests, removes the placeholder source, and disables offline GeoIP/good-actor enrichers that require unpackaged data."
     },
     {
       "name": "headscale",
-      "manifest_version": "0.28.0:8",
-      "registry_version": "0.28.0-8",
+      "manifest_version": "0.28.0:13",
+      "registry_version": "0.28.0-13",
       "description": "Headscale: self-hosted control plane for private encrypted tunnels.",
       "source_repo": "packages/headscale",
       "metadata": "metadata/headscale.json",
@@ -218,21 +218,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/headscale_x86_64_0.28.0-8.s9pk",
-          "sha256": "5b58f8f710360c5853e7fa7a2cc99c522bbd72107991ed7df294cb020fbe77cf",
-          "size_bytes": 22262907,
-          "merkle_root_sighash": "KNVjNHhkVPxfygazpp2uAYB84GMYy1YUooQIt54axPQ",
+          "path": "s9pks/headscale_x86_64_0.28.0-13.s9pk",
+          "sha256": "3d42c27e2cff42b3279a9ba49488733ae250eed789f09741b85007af83e2f17d",
+          "size_bytes": 22262875,
+          "merkle_root_sighash": "Q6Mn/2p9fjDI6WWD9+jm2bbEiSgpvnEnbGaNtdvtWhk",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-8/headscale_x86_64_0.28.0-8.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-13/headscale_x86_64_0.28.0-13.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/headscale_aarch64_0.28.0-8.s9pk",
-          "sha256": "4f541a0d921727dc13f349df6d8f1d9d5d5f1d3c8e3270944a7febd919010f9c",
-          "size_bytes": 20202622,
-          "merkle_root_sighash": "Rseac2lhcMhMFcJqOTbk7W7VYBQdV6FNymBvDe15I2M",
+          "path": "s9pks/headscale_aarch64_0.28.0-13.s9pk",
+          "sha256": "84e5282de8ad5795812ab75ea22852f48540db0669ee3f28e7565958dde4146e",
+          "size_bytes": 20202590,
+          "merkle_root_sighash": "zSW9mVfHwshFnRNpjHvyhGxiBCKObUprL7mIhCXSdm8",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-8/headscale_aarch64_0.28.0-8.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-13/headscale_aarch64_0.28.0-13.s9pk"
         }
       ],
       "lanes": [
@@ -240,7 +240,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.28.0-8",
+      "version": "0.28.0-13",
       "tags": [
         "s9pk",
         "networking",
@@ -251,18 +251,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-8/headscale_x86_64_0.28.0-8.s9pk",
-      "sha256": "5b58f8f710360c5853e7fa7a2cc99c522bbd72107991ed7df294cb020fbe77cf",
-      "size_bytes": 22262907,
-      "merkle_root_sighash": "KNVjNHhkVPxfygazpp2uAYB84GMYy1YUooQIt54axPQ",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-headscale-0.28.0-13/headscale_x86_64_0.28.0-13.s9pk",
+      "sha256": "3d42c27e2cff42b3279a9ba49488733ae250eed789f09741b85007af83e2f17d",
+      "size_bytes": 22262875,
+      "merkle_root_sighash": "Q6Mn/2p9fjDI6WWD9+jm2bbEiSgpvnEnbGaNtdvtWhk",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-12T23:53:18Z",
+      "published_at": "2026-06-13T01:22:52Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/headscale",
-      "release_notes": "Headscale 0.28.0:8 exposes the control endpoint as HTTP metadata for local Android pairing tests."
+      "release_notes": "Headscale 0.28.0:13 exposes the raw LAN control endpoint on port 8080 and hardens Pair Device for fresh installs."
     },
     {
       "name": "moneropay",
@@ -556,8 +556,8 @@
     },
     {
       "name": "rustdesk-server",
-      "manifest_version": "0.1.0:2",
-      "registry_version": "0.1.0-2",
+      "manifest_version": "0.1.0:4",
+      "registry_version": "0.1.0-4",
       "description": "RustDesk Server OSS: self-hosted ID and relay services for RustDesk remote desktop clients.",
       "source_repo": "packages/rustdesk-server",
       "metadata": "packages/rustdesk-server/package-metadata.json",
@@ -570,21 +570,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/rustdesk-server_x86_64_0.1.0-2.s9pk",
-          "sha256": "4d3273205c7f95bddbb3031bb21312c489bfc8a30332b69491c736cd2be31849",
-          "size_bytes": 5325880,
-          "merkle_root_sighash": "1gtp53apmi9xu9dwTJOTozIh25DH4TeLvJi1MJEMNfM",
+          "path": "s9pks/rustdesk-server_x86_64_0.1.0-4.s9pk",
+          "sha256": "10e9c84ed54523fdac9f03b30550da6a2459f994469ad31d611a46077091c81c",
+          "size_bytes": 5325776,
+          "merkle_root_sighash": "b6DqgBoxE/6HUH9FoeAe21vV+58q7oNPC4OmCKTEs3c",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-2/rustdesk-server_x86_64_0.1.0-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-4/rustdesk-server_x86_64_0.1.0-4.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/rustdesk-server_aarch64_0.1.0-2.s9pk",
-          "sha256": "820ab4734d62131e35de9420c2fbc88b0995248e4ac4898fde318b2186fb4ef7",
-          "size_bytes": 4662331,
-          "merkle_root_sighash": "u17b0Bh3E2Komk0AmRCcvEkJ1uUCQPc9mrB+jYyIltQ",
+          "path": "s9pks/rustdesk-server_aarch64_0.1.0-4.s9pk",
+          "sha256": "07da9d1222d1a5248b6489fb0add41dd0a2a36bef72b4fa4428df436464eb72b",
+          "size_bytes": 4662227,
+          "merkle_root_sighash": "MvxZorVToqap2NgLQK3fEXpgUUqly4JvPaXcfktx998",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-2/rustdesk-server_aarch64_0.1.0-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-4/rustdesk-server_aarch64_0.1.0-4.s9pk"
         }
       ],
       "lanes": [
@@ -592,7 +592,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-2",
+      "version": "0.1.0-4",
       "tags": [
         "s9pk",
         "remote-desktop",
@@ -603,18 +603,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-2/rustdesk-server_x86_64_0.1.0-2.s9pk",
-      "sha256": "4d3273205c7f95bddbb3031bb21312c489bfc8a30332b69491c736cd2be31849",
-      "size_bytes": 5325880,
-      "merkle_root_sighash": "1gtp53apmi9xu9dwTJOTozIh25DH4TeLvJi1MJEMNfM",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-4/rustdesk-server_x86_64_0.1.0-4.s9pk",
+      "sha256": "10e9c84ed54523fdac9f03b30550da6a2459f994469ad31d611a46077091c81c",
+      "size_bytes": 5325776,
+      "merkle_root_sighash": "b6DqgBoxE/6HUH9FoeAe21vV+58q7oNPC4OmCKTEs3c",
       "merkle_root_maxsize": 380,
       "license": "AGPL-3.0",
-      "git_hash": "ab621db8185ed6462b3034acdc82cc413ac826c1-modified",
-      "published_at": "2026-06-12T14:30:00Z",
+      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
+      "published_at": "2026-06-13T11:30:51Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/rustdesk-server",
-      "release_notes": "RustDesk Server wrapper release 0.1.0:2. Adds minimal account files required by upstream RustDesk binaries on StartOS and exposes raw TCP RustDesk interfaces. UDP 21116 remains a release-gate item for full client proof."
+      "release_notes": "RustDesk Server 0.1.0:4 clarifies that raw hbbs 21116 carries TCP and UDP, and pairs with DNAT-counter smoke proof for UDP 21116."
     },
     {
       "name": "tailscale",
