@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-13T12:20:00Z",
+  "generated_at": "2026-06-13T13:15:00Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -558,8 +558,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:12",
-      "registry_version": "1.84.0-12",
+      "manifest_version": "1.84.0:13",
+      "registry_version": "1.84.0-13",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -572,21 +572,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-12.s9pk",
-          "sha256": "699e67987632eeefe2598e183d367c46a8b1b273e93c89c3eee0785442bc0acc",
-          "size_bytes": 46113752,
-          "merkle_root_sighash": "cN5HscZSTlLTXBKaDkkRJBbte3q2XbdpIZNzbLLzbpE",
+          "path": "s9pks/tailscale_x86_64_1.84.0-13.s9pk",
+          "sha256": "82944f47594d26785cbd55bccb90c9f5cc28dd02fda39fb9bd653c9a1cfb0323",
+          "size_bytes": 46117848,
+          "merkle_root_sighash": "pk1vhg3fQXYfi/U5QbF6gVO+pF2YXrzWtkleRAf16qg",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-12/tailscale_x86_64_1.84.0-12.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-13/tailscale_x86_64_1.84.0-13.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-12.s9pk",
-          "sha256": "62e1a8c95c2b008339d14a7863faf4d9530e514f34862d25fc26a65009a48d30",
-          "size_bytes": 42832859,
-          "merkle_root_sighash": "H8BwTOsA89KuwNv2xczLHz8MbvpgivzDfCNFS1batiQ",
+          "path": "s9pks/tailscale_aarch64_1.84.0-13.s9pk",
+          "sha256": "982c5bf67c1a9c3a2079fb43c900d5ebe73487924e553f2e339e74a09955267a",
+          "size_bytes": 42836955,
+          "merkle_root_sighash": "/OAjyoum7mwNP8FQdqsV3fBNqR4I54o50e3zBHB0PQk",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-12/tailscale_aarch64_1.84.0-12.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-13/tailscale_aarch64_1.84.0-13.s9pk"
         }
       ],
       "lanes": [
@@ -594,7 +594,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-12",
+      "version": "1.84.0-13",
       "tags": [
         "s9pk",
         "vpn",
@@ -604,18 +604,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-12/tailscale_x86_64_1.84.0-12.s9pk",
-      "sha256": "699e67987632eeefe2598e183d367c46a8b1b273e93c89c3eee0785442bc0acc",
-      "size_bytes": 46113752,
-      "merkle_root_sighash": "cN5HscZSTlLTXBKaDkkRJBbte3q2XbdpIZNzbLLzbpE",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-13/tailscale_x86_64_1.84.0-13.s9pk",
+      "sha256": "82944f47594d26785cbd55bccb90c9f5cc28dd02fda39fb9bd653c9a1cfb0323",
+      "size_bytes": 46117848,
+      "merkle_root_sighash": "pk1vhg3fQXYfi/U5QbF6gVO+pF2YXrzWtkleRAf16qg",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-12T21:19:10Z",
+      "published_at": "2026-06-13T13:15:00Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:12 resyncs Tailnet service URL routes on startup and keeps Headscale-backed service links on private HTTP until a trusted TLS layer is added."
+      "release_notes": "Tailscale 1.84.0:13 fixes Headscale-backed service links by separating Tailscale Serve ports from local proxy ports and terminating StartOS backend TLS in the route proxy."
     },
     {
       "name": "video-bot",
