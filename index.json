@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-13T13:15:00Z",
+  "generated_at": "2026-06-13T20:22:14Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -264,64 +264,6 @@
     },
     {
       "name": "pairdrop",
-      "manifest_version": "0.1.0:1",
-      "registry_version": "0.1.0-1",
-      "description": "PairDrop: local file sharing between your devices.",
-      "source_repo": "packages/pairdrop",
-      "metadata": "metadata/pairdrop.json",
-      "tier": 1,
-      "architectures": [
-        "x86_64",
-        "aarch64"
-      ],
-      "artifacts": [
-        {
-          "arch": "x86_64",
-          "path": "s9pks/pairdrop_x86_64_0.1.0-1.s9pk",
-          "sha256": "71167913c671fed819b83df461cbd1d4a44f0c3a69b37ccb68aaf815a1ad9404",
-          "size_bytes": 44926431,
-          "merkle_root_sighash": "rq3Ak4DbrMNUVN7pRz+jkfdbdG9VTYxiLRsX2Q/J2A4",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.0-1/pairdrop_x86_64_0.1.0-1.s9pk"
-        },
-        {
-          "arch": "aarch64",
-          "path": "s9pks/pairdrop_aarch64_0.1.0-1.s9pk",
-          "sha256": "16f8a04635ac1e4601864918596295b4523ed68a4e37a52cce0d3694bbd8596f",
-          "size_bytes": 43816418,
-          "merkle_root_sighash": "00pzaqA182YDvX+2Mc7jCjsaMs/WGXu1VmOmKdfb5Zo",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.0-1/pairdrop_aarch64_0.1.0-1.s9pk"
-        }
-      ],
-      "lanes": [
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "version": "0.1.0-1",
-      "tags": [
-        "s9pk",
-        "tier-1",
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-0.1.0-1/pairdrop_x86_64_0.1.0-1.s9pk",
-      "sha256": "71167913c671fed819b83df461cbd1d4a44f0c3a69b37ccb68aaf815a1ad9404",
-      "size_bytes": 44926431,
-      "merkle_root_sighash": "rq3Ak4DbrMNUVN7pRz+jkfdbdG9VTYxiLRsX2Q/J2A4",
-      "merkle_root_maxsize": 380,
-      "license": "GPL-3.0",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
-      "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
-      "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/pairdrop",
-      "release_notes": "Wormhole registry package release 0.1.0:1."
-    },
-    {
-      "name": "pairdrop",
       "manifest_version": "0.1.1:1",
       "registry_version": "0.1.1-1",
       "description": "PairDrop: local file sharing between your devices.",
@@ -377,64 +319,6 @@
       "os_version": "0.4.0-alpha.23",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/pairdrop",
       "release_notes": "Wormhole registry package release 0.1.1:1."
-    },
-    {
-      "name": "privatebin",
-      "manifest_version": "0.1.0:1",
-      "registry_version": "0.1.0-1",
-      "description": "Zero-knowledge encrypted pastebin with a routed web UI.",
-      "source_repo": "packages/privatebin",
-      "metadata": "metadata/privatebin.json",
-      "tier": 1,
-      "architectures": [
-        "x86_64",
-        "aarch64"
-      ],
-      "artifacts": [
-        {
-          "arch": "x86_64",
-          "path": "s9pks/privatebin_x86_64_0.1.0-1.s9pk",
-          "sha256": "3823723771b91fbcfa3422385b9637c1fbe6d59ac80cfae415e427474a9aa78d",
-          "size_bytes": 33738006,
-          "merkle_root_sighash": "/Q/fChglQw+p+vWWLkLgmcPgpenaidlJsMWhO3eJnlI",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.0-1/privatebin_x86_64_0.1.0-1.s9pk"
-        },
-        {
-          "arch": "aarch64",
-          "path": "s9pks/privatebin_aarch64_0.1.0-1.s9pk",
-          "sha256": "92e2eaeb0619785b53e4c9fa32a76b74a9200d5f74537497b4492791eb2ba96d",
-          "size_bytes": 32308505,
-          "merkle_root_sighash": "+W6Bt14qBcAS9G2X/asFfmVG7NkvBl/id7krYFUL36o",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.0-1/privatebin_aarch64_0.1.0-1.s9pk"
-        }
-      ],
-      "lanes": [
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "version": "0.1.0-1",
-      "tags": [
-        "s9pk",
-        "tier-1",
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-privatebin-0.1.0-1/privatebin_x86_64_0.1.0-1.s9pk",
-      "sha256": "3823723771b91fbcfa3422385b9637c1fbe6d59ac80cfae415e427474a9aa78d",
-      "size_bytes": 33738006,
-      "merkle_root_sighash": "/Q/fChglQw+p+vWWLkLgmcPgpenaidlJsMWhO3eJnlI",
-      "merkle_root_maxsize": 380,
-      "license": "Zlib",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
-      "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
-      "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/privatebin",
-      "release_notes": "Wormhole registry package release 0.1.0:1."
     },
     {
       "name": "privatebin",
