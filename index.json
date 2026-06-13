@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-13T11:30:51Z",
+  "generated_at": "2026-06-13T12:20:00Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -9,6 +9,7 @@
       "actual-budget",
       "archivebox",
       "bitcoind",
+      "crowdsec",
       "docuseal",
       "garage",
       "ghost",
@@ -34,7 +35,6 @@
     ],
     "prefer_local_package_ids": [
       "adguardhome",
-      "crowdsec",
       "headscale",
       "moneropay",
       "pairdrop",
@@ -141,66 +141,6 @@
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/adguardhome",
       "release_notes": "AdGuardHome 0.107.74:1 fixes first-run setup and exports the DNS filtering endpoint so LAN and tailnet clients can use AdGuard Home."
-    },
-    {
-      "name": "crowdsec",
-      "manifest_version": "1.7.8:5",
-      "registry_version": "1.7.8-5",
-      "description": "CrowdSec: local attack detection for your Wormhole.",
-      "source_repo": "packages/crowdsec",
-      "metadata": "metadata/crowdsec.json",
-      "tier": 1,
-      "upstream": "https://github.com/crowdsecurity/crowdsec",
-      "architectures": [
-        "x86_64",
-        "aarch64"
-      ],
-      "artifacts": [
-        {
-          "arch": "x86_64",
-          "path": "s9pks/crowdsec_x86_64_1.7.8-5.s9pk",
-          "sha256": "814935d306859eb841f7a117304ffbe1cfae251caaef6f17074adf8a33a60959",
-          "size_bytes": 111153771,
-          "merkle_root_sighash": "zO3Gma0cWpHyOKe3imRLP2Z17QDuodZYr/tN7IpBWZE",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-5/crowdsec_x86_64_1.7.8-5.s9pk"
-        },
-        {
-          "arch": "aarch64",
-          "path": "s9pks/crowdsec_aarch64_1.7.8-5.s9pk",
-          "sha256": "4e3ff2d0a99a8d377acec3054e05fe3cc7176e6849d73eff3178957a77a1eda9",
-          "size_bytes": 99766894,
-          "merkle_root_sighash": "yWqXD4+dxEjZ20RWy9tFUwSZKvvHnz3V1+XfnE7DtwQ",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-5/crowdsec_aarch64_1.7.8-5.s9pk"
-        }
-      ],
-      "lanes": [
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "version": "1.7.8-5",
-      "tags": [
-        "s9pk",
-        "security",
-        "tier-1",
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-crowdsec-1.7.8-5/crowdsec_x86_64_1.7.8-5.s9pk",
-      "sha256": "814935d306859eb841f7a117304ffbe1cfae251caaef6f17074adf8a33a60959",
-      "size_bytes": 111153771,
-      "merkle_root_sighash": "zO3Gma0cWpHyOKe3imRLP2Z17QDuodZYr/tN7IpBWZE",
-      "merkle_root_maxsize": 380,
-      "license": "MIT",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-13T11:30:51Z",
-      "sdk_version": "1.3.2",
-      "os_version": "0.4.0-beta.6",
-      "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/crowdsec",
-      "release_notes": "CrowdSec 1.7.8:5 adds real local log acquisition for SSH detection smoke tests, removes the placeholder source, and disables offline GeoIP/good-actor enrichers that require unpackaged data."
     },
     {
       "name": "headscale",
