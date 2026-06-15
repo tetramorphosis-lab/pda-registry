@@ -564,9 +564,9 @@
     },
     {
       "name": "wormhole-launcher",
-      "manifest_version": "0.1.0:5",
-      "registry_version": "0.1.0-5",
-      "description": "Wormhole Launcher - one screen for every local Wormhole workflow.",
+      "manifest_version": "0.1.0:9",
+      "registry_version": "0.1.0-9",
+      "description": "Wormhole Launcher - minimal local setup pages.",
       "source_repo": "packages/wormhole-launcher",
       "metadata": "metadata/wormhole-launcher.json",
       "tier": 1,
@@ -578,21 +578,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-5.s9pk",
-          "sha256": "6c7095168d15803845ac55fc20e052533878e4dc61bc0d764ed4107b1d9e7de5",
-          "size_bytes": 3785949,
-          "merkle_root_sighash": "froMihRI7pi4X9Ph+RhDSUNM6s2JBcul/sR5U5BOyhY",
+          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-9.s9pk",
+          "sha256": "d3c352cd6e50be8a0f7aa41cebf60f29643e438b56ec5775ce43b9b89a2469b7",
+          "size_bytes": 3781461,
+          "merkle_root_sighash": "ykZP1NRolpt0r3/wZgTAonIXOkvEkW4DBYz+WduSqlU",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-5/wormhole-launcher_x86_64_0.1.0-5.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-9/wormhole-launcher_x86_64_0.1.0-9.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-5.s9pk",
-          "sha256": "b9c3a32b120ff0aef8c766072c55eb7014f04b0588496c183b498d33daffcfec",
-          "size_bytes": 3986656,
-          "merkle_root_sighash": "TwNr//VhOyfb3bXVP5Nf8uhn7fb+QUM/wYbidJ8cmXY",
+          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-9.s9pk",
+          "sha256": "1a229c9cfd586b91f60d1727c8ab5ccf147f16e775b417eb57f33d161efd397d",
+          "size_bytes": 3982168,
+          "merkle_root_sighash": "u9Ga3gedTUVY3NWk9GgfGFwaJDSXuHD9C6GvSPaTOxM",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-5/wormhole-launcher_aarch64_0.1.0-5.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-9/wormhole-launcher_aarch64_0.1.0-9.s9pk"
         }
       ],
       "lanes": [
@@ -600,7 +600,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-5",
+      "version": "0.1.0-9",
       "tags": [
         "s9pk",
         "launcher",
@@ -610,18 +610,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-5/wormhole-launcher_x86_64_0.1.0-5.s9pk",
-      "sha256": "6c7095168d15803845ac55fc20e052533878e4dc61bc0d764ed4107b1d9e7de5",
-      "size_bytes": 3785949,
-      "merkle_root_sighash": "froMihRI7pi4X9Ph+RhDSUNM6s2JBcul/sR5U5BOyhY",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-9/wormhole-launcher_x86_64_0.1.0-9.s9pk",
+      "sha256": "d3c352cd6e50be8a0f7aa41cebf60f29643e438b56ec5775ce43b9b89a2469b7",
+      "size_bytes": 3781461,
+      "merkle_root_sighash": "ykZP1NRolpt0r3/wZgTAonIXOkvEkW4DBYz+WduSqlU",
       "merkle_root_maxsize": 380,
       "license": "MIT",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24",
-      "published_at": "2026-05-22T05:18:00Z",
+      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
+      "published_at": "2026-06-15T09:49:03Z",
       "sdk_version": "1.3.2",
-      "os_version": "0.4.0-alpha.23",
+      "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/wormhole-launcher",
-      "release_notes": "Wormhole registry package release 0.1.0:5."
+      "release_notes": "pda9: reduce the launcher to the minimal live setup pages and correct the kit inventory to Wormhole, Dark Pixel, Mudi, and Nitrokey."
     }
   ]
 }
