@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-15T05:15:00Z",
+  "generated_at": "2026-06-15T12:00:00Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
