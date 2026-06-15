@@ -384,8 +384,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:16",
-      "registry_version": "1.84.0-16",
+      "manifest_version": "1.84.0:17",
+      "registry_version": "1.84.0-17",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -398,21 +398,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-16.s9pk",
-          "sha256": "03cfa9f9ecf97ee6288502e300d592db89c7a7a9f302c82dbcb7ec592980c4ab",
-          "size_bytes": 46117864,
-          "merkle_root_sighash": "LV9H0bOUCOQw9A2CQkALNJ1nejrwvxYLLeLZKUho63c",
+          "path": "s9pks/tailscale_x86_64_1.84.0-17.s9pk",
+          "sha256": "4c648dee0805a5a4e1a1166a147383c0ee81c165363db5d2845f8fcf563dc10b",
+          "size_bytes": 46121940,
+          "merkle_root_sighash": "gu3ZfZGesL0Z+PWeNtHG7RbC3aRPRvQB/5qdX7jBTng",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-16/tailscale_x86_64_1.84.0-16.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-17/tailscale_x86_64_1.84.0-17.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-16.s9pk",
-          "sha256": "f5a602411e923581a669a2603210b9e4637d5ab292ccddbb7eebbccb5d19f8bd",
-          "size_bytes": 42836971,
-          "merkle_root_sighash": "nyccdbDQTVNfQzNuJJjOFIS6dh66GtTzGdm/lsOWAIc",
+          "path": "s9pks/tailscale_aarch64_1.84.0-17.s9pk",
+          "sha256": "fa2890b01ec9c3ae4a8fc1abe00bbae4710e267fc21504efd1ec5d7b785f95ee",
+          "size_bytes": 42841047,
+          "merkle_root_sighash": "1NaK0j0Ux0dJ6/f8uSURKGlbs3f8v7Mg/NlksgdBWp0",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-16/tailscale_aarch64_1.84.0-16.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-17/tailscale_aarch64_1.84.0-17.s9pk"
         }
       ],
       "lanes": [
@@ -420,7 +420,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-16",
+      "version": "1.84.0-17",
       "tags": [
         "s9pk",
         "vpn",
@@ -430,18 +430,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-16/tailscale_x86_64_1.84.0-16.s9pk",
-      "sha256": "03cfa9f9ecf97ee6288502e300d592db89c7a7a9f302c82dbcb7ec592980c4ab",
-      "size_bytes": 46117864,
-      "merkle_root_sighash": "LV9H0bOUCOQw9A2CQkALNJ1nejrwvxYLLeLZKUho63c",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-17/tailscale_x86_64_1.84.0-17.s9pk",
+      "sha256": "4c648dee0805a5a4e1a1166a147383c0ee81c165363db5d2845f8fcf563dc10b",
+      "size_bytes": 46121940,
+      "merkle_root_sighash": "gu3ZfZGesL0Z+PWeNtHG7RbC3aRPRvQB/5qdX7jBTng",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-15T05:35:00Z",
+      "published_at": "2026-06-15T09:35:00Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:16 refuses invalid container-host Tailnet URLs, clears stale dead URL rows when the tailnet is not joined, and reports a clear setup message instead of a raw RPC error."
+      "release_notes": "Tailscale 1.84.0:17 adds Configure Headscale Login so operators can store the Headscale control URL and pairing key through StartOS before restarting Tailscale."
     },
     {
       "name": "video-bot",
