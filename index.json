@@ -380,8 +380,8 @@
     },
     {
       "name": "rustdesk-server",
-      "manifest_version": "0.1.0:4",
-      "registry_version": "0.1.0-4",
+      "manifest_version": "0.1.0:5",
+      "registry_version": "0.1.0-5",
       "description": "RustDesk Server OSS: self-hosted ID and relay services for RustDesk remote desktop clients.",
       "source_repo": "packages/rustdesk-server",
       "metadata": "packages/rustdesk-server/package-metadata.json",
@@ -394,21 +394,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/rustdesk-server_x86_64_0.1.0-4.s9pk",
-          "sha256": "10e9c84ed54523fdac9f03b30550da6a2459f994469ad31d611a46077091c81c",
-          "size_bytes": 5325776,
-          "merkle_root_sighash": "b6DqgBoxE/6HUH9FoeAe21vV+58q7oNPC4OmCKTEs3c",
+          "path": "s9pks/rustdesk-server_x86_64_0.1.0-5.s9pk",
+          "sha256": "e6dbb7001008414127e439b6dfe824a41454a6162b4699f28997da9d61c5a61b",
+          "size_bytes": 5326478,
+          "merkle_root_sighash": "Sxd/hK6/A94qpW6swufnC8qfY6IPlJH1+8CS+kgzR8M",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-4/rustdesk-server_x86_64_0.1.0-4.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-5/rustdesk-server_x86_64_0.1.0-5.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/rustdesk-server_aarch64_0.1.0-4.s9pk",
-          "sha256": "07da9d1222d1a5248b6489fb0add41dd0a2a36bef72b4fa4428df436464eb72b",
-          "size_bytes": 4662227,
-          "merkle_root_sighash": "MvxZorVToqap2NgLQK3fEXpgUUqly4JvPaXcfktx998",
+          "path": "s9pks/rustdesk-server_aarch64_0.1.0-5.s9pk",
+          "sha256": "48a1d60185ae63102857c62323e37c9a49ffe796ed086dc037a8b0129e1f681d",
+          "size_bytes": 4662929,
+          "merkle_root_sighash": "SVowu4rNYcQFTGisAPv1B/R5uaB8op3CudthyEfYAN4",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-4/rustdesk-server_aarch64_0.1.0-4.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-5/rustdesk-server_aarch64_0.1.0-5.s9pk"
         }
       ],
       "lanes": [
@@ -416,7 +416,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-4",
+      "version": "0.1.0-5",
       "tags": [
         "s9pk",
         "remote-desktop",
@@ -427,18 +427,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-4/rustdesk-server_x86_64_0.1.0-4.s9pk",
-      "sha256": "10e9c84ed54523fdac9f03b30550da6a2459f994469ad31d611a46077091c81c",
-      "size_bytes": 5325776,
-      "merkle_root_sighash": "b6DqgBoxE/6HUH9FoeAe21vV+58q7oNPC4OmCKTEs3c",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-rustdesk-server-0.1.0-5/rustdesk-server_x86_64_0.1.0-5.s9pk",
+      "sha256": "e6dbb7001008414127e439b6dfe824a41454a6162b4699f28997da9d61c5a61b",
+      "size_bytes": 5326478,
+      "merkle_root_sighash": "Sxd/hK6/A94qpW6swufnC8qfY6IPlJH1+8CS+kgzR8M",
       "merkle_root_maxsize": 380,
       "license": "AGPL-3.0",
       "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-13T11:30:51Z",
+      "published_at": "2026-06-15T00:00:00Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/rustdesk-server",
-      "release_notes": "RustDesk Server 0.1.0:4 clarifies that raw hbbs 21116 carries TCP and UDP, and pairs with DNAT-counter smoke proof for UDP 21116."
+      "release_notes": "RustDesk Server 0.1.0:5 restores the upstream RustDesk logo as the package icon while retaining the raw TCP/UDP interface smoke coverage from 0.1.0:4."
     },
     {
       "name": "tailscale",
