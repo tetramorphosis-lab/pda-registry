@@ -326,8 +326,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:17",
-      "registry_version": "1.84.0-17",
+      "manifest_version": "1.84.0:18",
+      "registry_version": "1.84.0-18",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -340,21 +340,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-17.s9pk",
-          "sha256": "4c648dee0805a5a4e1a1166a147383c0ee81c165363db5d2845f8fcf563dc10b",
-          "size_bytes": 46121940,
-          "merkle_root_sighash": "gu3ZfZGesL0Z+PWeNtHG7RbC3aRPRvQB/5qdX7jBTng",
+          "path": "s9pks/tailscale_x86_64_1.84.0-18.s9pk",
+          "sha256": "18057ffe922a17dd4e4d6289f5a26a53799a7633fdf8c0f3516ac862400013a6",
+          "size_bytes": 46121996,
+          "merkle_root_sighash": "jm+imIRqw1w0Mb/ljtU8i7wk+mWdbWvxAAYX5JmFEg8",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-17/tailscale_x86_64_1.84.0-17.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-18/tailscale_x86_64_1.84.0-18.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-17.s9pk",
-          "sha256": "fa2890b01ec9c3ae4a8fc1abe00bbae4710e267fc21504efd1ec5d7b785f95ee",
-          "size_bytes": 42841047,
-          "merkle_root_sighash": "1NaK0j0Ux0dJ6/f8uSURKGlbs3f8v7Mg/NlksgdBWp0",
+          "path": "s9pks/tailscale_aarch64_1.84.0-18.s9pk",
+          "sha256": "9880d69b2921419871796f6305374e041aea00eee78c514f678111b5accb6eac",
+          "size_bytes": 42841103,
+          "merkle_root_sighash": "Iq6+wZbpnqAEnJFa6GDvnNyq+J8uZ6Mh1qlvYB8K5V4",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-17/tailscale_aarch64_1.84.0-17.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-18/tailscale_aarch64_1.84.0-18.s9pk"
         }
       ],
       "lanes": [
@@ -362,7 +362,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-17",
+      "version": "1.84.0-18",
       "tags": [
         "s9pk",
         "vpn",
@@ -372,18 +372,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-17/tailscale_x86_64_1.84.0-17.s9pk",
-      "sha256": "4c648dee0805a5a4e1a1166a147383c0ee81c165363db5d2845f8fcf563dc10b",
-      "size_bytes": 46121940,
-      "merkle_root_sighash": "gu3ZfZGesL0Z+PWeNtHG7RbC3aRPRvQB/5qdX7jBTng",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-18/tailscale_x86_64_1.84.0-18.s9pk",
+      "sha256": "18057ffe922a17dd4e4d6289f5a26a53799a7633fdf8c0f3516ac862400013a6",
+      "size_bytes": 46121996,
+      "merkle_root_sighash": "jm+imIRqw1w0Mb/ljtU8i7wk+mWdbWvxAAYX5JmFEg8",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-15T09:35:00Z",
+      "published_at": "2026-06-17T12:55:00Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:17 adds Configure Headscale Login so operators can store the Headscale control URL and pairing key through StartOS before restarting Tailscale."
+      "release_notes": "Tailscale 1.84.0:18 applies Tailnet URL Serve routes from add/remove/refresh actions, keeps Headscale login support, rejects stale container-host URLs, and tells operators that new HTTPS Tailnet URLs can take up to 60 seconds while Tailscale prepares certificates."
     },
     {
       "name": "wireguard",
