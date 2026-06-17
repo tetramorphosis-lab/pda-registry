@@ -326,8 +326,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:20",
-      "registry_version": "1.84.0-20",
+      "manifest_version": "1.84.0:21",
+      "registry_version": "1.84.0-21",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -340,21 +340,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-20.s9pk",
-          "sha256": "9b3b4cd4911554b16c3d539bb50a9bf135d06078e5c503d093446e8492e9f233",
-          "size_bytes": 46121848,
-          "merkle_root_sighash": "Jd2IN68YdjydP+Q6vXSpWOEdY52LZE7d5+YcyM+1mCk",
+          "path": "s9pks/tailscale_x86_64_1.84.0-21.s9pk",
+          "sha256": "e20e67769124c7d8ebb338e7624d2d3ce832ece6137c287627e098b3b4174f4b",
+          "size_bytes": 46121867,
+          "merkle_root_sighash": "UBnGR1cfDxULi58yYP1LTfAOlYPNNjIYRn62+QFVCog",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-20/tailscale_x86_64_1.84.0-20.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-21/tailscale_x86_64_1.84.0-21.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-20.s9pk",
-          "sha256": "3aa943fc92b0fa81799f5564f98737965a4c1883b674d579897a1f9389c61eb8",
-          "size_bytes": 42840955,
-          "merkle_root_sighash": "yCW35T4fl3qJJpj4jeLg5qtbXboADSGgS0kRNgDqA8k",
+          "path": "s9pks/tailscale_aarch64_1.84.0-21.s9pk",
+          "sha256": "5ed9da935a33eff08f8525c77106311d60098612961383d6bec326fbe02d195b",
+          "size_bytes": 42840974,
+          "merkle_root_sighash": "33gDGzun0azJwdLZrwBhqUjGcover0L/jJ4m88Tg2U4",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-20/tailscale_aarch64_1.84.0-20.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-21/tailscale_aarch64_1.84.0-21.s9pk"
         }
       ],
       "lanes": [
@@ -362,7 +362,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-20",
+      "version": "1.84.0-21",
       "tags": [
         "s9pk",
         "vpn",
@@ -372,18 +372,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-20/tailscale_x86_64_1.84.0-20.s9pk",
-      "sha256": "9b3b4cd4911554b16c3d539bb50a9bf135d06078e5c503d093446e8492e9f233",
-      "size_bytes": 46121848,
-      "merkle_root_sighash": "Jd2IN68YdjydP+Q6vXSpWOEdY52LZE7d5+YcyM+1mCk",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-21/tailscale_x86_64_1.84.0-21.s9pk",
+      "sha256": "e20e67769124c7d8ebb338e7624d2d3ce832ece6137c287627e098b3b4174f4b",
+      "size_bytes": 46121867,
+      "merkle_root_sighash": "UBnGR1cfDxULi58yYP1LTfAOlYPNNjIYRn62+QFVCog",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-17T15:25:18Z",
+      "published_at": "2026-06-17T15:53:31Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:20 clarifies normal Tailscale versus Wormhole Headscale onboarding, adds a return-to-normal-Tailscale action, clears stale Headscale state when switching control planes, and keeps automatic service Tailnet URL routing."
+      "release_notes": "Tailscale 1.84.0:21 makes unsupported interface Tailnet URL attempts self-correcting by returning the existing service web Tailnet URL when one exists, such as Jitsi UI when the TURN row was clicked."
     },
     {
       "name": "wireguard",
