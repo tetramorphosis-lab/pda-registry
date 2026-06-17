@@ -326,8 +326,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:21",
-      "registry_version": "1.84.0-21",
+      "manifest_version": "1.84.0:22",
+      "registry_version": "1.84.0-22",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -340,21 +340,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-21.s9pk",
-          "sha256": "e20e67769124c7d8ebb338e7624d2d3ce832ece6137c287627e098b3b4174f4b",
-          "size_bytes": 46121867,
-          "merkle_root_sighash": "UBnGR1cfDxULi58yYP1LTfAOlYPNNjIYRn62+QFVCog",
+          "path": "s9pks/tailscale_x86_64_1.84.0-22.s9pk",
+          "sha256": "a0f8aa4cd894677f5f506091c5d657cff21f0962f74f27db9507ca9cb6901b3e",
+          "size_bytes": 46121849,
+          "merkle_root_sighash": "S49uNlBL0A1kaJ/hc0fFSQ0aoza/Tzd6PdXR7rg0qzA",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-21/tailscale_x86_64_1.84.0-21.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-22/tailscale_x86_64_1.84.0-22.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-21.s9pk",
-          "sha256": "5ed9da935a33eff08f8525c77106311d60098612961383d6bec326fbe02d195b",
-          "size_bytes": 42840974,
-          "merkle_root_sighash": "33gDGzun0azJwdLZrwBhqUjGcover0L/jJ4m88Tg2U4",
+          "path": "s9pks/tailscale_aarch64_1.84.0-22.s9pk",
+          "sha256": "af4506530d86de000ae4195641db03246e35f53820c4537c19df958131f80f68",
+          "size_bytes": 42840956,
+          "merkle_root_sighash": "HNHKCBlY1ohn9W6qYZtuxB2TTe80i0mDaZF+2Gp/2AI",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-21/tailscale_aarch64_1.84.0-21.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-22/tailscale_aarch64_1.84.0-22.s9pk"
         }
       ],
       "lanes": [
@@ -362,7 +362,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-21",
+      "version": "1.84.0-22",
       "tags": [
         "s9pk",
         "vpn",
@@ -372,18 +372,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-21/tailscale_x86_64_1.84.0-21.s9pk",
-      "sha256": "e20e67769124c7d8ebb338e7624d2d3ce832ece6137c287627e098b3b4174f4b",
-      "size_bytes": 46121867,
-      "merkle_root_sighash": "UBnGR1cfDxULi58yYP1LTfAOlYPNNjIYRn62+QFVCog",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-22/tailscale_x86_64_1.84.0-22.s9pk",
+      "sha256": "a0f8aa4cd894677f5f506091c5d657cff21f0962f74f27db9507ca9cb6901b3e",
+      "size_bytes": 46121849,
+      "merkle_root_sighash": "S49uNlBL0A1kaJ/hc0fFSQ0aoza/Tzd6PdXR7rg0qzA",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-17T15:53:31Z",
+      "published_at": "2026-06-17T19:55:31Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:21 makes unsupported interface Tailnet URL attempts self-correcting by returning the existing service web Tailnet URL when one exists, such as Jitsi UI when the TURN row was clicked."
+      "release_notes": "Tailscale 1.84.0:22 keeps Tailnet URL exports resilient when one stored route points at a stale binding, and aliases Jitsi non-web rows such as TURN back to the working Jitsi web URL."
     },
     {
       "name": "wireguard",
