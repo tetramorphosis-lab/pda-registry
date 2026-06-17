@@ -326,8 +326,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:18",
-      "registry_version": "1.84.0-18",
+      "manifest_version": "1.84.0:19",
+      "registry_version": "1.84.0-19",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -340,21 +340,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-18.s9pk",
-          "sha256": "18057ffe922a17dd4e4d6289f5a26a53799a7633fdf8c0f3516ac862400013a6",
-          "size_bytes": 46121996,
-          "merkle_root_sighash": "jm+imIRqw1w0Mb/ljtU8i7wk+mWdbWvxAAYX5JmFEg8",
+          "path": "s9pks/tailscale_x86_64_1.84.0-19.s9pk",
+          "sha256": "b6632d52c8601313e8f1759ed860dcd4a65a3f64d7a3f0e39356cd7f423e29d2",
+          "size_bytes": 46121970,
+          "merkle_root_sighash": "nz3sPMJ0MOKlZNdxah2XzkIvOtvR1zS1chRySmjzs10",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-18/tailscale_x86_64_1.84.0-18.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-19/tailscale_x86_64_1.84.0-19.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-18.s9pk",
-          "sha256": "9880d69b2921419871796f6305374e041aea00eee78c514f678111b5accb6eac",
-          "size_bytes": 42841103,
-          "merkle_root_sighash": "Iq6+wZbpnqAEnJFa6GDvnNyq+J8uZ6Mh1qlvYB8K5V4",
+          "path": "s9pks/tailscale_aarch64_1.84.0-19.s9pk",
+          "sha256": "83d54bed95943813c8e42bb5939ae2ca6db2c4a5bd598b6500ffea1175cd2478",
+          "size_bytes": 42841077,
+          "merkle_root_sighash": "eInfOQmZMghe9BE/jijziViHqKd+JplMCUHSH/FeFAk",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-18/tailscale_aarch64_1.84.0-18.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-19/tailscale_aarch64_1.84.0-19.s9pk"
         }
       ],
       "lanes": [
@@ -362,7 +362,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-18",
+      "version": "1.84.0-19",
       "tags": [
         "s9pk",
         "vpn",
@@ -372,18 +372,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-18/tailscale_x86_64_1.84.0-18.s9pk",
-      "sha256": "18057ffe922a17dd4e4d6289f5a26a53799a7633fdf8c0f3516ac862400013a6",
-      "size_bytes": 46121996,
-      "merkle_root_sighash": "jm+imIRqw1w0Mb/ljtU8i7wk+mWdbWvxAAYX5JmFEg8",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-19/tailscale_x86_64_1.84.0-19.s9pk",
+      "sha256": "b6632d52c8601313e8f1759ed860dcd4a65a3f64d7a3f0e39356cd7f423e29d2",
+      "size_bytes": 46121970,
+      "merkle_root_sighash": "nz3sPMJ0MOKlZNdxah2XzkIvOtvR1zS1chRySmjzs10",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-17T12:55:00Z",
+      "published_at": "2026-06-17T13:17:12Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:18 applies Tailnet URL Serve routes from add/remove/refresh actions, keeps Headscale login support, rejects stale container-host URLs, and tells operators that new HTTPS Tailnet URLs can take up to 60 seconds while Tailscale prepares certificates."
+      "release_notes": "Tailscale 1.84.0:19 adds a Join Existing Tailnet action that shows the Tailscale login link from the StartOS UI, while keeping Headscale login support and automatic Tailnet service URL routing."
     },
     {
       "name": "wireguard",
