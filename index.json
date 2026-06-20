@@ -1,6 +1,6 @@
 {
   "name": "Wormhole",
-  "description": "Wormhole \u2014 StartOS s9pk proof registry for live package testing.",
+  "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
   "generated_at": "2026-06-15T12:00:00Z",
   "schema_version": 2,
   "curated_upstream": {
@@ -326,8 +326,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:22",
-      "registry_version": "1.84.0-22",
+      "manifest_version": "1.84.0:24",
+      "registry_version": "1.84.0-24",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -340,21 +340,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/tailscale_x86_64_1.84.0-22.s9pk",
-          "sha256": "a0f8aa4cd894677f5f506091c5d657cff21f0962f74f27db9507ca9cb6901b3e",
-          "size_bytes": 46121849,
-          "merkle_root_sighash": "S49uNlBL0A1kaJ/hc0fFSQ0aoza/Tzd6PdXR7rg0qzA",
+          "path": "s9pks/tailscale_x86_64_1.84.0-24.s9pk",
+          "sha256": "fc8df7b701fe10417afb215641f8e5e2a65c28d90dacd195c083d3301ea827e3",
+          "size_bytes": 46125933,
+          "merkle_root_sighash": "FBaGD0CoHHSHno5eO3XK2KtgKxldwwiNswTANnetMfY",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-22/tailscale_x86_64_1.84.0-22.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-24/tailscale_x86_64_1.84.0-24.s9pk"
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/tailscale_aarch64_1.84.0-22.s9pk",
-          "sha256": "af4506530d86de000ae4195641db03246e35f53820c4537c19df958131f80f68",
-          "size_bytes": 42840956,
-          "merkle_root_sighash": "HNHKCBlY1ohn9W6qYZtuxB2TTe80i0mDaZF+2Gp/2AI",
+          "path": "s9pks/tailscale_aarch64_1.84.0-24.s9pk",
+          "sha256": "35b2728035637c65c2812f8037f24f2949308d537fdb1c9f8f68a14869fc612b",
+          "size_bytes": 42845040,
+          "merkle_root_sighash": "KQ2hgeYZHbMdL7kXNRWGX6p+IsNmuA4feHxcN8c4Ow0",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-22/tailscale_aarch64_1.84.0-22.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-24/tailscale_aarch64_1.84.0-24.s9pk"
         }
       ],
       "lanes": [
@@ -362,7 +362,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-22",
+      "version": "1.84.0-24",
       "tags": [
         "s9pk",
         "vpn",
@@ -372,18 +372,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-22/tailscale_x86_64_1.84.0-22.s9pk",
-      "sha256": "a0f8aa4cd894677f5f506091c5d657cff21f0962f74f27db9507ca9cb6901b3e",
-      "size_bytes": 46121849,
-      "merkle_root_sighash": "S49uNlBL0A1kaJ/hc0fFSQ0aoza/Tzd6PdXR7rg0qzA",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-24/tailscale_x86_64_1.84.0-24.s9pk",
+      "sha256": "fc8df7b701fe10417afb215641f8e5e2a65c28d90dacd195c083d3301ea827e3",
+      "size_bytes": 46125933,
+      "merkle_root_sighash": "FBaGD0CoHHSHno5eO3XK2KtgKxldwwiNswTANnetMfY",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
-      "git_hash": "1dd71e5dc0d87354c4eb56852b77fcd4b7098e24-modified",
-      "published_at": "2026-06-17T19:55:31Z",
+      "git_hash": "aaa2b6b7cdaf26ab377d688567f03d083c6cfc99-modified",
+      "published_at": "2026-06-20T12:20:33Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:22 keeps Tailnet URL exports resilient when one stored route points at a stale binding, and aliases Jitsi non-web rows such as TURN back to the working Jitsi web URL."
+      "release_notes": "Tailscale 1.84.0:24 adds persistent SimpleX Tailnet TCP server addresses for SMP and XFTP, including the SMP fallback when StartOS does not expose it as a URL interface."
     },
     {
       "name": "wireguard",
