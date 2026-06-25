@@ -326,8 +326,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:26",
-      "registry_version": "1.84.0-26",
+      "manifest_version": "1.84.0:27",
+      "registry_version": "1.84.0-27",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -340,23 +340,23 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "filename": "tailscale_x86_64_1.84.0-26.s9pk",
-          "merkle_root_sighash": "cjKwuXSoSmvK2oQB5Bl9Uh3g3RvVSkG8/TRcq6ovsZo",
-          "merkle_root_maxsize": 380,
-          "sha256": "8702498887a5e439b8576875c945bc0128078ce628cfa37c7cc97dffc802b227",
-          "size_bytes": 46126011,
-          "path": "s9pks/tailscale_x86_64_1.84.0-26.s9pk",
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-26/tailscale_x86_64_1.84.0-26.s9pk"
+          "filename": "tailscale_x86_64_1.84.0-27.s9pk",
+          "path": "s9pks/tailscale_x86_64_1.84.0-27.s9pk",
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-27/tailscale_x86_64_1.84.0-27.s9pk",
+          "sha256": "1b6894dca06188170d45125b05ebcff6b623813e3f76413a103a3a7080cd498d",
+          "size_bytes": 46125971,
+          "merkle_root_sighash": "f40g2nncdO1jrj5iUUGgHcr00SRfwoRHV5ge9j6RtwM",
+          "merkle_root_maxsize": 380
         },
         {
           "arch": "aarch64",
-          "filename": "tailscale_aarch64_1.84.0-26.s9pk",
-          "merkle_root_sighash": "93Y4Wf1AGUopOuOP7Ml5GnzOFtbFQTfsesJ0cFxyaMU",
-          "merkle_root_maxsize": 380,
-          "sha256": "a43fa57d831d7adf6dfbfdfd4a8c0250c294bc53e1b213a30d76a95d998cc911",
-          "size_bytes": 42845118,
-          "path": "s9pks/tailscale_aarch64_1.84.0-26.s9pk",
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-26/tailscale_aarch64_1.84.0-26.s9pk"
+          "filename": "tailscale_aarch64_1.84.0-27.s9pk",
+          "path": "s9pks/tailscale_aarch64_1.84.0-27.s9pk",
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-27/tailscale_aarch64_1.84.0-27.s9pk",
+          "sha256": "5f256e41071cd4b775615dcddcb2ad15995ece321b3830a042148011e7efca19",
+          "size_bytes": 42845078,
+          "merkle_root_sighash": "BMsY70v12D2lKxRMhv/4lxg32msIwSTWaEfvQKjhXGI",
+          "merkle_root_maxsize": 380
         }
       ],
       "lanes": [
@@ -364,7 +364,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-26",
+      "version": "1.84.0-27",
       "tags": [
         "s9pk",
         "vpn",
@@ -374,18 +374,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-26/tailscale_x86_64_1.84.0-26.s9pk",
-      "sha256": "8702498887a5e439b8576875c945bc0128078ce628cfa37c7cc97dffc802b227",
-      "size_bytes": 46126011,
-      "merkle_root_sighash": "cjKwuXSoSmvK2oQB5Bl9Uh3g3RvVSkG8/TRcq6ovsZo",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-27/tailscale_x86_64_1.84.0-27.s9pk",
+      "sha256": "1b6894dca06188170d45125b05ebcff6b623813e3f76413a103a3a7080cd498d",
+      "size_bytes": 46125971,
+      "merkle_root_sighash": "f40g2nncdO1jrj5iUUGgHcr00SRfwoRHV5ge9j6RtwM",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "aaa2b6b7cdaf26ab377d688567f03d083c6cfc99-modified",
-      "published_at": "2026-06-20T21:15:00Z",
+      "published_at": "2026-06-25T22:26:55Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:26 simplifies the default Tailnet UI: Wormhole joins the tailnet first, per-service Tailnet URL rows stop auto-populating fresh installs, older stored route rows stay hidden until advanced exports are explicitly enabled, and Advanced: Create Service Tailnet URLs remains available as a fallback when normal service URLs are not enough."
+      "release_notes": "Tailscale 1.84.0:27 keeps Wormhole-on-tailnet as the default path, hides per-service Tailnet URL actions during normal use, and keeps generated service Tailnet URLs as an explicit advanced fallback only."
     },
     {
       "name": "wireguard",
@@ -450,8 +450,8 @@
     },
     {
       "name": "wormhole-launcher",
-      "manifest_version": "0.1.0:11",
-      "registry_version": "0.1.0-11",
+      "manifest_version": "0.1.0:12",
+      "registry_version": "0.1.0-12",
       "description": "Wormhole Launcher - minimal local setup pages.",
       "source_repo": "packages/wormhole-launcher",
       "metadata": "metadata/wormhole-launcher.json",
@@ -464,21 +464,21 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-11.s9pk",
-          "sha256": "b68bd6138cac8eb8d715d1fe285ff35989da41e753087c21c3dc36ca1de765fe",
-          "size_bytes": 3887954,
-          "merkle_root_sighash": "NhqIKp5rHWcv6sqfdIxxptaE36tFH3+0FfNXYgcHRfA",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-11/wormhole-launcher_x86_64_0.1.0-11.s9pk"
+          "path": "s9pks/wormhole-launcher_x86_64_0.1.0-12.s9pk",
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-12/wormhole-launcher_x86_64_0.1.0-12.s9pk",
+          "sha256": "db06d29e8f71a2ca5ff2da8b047bbaada509318579da5c690d534f5c86bf020e",
+          "size_bytes": 3887959,
+          "merkle_root_sighash": "26c12DLlpWti05LW/U1spX1lD97wPJtP3sHj1LkKpLs",
+          "merkle_root_maxsize": 380
         },
         {
           "arch": "aarch64",
-          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-11.s9pk",
-          "sha256": "65b4e01d00e11ca176750ca178f1e66b724161e2a77aed742f08fad0cd610bef",
-          "size_bytes": 4084565,
-          "merkle_root_sighash": "RFpiXdHh4EPSIxYCuHWylpHuUwHPQ0tkUBqk5pdV+HU",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-11/wormhole-launcher_aarch64_0.1.0-11.s9pk"
+          "path": "s9pks/wormhole-launcher_aarch64_0.1.0-12.s9pk",
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-12/wormhole-launcher_aarch64_0.1.0-12.s9pk",
+          "sha256": "786e53ef659e794bf90e814be4a731d18662d8ed9b4e4bd4a5a893fef44f25cd",
+          "size_bytes": 4084570,
+          "merkle_root_sighash": "+C+TxrqdjU1G41SQguRfNiq5gROxP3d9KRBWv1l4v0c",
+          "merkle_root_maxsize": 380
         }
       ],
       "lanes": [
@@ -486,7 +486,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.0-11",
+      "version": "0.1.0-12",
       "tags": [
         "s9pk",
         "launcher",
@@ -496,18 +496,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-11/wormhole-launcher_x86_64_0.1.0-11.s9pk",
-      "sha256": "b68bd6138cac8eb8d715d1fe285ff35989da41e753087c21c3dc36ca1de765fe",
-      "size_bytes": 3887954,
-      "merkle_root_sighash": "NhqIKp5rHWcv6sqfdIxxptaE36tFH3+0FfNXYgcHRfA",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-launcher-0.1.0-12/wormhole-launcher_x86_64_0.1.0-12.s9pk",
+      "sha256": "db06d29e8f71a2ca5ff2da8b047bbaada509318579da5c690d534f5c86bf020e",
+      "size_bytes": 3887959,
+      "merkle_root_sighash": "26c12DLlpWti05LW/U1spX1lD97wPJtP3sHj1LkKpLs",
       "merkle_root_maxsize": 380,
       "license": "MIT",
       "git_hash": "aaa2b6b7cdaf26ab377d688567f03d083c6cfc99-modified",
-      "published_at": "2026-06-21T09:20:00Z",
+      "published_at": "2026-06-25T22:26:55Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/wormhole-launcher",
-      "release_notes": "pda11: add a Jitsi Meeting QR launcher page so operators can create one phone-scannable room link without manually composing Jitsi URLs."
+      "release_notes": "wormhole12: add a Jitsi Meeting QR launcher page so operators can create one phone-scannable room link without manually composing Jitsi URLs."
     }
   ]
 }
