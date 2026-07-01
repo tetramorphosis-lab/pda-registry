@@ -326,8 +326,8 @@
     },
     {
       "name": "tailscale",
-      "manifest_version": "1.84.0:27",
-      "registry_version": "1.84.0-27",
+      "manifest_version": "1.84.0:28",
+      "registry_version": "1.84.0-28",
       "description": "Tailscale: private encrypted tunnels between your Wormhole and your other devices.",
       "source_repo": "packages/tailscale",
       "metadata": "metadata/tailscale.json",
@@ -340,22 +340,22 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "filename": "tailscale_x86_64_1.84.0-27.s9pk",
-          "path": "s9pks/tailscale_x86_64_1.84.0-27.s9pk",
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-27/tailscale_x86_64_1.84.0-27.s9pk",
-          "sha256": "1b6894dca06188170d45125b05ebcff6b623813e3f76413a103a3a7080cd498d",
-          "size_bytes": 46125971,
-          "merkle_root_sighash": "f40g2nncdO1jrj5iUUGgHcr00SRfwoRHV5ge9j6RtwM",
+          "filename": "tailscale_x86_64_1.84.0-28.s9pk",
+          "path": "s9pks/tailscale_x86_64_1.84.0-28.s9pk",
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-28/tailscale_x86_64_1.84.0-28.s9pk",
+          "sha256": "15d5b5552d7be6e21facf7b69b259d71bfb38466e58e8c8a72613314755ac3cd",
+          "size_bytes": 46084997,
+          "merkle_root_sighash": "7utC+MO26rrhEy+Cy5FqTlDUkLK7aItPyycCrn2kfJY",
           "merkle_root_maxsize": 380
         },
         {
           "arch": "aarch64",
-          "filename": "tailscale_aarch64_1.84.0-27.s9pk",
-          "path": "s9pks/tailscale_aarch64_1.84.0-27.s9pk",
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-27/tailscale_aarch64_1.84.0-27.s9pk",
-          "sha256": "5f256e41071cd4b775615dcddcb2ad15995ece321b3830a042148011e7efca19",
-          "size_bytes": 42845078,
-          "merkle_root_sighash": "BMsY70v12D2lKxRMhv/4lxg32msIwSTWaEfvQKjhXGI",
+          "filename": "tailscale_aarch64_1.84.0-28.s9pk",
+          "path": "s9pks/tailscale_aarch64_1.84.0-28.s9pk",
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-28/tailscale_aarch64_1.84.0-28.s9pk",
+          "sha256": "f83e23b86101a1864589d3c3c36d2b29e0456296c76388a50abd7641362d3b5c",
+          "size_bytes": 42808200,
+          "merkle_root_sighash": "q3xqZQ/9BmcHVtqa61GEWYSRgZsoqyi6J8bQhAUW8a4",
           "merkle_root_maxsize": 380
         }
       ],
@@ -364,7 +364,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.84.0-27",
+      "version": "1.84.0-28",
       "tags": [
         "s9pk",
         "vpn",
@@ -374,18 +374,18 @@
         "lane-b",
         "lane-c.1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-27/tailscale_x86_64_1.84.0-27.s9pk",
-      "sha256": "1b6894dca06188170d45125b05ebcff6b623813e3f76413a103a3a7080cd498d",
-      "size_bytes": 46125971,
-      "merkle_root_sighash": "f40g2nncdO1jrj5iUUGgHcr00SRfwoRHV5ge9j6RtwM",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-28/tailscale_x86_64_1.84.0-28.s9pk",
+      "sha256": "15d5b5552d7be6e21facf7b69b259d71bfb38466e58e8c8a72613314755ac3cd",
+      "size_bytes": 46084997,
+      "merkle_root_sighash": "7utC+MO26rrhEy+Cy5FqTlDUkLK7aItPyycCrn2kfJY",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "aaa2b6b7cdaf26ab377d688567f03d083c6cfc99-modified",
-      "published_at": "2026-06-25T22:26:55Z",
+      "published_at": "2026-07-02T00:00:00Z",
       "sdk_version": "1.3.2",
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/tailscale",
-      "release_notes": "Tailscale 1.84.0:27 keeps Wormhole-on-tailnet as the default path, hides per-service Tailnet URL actions during normal use, and keeps generated service Tailnet URLs as an explicit advanced fallback only."
+      "release_notes": "Tailscale 1.84.0:28 keeps Tailscale as private network membership only for V1, removes the visible service Tailnet URL creation action, and points users to normal StartOS service URLs first."
     },
     {
       "name": "wireguard",
