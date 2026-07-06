@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
-  "description": "Wormhole — StartOS s9pk proof registry for live package testing.",
-  "generated_at": "2026-06-21T09:20:00Z",
+  "description": "Wormhole — curated StartOS packages for the Wormhole V1 stack.",
+  "generated_at": "2026-07-07T00:00:00Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -43,7 +43,9 @@
       "rustdesk-server",
       "tailscale",
       "wireguard",
-      "wormhole-launcher"
+      "wormhole-launcher",
+      "graphene-pixel-flasher",
+      "wormhole-android-setup"
     ],
     "registries": [
       {
@@ -141,6 +143,71 @@
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/adguardhome",
       "release_notes": "AdGuardHome 0.107.74:1 fixes first-run setup and exports the DNS filtering endpoint so LAN and tailnet clients can use AdGuard Home."
+    },
+    {
+      "name": "graphene-pixel-flasher",
+      "manifest_version": "0.1.0:1",
+      "registry_version": "0.1.0-1",
+      "description": "Graphene Pixel Flasher: safe Pixel preparation helper that links to the upstream GrapheneOS web installer.",
+      "source_repo": "packages/graphene-pixel-flasher",
+      "metadata": "packages/graphene-pixel-flasher/package-metadata.json",
+      "tier": 1,
+      "upstream": "https://grapheneos.org/install/web",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "filename": "graphene-pixel-flasher_x86_64_0.1.0-1.s9pk",
+          "path": "s9pks/graphene-pixel-flasher_x86_64_0.1.0-1.s9pk",
+          "sha256": "e43ab2019a507f17697bea0125410bd50b6b09cdba401b36524495a0d6f9de07",
+          "size_bytes": 3752830,
+          "merkle_root_sighash": "2mBQ97PzcZvF566EWps3tHiOWN2qbobopRknrQEoviA",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-graphene-pixel-flasher-0.1.0-1/graphene-pixel-flasher_x86_64_0.1.0-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "filename": "graphene-pixel-flasher_aarch64_0.1.0-1.s9pk",
+          "path": "s9pks/graphene-pixel-flasher_aarch64_0.1.0-1.s9pk",
+          "sha256": "a11edffbb57defc97388efce06c14aa73d20edddcc01438f21be1736a15d6cbf",
+          "size_bytes": 3957633,
+          "merkle_root_sighash": "UBKEh2Te8pLH0IEZM3s/L9uc22VyWzH9WSF042Y1yms",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-graphene-pixel-flasher-0.1.0-1/graphene-pixel-flasher_aarch64_0.1.0-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.0-1",
+      "tags": [
+        "s9pk",
+        "grapheneos",
+        "pixel",
+        "phone-flashing",
+        "dark-pixel",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-graphene-pixel-flasher-0.1.0-1/graphene-pixel-flasher_x86_64_0.1.0-1.s9pk",
+      "sha256": "e43ab2019a507f17697bea0125410bd50b6b09cdba401b36524495a0d6f9de07",
+      "size_bytes": 3752830,
+      "merkle_root_sighash": "2mBQ97PzcZvF566EWps3tHiOWN2qbobopRknrQEoviA",
+      "merkle_root_maxsize": 380,
+      "license": "MIT",
+      "git_hash": "a30c982c82518ee48363defbaee16bd1add9963d-modified",
+      "published_at": "2026-07-07T00:00:00Z",
+      "sdk_version": "1.3.2",
+      "os_version": "0.4.0-beta.6",
+      "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/graphene-pixel-flasher",
+      "release_notes": "Initial Graphene Pixel Flasher package: serves the Pixel preparation checklist and upstream GrapheneOS web installer handoff from a normal StartOS service."
     },
     {
       "name": "headscale",
@@ -343,9 +410,9 @@
           "filename": "tailscale_x86_64_1.84.0-28.s9pk",
           "path": "s9pks/tailscale_x86_64_1.84.0-28.s9pk",
           "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-28/tailscale_x86_64_1.84.0-28.s9pk",
-          "sha256": "15d5b5552d7be6e21facf7b69b259d71bfb38466e58e8c8a72613314755ac3cd",
-          "size_bytes": 46084997,
-          "merkle_root_sighash": "7utC+MO26rrhEy+Cy5FqTlDUkLK7aItPyycCrn2kfJY",
+          "sha256": "52df451ae98316ad1bf283df1b0bac47b7fd34f7b50a4dc72bd9d9cbd8d2abb2",
+          "size_bytes": 46076805,
+          "merkle_root_sighash": "mfKFqasKFUgEqyBGGnBSUc1x4EeECpczdWn1wHRdRGU",
           "merkle_root_maxsize": 380
         },
         {
@@ -353,9 +420,9 @@
           "filename": "tailscale_aarch64_1.84.0-28.s9pk",
           "path": "s9pks/tailscale_aarch64_1.84.0-28.s9pk",
           "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-28/tailscale_aarch64_1.84.0-28.s9pk",
-          "sha256": "f83e23b86101a1864589d3c3c36d2b29e0456296c76388a50abd7641362d3b5c",
-          "size_bytes": 42808200,
-          "merkle_root_sighash": "q3xqZQ/9BmcHVtqa61GEWYSRgZsoqyi6J8bQhAUW8a4",
+          "sha256": "7dcc92257a49e86a1504e08508a52b403553428174bee49a2b7919954540d556",
+          "size_bytes": 42800008,
+          "merkle_root_sighash": "4+wLugJjE6r0kaIsMInI/nO83j1+eHbfiB2tlVK295A",
           "merkle_root_maxsize": 380
         }
       ],
@@ -375,9 +442,9 @@
         "lane-c.1"
       ],
       "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-tailscale-1.84.0-28/tailscale_x86_64_1.84.0-28.s9pk",
-      "sha256": "15d5b5552d7be6e21facf7b69b259d71bfb38466e58e8c8a72613314755ac3cd",
-      "size_bytes": 46084997,
-      "merkle_root_sighash": "7utC+MO26rrhEy+Cy5FqTlDUkLK7aItPyycCrn2kfJY",
+      "sha256": "52df451ae98316ad1bf283df1b0bac47b7fd34f7b50a4dc72bd9d9cbd8d2abb2",
+      "size_bytes": 46076805,
+      "merkle_root_sighash": "mfKFqasKFUgEqyBGGnBSUc1x4EeECpczdWn1wHRdRGU",
       "merkle_root_maxsize": 380,
       "license": "BSD-3-Clause",
       "git_hash": "aaa2b6b7cdaf26ab377d688567f03d083c6cfc99-modified",
@@ -447,6 +514,71 @@
       "os_version": "0.4.0-beta.6",
       "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/wireguard",
       "release_notes": "WireGuard 0.1.1:3 checks the wg0 kernel interface directly so healthy tunnels are not marked failed by a brittle wg show probe."
+    },
+    {
+      "name": "wormhole-android-setup",
+      "manifest_version": "0.1.0:1",
+      "registry_version": "0.1.0-1",
+      "description": "Wormhole Android Setup: phone APK, Obtainium imports, and setup checklist as a normal StartOS service.",
+      "source_repo": "packages/wormhole-android-setup",
+      "metadata": "packages/wormhole-android-setup/package-metadata.json",
+      "tier": 1,
+      "upstream": "https://github.com/tetramorphosis-lab/peripheral-debug-agent",
+      "architectures": [
+        "x86_64",
+        "aarch64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "filename": "wormhole-android-setup_x86_64_0.1.0-1.s9pk",
+          "path": "s9pks/wormhole-android-setup_x86_64_0.1.0-1.s9pk",
+          "sha256": "578010c7d73087c558a72a670de99bd88bee70056a7d00a4e8226d73e5761922",
+          "size_bytes": 4277168,
+          "merkle_root_sighash": "bKBFxn56dXyMBMycuDtJY/COd/QFBz8ocsTSReqrcfA",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.0-1/wormhole-android-setup_x86_64_0.1.0-1.s9pk"
+        },
+        {
+          "arch": "aarch64",
+          "filename": "wormhole-android-setup_aarch64_0.1.0-1.s9pk",
+          "path": "s9pks/wormhole-android-setup_aarch64_0.1.0-1.s9pk",
+          "sha256": "695e572fd72e5a0eae4090564a4bbdef5d7d78de0d26f43d8a4ce877afdfa4bc",
+          "size_bytes": 4473779,
+          "merkle_root_sighash": "mKlZlhEwBNdm7LMQ6uCuYBmkwiSWxK/6fxWcEeS18+Y",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.0-1/wormhole-android-setup_aarch64_0.1.0-1.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "0.1.0-1",
+      "tags": [
+        "s9pk",
+        "android",
+        "phone-setup",
+        "obtainium",
+        "dark-pixel",
+        "tier-1",
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.0-1/wormhole-android-setup_x86_64_0.1.0-1.s9pk",
+      "sha256": "578010c7d73087c558a72a670de99bd88bee70056a7d00a4e8226d73e5761922",
+      "size_bytes": 4277168,
+      "merkle_root_sighash": "bKBFxn56dXyMBMycuDtJY/COd/QFBz8ocsTSReqrcfA",
+      "merkle_root_maxsize": 380,
+      "license": "MIT",
+      "git_hash": "a30c982c82518ee48363defbaee16bd1add9963d-modified",
+      "published_at": "2026-07-07T00:00:00Z",
+      "sdk_version": "1.3.2",
+      "os_version": "0.4.0-beta.6",
+      "package_repo": "https://github.com/tetramorphosis-lab/peripheral-debug-agent/tree/main/packages/wormhole-android-setup",
+      "release_notes": "Initial Wormhole Android Setup package: serves the phone setup APK, Obtainium import files, and operator checklist from a normal StartOS service."
     },
     {
       "name": "wormhole-launcher",
