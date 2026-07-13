@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — a curated StartOS storefront for private, operator-tested self-hosting.",
-  "generated_at": "2026-07-13T20:50:08Z",
+  "generated_at": "2026-07-13T21:19:50Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -317,8 +317,8 @@
     },
     {
       "name": "wormhole-android-setup",
-      "manifest_version": "0.1.1:4",
-      "registry_version": "0.1.1-4",
+      "manifest_version": "0.1.1:5",
+      "registry_version": "0.1.1-5",
       "description": "Wormhole Android Setup - phone app and setup files.",
       "source_repo": "packages/wormhole-android-setup",
       "metadata": "packages/wormhole-android-setup/package-metadata.json",
@@ -331,23 +331,23 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "filename": "wormhole-android-setup_x86_64_0.1.1-4.s9pk",
-          "path": "s9pks/wormhole-android-setup_x86_64_0.1.1-4.s9pk",
-          "sha256": "e1adce51658a4ea300a3f0ff9d8d5258b1257997f0e6933ad9e2e5cab8646f49",
+          "filename": "wormhole-android-setup_x86_64_0.1.1-5.s9pk",
+          "path": "s9pks/wormhole-android-setup_x86_64_0.1.1-5.s9pk",
+          "sha256": "6a571482f34cdb395037c26333a49565830b3e0916e50edcb1791da284d58fea",
           "size_bytes": 4375500,
-          "merkle_root_sighash": "cbJv5f36qAgFBO3SuC6yoB+RjyGhrBb43pSPefVRlto",
+          "merkle_root_sighash": "q+JtTBIS58xPDdvHvqVOJaxpU57Fh04nxDOcVS+B6kI",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-4/wormhole-android-setup_x86_64_0.1.1-4.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-5/wormhole-android-setup_x86_64_0.1.1-5.s9pk"
         },
         {
           "arch": "aarch64",
-          "filename": "wormhole-android-setup_aarch64_0.1.1-4.s9pk",
-          "path": "s9pks/wormhole-android-setup_aarch64_0.1.1-4.s9pk",
-          "sha256": "5898b258582fb1f6286304e96a8a960dffff00066e421ccbbff60b63093b3ab5",
+          "filename": "wormhole-android-setup_aarch64_0.1.1-5.s9pk",
+          "path": "s9pks/wormhole-android-setup_aarch64_0.1.1-5.s9pk",
+          "sha256": "aa52ee1fc44661ca94768a9be0f106dd844b53677e20095089574362ab071afb",
           "size_bytes": 4576207,
-          "merkle_root_sighash": "l/ePP+ca5bCpE4tMNAfILodNS7KVdKlCpOYloLdRh+I",
+          "merkle_root_sighash": "jg3JFitRI9UplAR54r5KLPsrp1oQY/gl+wiKptV1x70",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-4/wormhole-android-setup_aarch64_0.1.1-4.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-5/wormhole-android-setup_aarch64_0.1.1-5.s9pk"
         }
       ],
       "lanes": [
@@ -355,7 +355,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.1-4",
+      "version": "0.1.1-5",
       "tags": [
         "s9pk",
         "android",
@@ -367,14 +367,14 @@
         "lane-c.1",
         "tier-1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-4/wormhole-android-setup_x86_64_0.1.1-4.s9pk",
-      "sha256": "e1adce51658a4ea300a3f0ff9d8d5258b1257997f0e6933ad9e2e5cab8646f49",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-5/wormhole-android-setup_x86_64_0.1.1-5.s9pk",
+      "sha256": "6a571482f34cdb395037c26333a49565830b3e0916e50edcb1791da284d58fea",
       "size_bytes": 4375500,
-      "merkle_root_sighash": "cbJv5f36qAgFBO3SuC6yoB+RjyGhrBb43pSPefVRlto",
+      "merkle_root_sighash": "q+JtTBIS58xPDdvHvqVOJaxpU57Fh04nxDOcVS+B6kI",
       "merkle_root_maxsize": 380,
       "license": "MIT",
-      "git_hash": "5183e46b76ad3b870476f8eec48d02e98ed18a1a",
-      "published_at": "2026-07-13T20:50:08Z",
+      "git_hash": "df642493f77e3ae9d2a57b9ad27734da7f322c60",
+      "published_at": "2026-07-13T21:19:50Z",
       "sdk_version": "1.5.3",
       "os_version": "0.4.0-beta.9",
       "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/wormhole-android-setup",
