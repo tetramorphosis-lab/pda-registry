@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — a curated StartOS storefront for private, operator-tested self-hosting.",
-  "generated_at": "2026-07-15T13:24:48Z",
+  "generated_at": "2026-07-16T23:14:00Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -110,8 +110,8 @@
     },
     {
       "name": "pairdrop",
-      "manifest_version": "1.11.2:2",
-      "registry_version": "1.11.2-2",
+      "manifest_version": "1.11.2:4",
+      "registry_version": "1.11.2-4",
       "description": "Private browser-to-browser file transfer.",
       "source_repo": "packages/pairdrop",
       "metadata": "metadata/pairdrop.json",
@@ -123,23 +123,23 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "filename": "pairdrop_x86_64_1.11.2-2.s9pk",
-          "path": "s9pks/pairdrop_x86_64_1.11.2-2.s9pk",
-          "sha256": "979660d5d780a27ff283cd6537a300f135059364b3d1549f88b7dfc351b7face",
-          "size_bytes": 59642222,
-          "merkle_root_sighash": "fexf8MkQbgAUlE2hZblEXybS+dUJKFsjJV9nGZutdoI",
+          "filename": "pairdrop_x86_64_1.11.2-4.s9pk",
+          "path": "s9pks/pairdrop_x86_64_1.11.2-4.s9pk",
+          "sha256": "3fb8e77df334e3d9ed2c653f5fe6d6ee0801d9dd4122e98fb14742e1e69ff6cc",
+          "size_bytes": 59646400,
+          "merkle_root_sighash": "1vUrNYhJDGpXI2I70mP12LhwtrojPzuCnYme5vQqBrk",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-1.11.2-2/pairdrop_x86_64_1.11.2-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-1.11.2-4/pairdrop_x86_64_1.11.2-4.s9pk"
         },
         {
           "arch": "aarch64",
-          "filename": "pairdrop_aarch64_1.11.2-2.s9pk",
-          "path": "s9pks/pairdrop_aarch64_1.11.2-2.s9pk",
-          "sha256": "2c27f630a2944dc199f3dca2f354e3c654c3253491e4380daf7cf0c082343bcf",
-          "size_bytes": 57831793,
-          "merkle_root_sighash": "gLiC8c4/p3kVa9KvA2eLrZ+UC1kd8dVTrDr8iqzqZKs",
+          "filename": "pairdrop_aarch64_1.11.2-4.s9pk",
+          "path": "s9pks/pairdrop_aarch64_1.11.2-4.s9pk",
+          "sha256": "4e772043e424765e410cc78dfa35a0646b6d28d416027df96dbcbf940d372260",
+          "size_bytes": 57831875,
+          "merkle_root_sighash": "D4lz1hAbn/V77jZjc18BPq0M35afDOMWkj7XJJqAa0M",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-1.11.2-2/pairdrop_aarch64_1.11.2-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-1.11.2-4/pairdrop_aarch64_1.11.2-4.s9pk"
         }
       ],
       "lanes": [
@@ -147,7 +147,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "1.11.2-2",
+      "version": "1.11.2-4",
       "tags": [
         "s9pk",
         "lane-a",
@@ -155,18 +155,18 @@
         "lane-c.1",
         "tier-1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-1.11.2-2/pairdrop_x86_64_1.11.2-2.s9pk",
-      "sha256": "979660d5d780a27ff283cd6537a300f135059364b3d1549f88b7dfc351b7face",
-      "size_bytes": 59642222,
-      "merkle_root_sighash": "fexf8MkQbgAUlE2hZblEXybS+dUJKFsjJV9nGZutdoI",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-pairdrop-1.11.2-4/pairdrop_x86_64_1.11.2-4.s9pk",
+      "sha256": "3fb8e77df334e3d9ed2c653f5fe6d6ee0801d9dd4122e98fb14742e1e69ff6cc",
+      "size_bytes": 59646400,
+      "merkle_root_sighash": "1vUrNYhJDGpXI2I70mP12LhwtrojPzuCnYme5vQqBrk",
       "merkle_root_maxsize": 380,
       "license": "GPL-3.0",
-      "git_hash": "bf83fd2de5224264e5bd2a1d9533ab67898d3fc2",
-      "published_at": "2026-07-11T13:00:42Z",
+      "git_hash": "cbf3e8f77e01e97e021a5dc24ae3dcc4a7a712fa",
+      "published_at": "2026-07-16T23:14:00Z",
       "sdk_version": "1.5.3",
       "os_version": "0.4.0-beta.9",
       "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/pairdrop",
-      "release_notes": "Restore PairDrop from pinned upstream source, run it as a non-root user, enable rate limiting, and refresh production dependency locks to remove known advisories.",
+      "release_notes": "Keep LAN transfers peer-to-peer and use the local WebSocket relay for Tailscale Serve clients so mobile and other off-LAN Tailnet devices can transfer files without a public TURN server.",
       "title": "PairDrop",
       "upstream": "https://github.com/schlagmichdoch/PairDrop",
       "marketing_url": "https://pairdrop.net/",
