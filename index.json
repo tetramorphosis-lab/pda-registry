@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — a curated StartOS storefront for private, operator-tested self-hosting.",
-  "generated_at": "2026-07-21T16:55:22Z",
+  "generated_at": "2026-07-21T23:03:30Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -317,9 +317,9 @@
     },
     {
       "name": "wormhole-android-setup",
-      "manifest_version": "0.1.1:6",
-      "registry_version": "0.1.1-6",
-      "description": "Wormhole Android Setup - phone app and setup files.",
+      "manifest_version": "0.1.1:7",
+      "registry_version": "0.1.1-7",
+      "description": "Dark Pixel Flasher - guided Dark Pixel setup and phone app files.",
       "source_repo": "packages/wormhole-android-setup",
       "metadata": "packages/wormhole-android-setup/package-metadata.json",
       "tier": 1,
@@ -331,23 +331,23 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "filename": "wormhole-android-setup_x86_64_0.1.1-6.s9pk",
-          "path": "s9pks/wormhole-android-setup_x86_64_0.1.1-6.s9pk",
-          "sha256": "7614a57a5684b2c5262ba0ee565fe2844541d6bd11e3a261854b1f2ab61dd722",
-          "size_bytes": 4375480,
-          "merkle_root_sighash": "nSQxxmo0VB1MeM+yb+K/lPHbxbndEy4XUAY8yas/fEQ",
+          "filename": "wormhole-android-setup_x86_64_0.1.1-7.s9pk",
+          "path": "s9pks/wormhole-android-setup_x86_64_0.1.1-7.s9pk",
+          "sha256": "949b5662f1356a5911425bd8a0af8db4d96b1ad42fe7ec92ee911a83ced26f62",
+          "size_bytes": 4375341,
+          "merkle_root_sighash": "6rYH/tNDbRezucScDREqx40G/Ppa+Jku1Hil9rdIVds",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-6/wormhole-android-setup_x86_64_0.1.1-6.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-7/wormhole-android-setup_x86_64_0.1.1-7.s9pk"
         },
         {
           "arch": "aarch64",
-          "filename": "wormhole-android-setup_aarch64_0.1.1-6.s9pk",
-          "path": "s9pks/wormhole-android-setup_aarch64_0.1.1-6.s9pk",
-          "sha256": "16e16b04bea269e15f75585a5defff03da00eac3c70260c40a90babbd7858b30",
-          "size_bytes": 4576187,
-          "merkle_root_sighash": "r+LBM3S1eZuSA6B7Qh9KD+/chb/UslVAZ/PdoqUMvNM",
+          "filename": "wormhole-android-setup_aarch64_0.1.1-7.s9pk",
+          "path": "s9pks/wormhole-android-setup_aarch64_0.1.1-7.s9pk",
+          "sha256": "441e30d102a14f94d7dafe194cee8a8d654168e2706b3091c66c6e8b9235b746",
+          "size_bytes": 4576048,
+          "merkle_root_sighash": "pnzfectXu1GvBUCH3wA/0XKH8+ekVJPwcmT0unFRRUg",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-6/wormhole-android-setup_aarch64_0.1.1-6.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-7/wormhole-android-setup_aarch64_0.1.1-7.s9pk"
         }
       ],
       "lanes": [
@@ -355,7 +355,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.1.1-6",
+      "version": "0.1.1-7",
       "tags": [
         "s9pk",
         "android",
@@ -367,19 +367,19 @@
         "lane-c.1",
         "tier-1"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-6/wormhole-android-setup_x86_64_0.1.1-6.s9pk",
-      "sha256": "7614a57a5684b2c5262ba0ee565fe2844541d6bd11e3a261854b1f2ab61dd722",
-      "size_bytes": 4375480,
-      "merkle_root_sighash": "nSQxxmo0VB1MeM+yb+K/lPHbxbndEy4XUAY8yas/fEQ",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.1.1-7/wormhole-android-setup_x86_64_0.1.1-7.s9pk",
+      "sha256": "949b5662f1356a5911425bd8a0af8db4d96b1ad42fe7ec92ee911a83ced26f62",
+      "size_bytes": 4375341,
+      "merkle_root_sighash": "6rYH/tNDbRezucScDREqx40G/Ppa+Jku1Hil9rdIVds",
       "merkle_root_maxsize": 380,
       "license": "MIT",
-      "git_hash": "252ad98614169a2fe2fabe23f4efb5e0aca992f2",
-      "published_at": "2026-07-21T16:55:22Z",
+      "git_hash": "1df10c5755e922e9c8bf48c2b5bec83b6cccc79d",
+      "published_at": "2026-07-21T23:03:30Z",
       "sdk_version": "1.5.3",
       "os_version": "0.4.0-beta.9",
       "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/wormhole-android-setup",
-      "release_notes": "Keep the proven Obtainium and phone-pairing flow while simplifying the visible setup page: present it as a local Wormhole service, remove maintainer-facing design notes, and retain every explicit StartOS navigation step users still need.",
-      "title": "Wormhole Android Setup",
+      "release_notes": "Rename the service to Dark Pixel Flasher while preserving the stable package identity and the proven Obtainium, certificate, and phone-pairing flow.",
+      "title": "Dark Pixel Flasher",
       "marketing_url": "https://github.com/tetramorphosis-lab/pda",
       "donation_url": null,
       "docs_urls": [
