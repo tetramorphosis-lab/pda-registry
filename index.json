@@ -1,13 +1,12 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — a curated StartOS storefront for private, operator-tested self-hosting.",
-  "generated_at": "2026-07-25T23:05:40Z",
+  "generated_at": "2026-07-30T19:08:10Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
     "blocked_package_ids": [],
     "prefer_local_package_ids": [
-      "graphene-pixel-flasher",
       "pairdrop",
       "rustdesk-server",
       "tailscale",
@@ -15,8 +14,6 @@
       "wormhole-launcher"
     ],
     "advanced_package_ids": [
-      "graphene-pixel-flasher",
-      "rustdesk-server",
       "synapse"
     ],
     "registries": [
@@ -32,82 +29,13 @@
           "start9-pages",
           "synapse",
           "vaultwarden"
-        ]
+        ],
+        "snapshot_path": "registry/upstream-snapshots/start9-official-package-get.json",
+        "snapshot_sha256": "f0f24f98267db5a070ec64aa5155db96ceec3ef831a7f9591b3f265d0a3d0cf3"
       }
     ]
   },
   "packages": [
-    {
-      "name": "graphene-pixel-flasher",
-      "manifest_version": "0.2.0:2",
-      "registry_version": "0.2.0-2",
-      "description": "Install verified GrapheneOS on a Pixel connected directly to Wormhole.",
-      "source_repo": "packages/graphene-pixel-flasher",
-      "metadata": "packages/graphene-pixel-flasher/package-metadata.json",
-      "tier": 2,
-      "upstream": "https://github.com/tetramorphosis-lab/pda",
-      "architectures": [
-        "x86_64",
-        "aarch64"
-      ],
-      "artifacts": [
-        {
-          "arch": "x86_64",
-          "filename": "graphene-pixel-flasher_x86_64_0.2.0-2.s9pk",
-          "path": "s9pks/graphene-pixel-flasher_x86_64_0.2.0-2.s9pk",
-          "sha256": "8dfc2995c4f65ff4e3860cf9a2785f734080feb23ce43bfb57833de18de167b3",
-          "size_bytes": 16680064,
-          "merkle_root_sighash": "Llg3C8Di86Zsqbxfo3YlQs1S1YvSFsIIficvuiegnLY",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-graphene-pixel-flasher-0.2.0-2/graphene-pixel-flasher_x86_64_0.2.0-2.s9pk"
-        },
-        {
-          "arch": "aarch64",
-          "filename": "graphene-pixel-flasher_aarch64_0.2.0-2.s9pk",
-          "path": "s9pks/graphene-pixel-flasher_aarch64_0.2.0-2.s9pk",
-          "sha256": "50ea769c288753994189f9a431e1e81bb4db8c2f4a0ac48e776b936be49a005a",
-          "size_bytes": 16516227,
-          "merkle_root_sighash": "Y+H2EExVJr1UCAyxqzhGiXQQ6AWT2zzzGjDN21O8HIw",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-graphene-pixel-flasher-0.2.0-2/graphene-pixel-flasher_aarch64_0.2.0-2.s9pk"
-        }
-      ],
-      "lanes": [
-        "lane-a",
-        "lane-b",
-        "lane-c.1"
-      ],
-      "version": "0.2.0-2",
-      "tags": [
-        "s9pk",
-        "grapheneos",
-        "pixel",
-        "phone-flashing",
-        "dark-pixel",
-        "lane-a",
-        "lane-b",
-        "lane-c.1",
-        "tier-2"
-      ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-graphene-pixel-flasher-0.2.0-2/graphene-pixel-flasher_x86_64_0.2.0-2.s9pk",
-      "sha256": "8dfc2995c4f65ff4e3860cf9a2785f734080feb23ce43bfb57833de18de167b3",
-      "size_bytes": 16680064,
-      "merkle_root_sighash": "Llg3C8Di86Zsqbxfo3YlQs1S1YvSFsIIficvuiegnLY",
-      "merkle_root_maxsize": 380,
-      "license": "MIT",
-      "git_hash": "ff42bf00ea23fc5467b3c41692692d3a9cf13235",
-      "published_at": "2026-07-25T23:05:40Z",
-      "sdk_version": "1.5.3",
-      "os_version": "0.4.0-beta.9",
-      "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/graphene-pixel-flasher",
-      "release_notes": "Restore the distinct Guard icon for the before-GrapheneOS install step. Installer behavior is unchanged.",
-      "title": "Dark Pixel: Install GrapheneOS",
-      "marketing_url": "https://grapheneos.org/install/cli",
-      "donation_url": null,
-      "docs_urls": [
-        "https://grapheneos.org/install/cli"
-      ]
-    },
     {
       "name": "pairdrop",
       "manifest_version": "1.11.2:4",
@@ -317,12 +245,12 @@
     },
     {
       "name": "wormhole-android-setup",
-      "manifest_version": "0.2.0:2",
-      "registry_version": "0.2.0-2",
-      "description": "After GrapheneOS: push the signed phone cockpit and curated apps over USB.",
+      "manifest_version": "0.3.0:1",
+      "registry_version": "0.3.0-1",
+      "description": "Install verified GrapheneOS, then set up the phone and curated apps over USB.",
       "source_repo": "packages/wormhole-android-setup",
       "metadata": "packages/wormhole-android-setup/package-metadata.json",
-      "tier": 1,
+      "tier": 2,
       "upstream": "https://github.com/tetramorphosis-lab/pda",
       "architectures": [
         "x86_64",
@@ -331,23 +259,23 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "filename": "wormhole-android-setup_x86_64_0.2.0-2.s9pk",
-          "path": "s9pks/wormhole-android-setup_x86_64_0.2.0-2.s9pk",
-          "sha256": "35c723c9b1dd8fc7d018e222ecf079a97391aaccdde970e434b117011ce78211",
-          "size_bytes": 17101690,
-          "merkle_root_sighash": "EW6MMuosSIggSK9trRDxNft1wrjAJsZ/1AFSes1jNFI",
+          "filename": "wormhole-android-setup_x86_64_0.3.0-1.s9pk",
+          "path": "s9pks/wormhole-android-setup_x86_64_0.3.0-1.s9pk",
+          "sha256": "2af48adcfd3b30a48dfd71be5b6d12c63f96f402d193b18788ea59cc795b8347",
+          "size_bytes": 17106538,
+          "merkle_root_sighash": "GZ9dimSZ31PqFOWcfG0daPa+bSxdek7wOghQcmI8Zvk",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.2.0-2/wormhole-android-setup_x86_64_0.2.0-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.3.0-1/wormhole-android-setup_x86_64_0.3.0-1.s9pk"
         },
         {
           "arch": "aarch64",
-          "filename": "wormhole-android-setup_aarch64_0.2.0-2.s9pk",
-          "path": "s9pks/wormhole-android-setup_aarch64_0.2.0-2.s9pk",
-          "sha256": "d44fe47a9b25210d12069a275bf8c28ddc8f5ec0905671c01034da0d21798af4",
-          "size_bytes": 16933757,
-          "merkle_root_sighash": "f8dcesXjmpIbeV7szcLub4OIAlwG/Kz6xz1xnXka/HY",
+          "filename": "wormhole-android-setup_aarch64_0.3.0-1.s9pk",
+          "path": "s9pks/wormhole-android-setup_aarch64_0.3.0-1.s9pk",
+          "sha256": "96bb8c2a151712f78c33d3aec4865d24c8f70638b76b9bc3617e408a20e02091",
+          "size_bytes": 16942701,
+          "merkle_root_sighash": "+SHSU6kRrRfGthiRP2i+mpjgMLKCMKbkkVsRJovmaag",
           "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.2.0-2/wormhole-android-setup_aarch64_0.2.0-2.s9pk"
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.3.0-1/wormhole-android-setup_aarch64_0.3.0-1.s9pk"
         }
       ],
       "lanes": [
@@ -355,7 +283,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.2.0-2",
+      "version": "0.3.0-1",
       "tags": [
         "s9pk",
         "android",
@@ -365,21 +293,21 @@
         "lane-a",
         "lane-b",
         "lane-c.1",
-        "tier-1"
+        "tier-2"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.2.0-2/wormhole-android-setup_x86_64_0.2.0-2.s9pk",
-      "sha256": "35c723c9b1dd8fc7d018e222ecf079a97391aaccdde970e434b117011ce78211",
-      "size_bytes": 17101690,
-      "merkle_root_sighash": "EW6MMuosSIggSK9trRDxNft1wrjAJsZ/1AFSes1jNFI",
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.3.0-1/wormhole-android-setup_x86_64_0.3.0-1.s9pk",
+      "sha256": "2af48adcfd3b30a48dfd71be5b6d12c63f96f402d193b18788ea59cc795b8347",
+      "size_bytes": 17106538,
+      "merkle_root_sighash": "GZ9dimSZ31PqFOWcfG0daPa+bSxdek7wOghQcmI8Zvk",
       "merkle_root_maxsize": 380,
       "license": "MIT",
-      "git_hash": "ff42bf00ea23fc5467b3c41692692d3a9cf13235",
-      "published_at": "2026-07-25T23:05:40Z",
+      "git_hash": "1b3b9306b3629148a8ca8aa0eade37d14ddbf1e8",
+      "published_at": "2026-07-30T19:08:10Z",
       "sdk_version": "1.5.3",
       "os_version": "0.4.0-beta.9",
       "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/wormhole-android-setup",
-      "release_notes": "Restore the distinct Carry icon for the after-GrapheneOS app setup step. Setup behavior is unchanged.",
-      "title": "Dark Pixel: Set Up Apps",
+      "release_notes": "Merge verified GrapheneOS installation and post-flash phone setup into one chronological Dark Pixel app. The page shows only the current instruction, resumes durable jobs, verifies locked boot before installing apps, and ends by disabling USB debugging.",
+      "title": "Dark Pixel",
       "marketing_url": "https://github.com/tetramorphosis-lab/pda",
       "donation_url": null,
       "docs_urls": [
