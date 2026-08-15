@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — a curated StartOS storefront for private, operator-tested self-hosting.",
-  "generated_at": "2026-07-30T19:08:10Z",
+  "generated_at": "2026-08-08T05:01:49Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -93,7 +93,7 @@
       "published_at": "2026-07-16T23:14:00Z",
       "sdk_version": "1.5.3",
       "os_version": "0.4.0-beta.9",
-      "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/pairdrop",
+      "package_repo": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/source-pairdrop-1.11.2-4-cbf3e8f77e01/wormhole-source-pairdrop_1.11.2-4_cbf3e8f77e01e97e021a5dc24ae3dcc4a7a712fa.tar.gz",
       "release_notes": "Keep LAN transfers peer-to-peer and use the local WebSocket relay for Tailscale Serve clients so mobile and other off-LAN Tailnet devices can transfer files without a public TURN server.",
       "title": "PairDrop",
       "upstream": "https://github.com/schlagmichdoch/PairDrop",
@@ -164,7 +164,7 @@
       "published_at": "2026-07-23T19:33:07Z",
       "sdk_version": "1.5.3",
       "os_version": "0.4.0-beta.9",
-      "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/rustdesk-server",
+      "package_repo": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/source-rustdesk-server-0.1.0-7-e528a0c2e58a/wormhole-source-rustdesk-server_0.1.0-7_e528a0c2e58a6950ec41448fbbe7417daa01c5ff.tar.gz",
       "release_notes": "Use Wormhole customer-facing package copy while retaining the proven LAN-only RustDesk service behavior.",
       "title": "RustDesk Server",
       "marketing_url": "https://rustdesk.com/",
@@ -233,7 +233,7 @@
       "published_at": "2026-07-22T17:04:04Z",
       "sdk_version": "1.5.3",
       "os_version": "0.4.0-beta.9",
-      "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/tailscale",
+      "package_repo": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/source-tailscale-1.98.8-32-b480aebc7289/wormhole-source-tailscale_1.98.8-32_b480aebc7289d8dbd221bf9f249d137cffe82bd1.tar.gz",
       "release_notes": "Use Wormhole customer-facing language in tailnet onboarding and private-service guidance. Networking behavior remains unchanged.",
       "title": "Tailscale",
       "marketing_url": "https://tailscale.com/",
@@ -245,13 +245,13 @@
     },
     {
       "name": "wormhole-android-setup",
-      "manifest_version": "0.3.0:1",
-      "registry_version": "0.3.0-1",
+      "manifest_version": "0.3.0:2",
+      "registry_version": "0.3.0-2",
       "description": "Install verified GrapheneOS, then set up the phone and curated apps over USB.",
       "source_repo": "packages/wormhole-android-setup",
       "metadata": "packages/wormhole-android-setup/package-metadata.json",
       "tier": 2,
-      "upstream": "https://github.com/tetramorphosis-lab/pda",
+      "upstream": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/source-wormhole-android-setup-0.3.0-2-38f19acad1fb/wormhole-source-wormhole-android-setup_0.3.0-2_38f19acad1fb4e08b9d02e65a89d8c0673be3a66.tar.gz",
       "architectures": [
         "x86_64",
         "aarch64"
@@ -259,23 +259,23 @@
       "artifacts": [
         {
           "arch": "x86_64",
-          "filename": "wormhole-android-setup_x86_64_0.3.0-1.s9pk",
-          "path": "s9pks/wormhole-android-setup_x86_64_0.3.0-1.s9pk",
-          "sha256": "2af48adcfd3b30a48dfd71be5b6d12c63f96f402d193b18788ea59cc795b8347",
-          "size_bytes": 17106538,
-          "merkle_root_sighash": "GZ9dimSZ31PqFOWcfG0daPa+bSxdek7wOghQcmI8Zvk",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.3.0-1/wormhole-android-setup_x86_64_0.3.0-1.s9pk"
+          "filename": "wormhole-android-setup_x86_64_0.3.0-2.s9pk",
+          "path": "s9pks/wormhole-android-setup_x86_64_0.3.0-2.s9pk",
+          "sha256": "4739c9f6826ef9c8227a81356deed298d03a18581437691afb97e0325d83f53f",
+          "size_bytes": 17107349,
+          "merkle_root_sighash": "ARFZ922AaJHsbO/wQR9IofXPA9dqUwoOaCD7IHJvWbo",
+          "merkle_root_maxsize": 445,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.3.0-2/wormhole-android-setup_x86_64_0.3.0-2.s9pk"
         },
         {
           "arch": "aarch64",
-          "filename": "wormhole-android-setup_aarch64_0.3.0-1.s9pk",
-          "path": "s9pks/wormhole-android-setup_aarch64_0.3.0-1.s9pk",
-          "sha256": "96bb8c2a151712f78c33d3aec4865d24c8f70638b76b9bc3617e408a20e02091",
-          "size_bytes": 16942701,
-          "merkle_root_sighash": "+SHSU6kRrRfGthiRP2i+mpjgMLKCMKbkkVsRJovmaag",
-          "merkle_root_maxsize": 380,
-          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.3.0-1/wormhole-android-setup_aarch64_0.3.0-1.s9pk"
+          "filename": "wormhole-android-setup_aarch64_0.3.0-2.s9pk",
+          "path": "s9pks/wormhole-android-setup_aarch64_0.3.0-2.s9pk",
+          "sha256": "9af90f522f35e612b3f340084d1e09d6c0dcac25b1c561060d0f09604662aa28",
+          "size_bytes": 16943512,
+          "merkle_root_sighash": "ygPhTT1mvWz6asXQZw/4HVjmEQExTbIyfueDYxlTudw",
+          "merkle_root_maxsize": 445,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.3.0-2/wormhole-android-setup_aarch64_0.3.0-2.s9pk"
         }
       ],
       "lanes": [
@@ -283,7 +283,7 @@
         "lane-b",
         "lane-c.1"
       ],
-      "version": "0.3.0-1",
+      "version": "0.3.0-2",
       "tags": [
         "s9pk",
         "android",
@@ -295,24 +295,21 @@
         "lane-c.1",
         "tier-2"
       ],
-      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.3.0-1/wormhole-android-setup_x86_64_0.3.0-1.s9pk",
-      "sha256": "2af48adcfd3b30a48dfd71be5b6d12c63f96f402d193b18788ea59cc795b8347",
-      "size_bytes": 17106538,
-      "merkle_root_sighash": "GZ9dimSZ31PqFOWcfG0daPa+bSxdek7wOghQcmI8Zvk",
-      "merkle_root_maxsize": 380,
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-wormhole-android-setup-0.3.0-2/wormhole-android-setup_x86_64_0.3.0-2.s9pk",
+      "sha256": "4739c9f6826ef9c8227a81356deed298d03a18581437691afb97e0325d83f53f",
+      "size_bytes": 17107349,
+      "merkle_root_sighash": "ARFZ922AaJHsbO/wQR9IofXPA9dqUwoOaCD7IHJvWbo",
+      "merkle_root_maxsize": 445,
       "license": "MIT",
-      "git_hash": "1b3b9306b3629148a8ca8aa0eade37d14ddbf1e8",
-      "published_at": "2026-07-30T19:08:10Z",
+      "git_hash": "38f19acad1fb4e08b9d02e65a89d8c0673be3a66",
+      "published_at": "2026-08-08T05:01:49Z",
       "sdk_version": "1.5.3",
       "os_version": "0.4.0-beta.9",
-      "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/wormhole-android-setup",
+      "package_repo": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/source-wormhole-android-setup-0.3.0-2-38f19acad1fb/wormhole-source-wormhole-android-setup_0.3.0-2_38f19acad1fb4e08b9d02e65a89d8c0673be3a66.tar.gz",
       "release_notes": "Merge verified GrapheneOS installation and post-flash phone setup into one chronological Dark Pixel app. The page shows only the current instruction, resumes durable jobs, verifies locked boot before installing apps, and ends by disabling USB debugging.",
       "title": "Dark Pixel",
-      "marketing_url": "https://github.com/tetramorphosis-lab/pda",
-      "donation_url": null,
-      "docs_urls": [
-        "https://github.com/tetramorphosis-lab/pda/tree/main/packages/wormhole-android-setup"
-      ]
+      "marketing_url": "https://github.com/tetramorphosis-lab/pda-registry/releases/tag/source-wormhole-android-setup-0.3.0-2-38f19acad1fb",
+      "donation_url": null
     },
     {
       "name": "wormhole-launcher",
@@ -322,7 +319,7 @@
       "source_repo": "packages/wormhole-launcher",
       "metadata": "metadata/wormhole-launcher.json",
       "tier": 1,
-      "upstream": "https://github.com/tetramorphosis-lab/pda",
+      "upstream": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/source-wormhole-launcher-0.2.3-2-e528a0c2e58a/wormhole-source-wormhole-launcher_0.2.3-2_e528a0c2e58a6950ec41448fbbe7417daa01c5ff.tar.gz",
       "architectures": [
         "x86_64",
         "aarch64"
@@ -374,13 +371,13 @@
       "published_at": "2026-07-23T19:33:07Z",
       "sdk_version": "1.5.3",
       "os_version": "0.4.0-beta.9",
-      "package_repo": "https://github.com/tetramorphosis-lab/pda/tree/main/packages/wormhole-launcher",
+      "package_repo": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/source-wormhole-launcher-0.2.3-2-e528a0c2e58a/wormhole-source-wormhole-launcher_0.2.3-2_e528a0c2e58a6950ec41448fbbe7417daa01c5ff.tar.gz",
       "release_notes": "Use the approved Wormhole device icon and Wormhole wording in all seeded Pages examples. Service behavior is unchanged.",
       "title": "Wormhole Launcher",
-      "marketing_url": "https://github.com/tetramorphosis-lab/pda",
+      "marketing_url": "https://github.com/tetramorphosis-lab/pda-registry/releases/tag/source-wormhole-launcher-0.2.3-2-e528a0c2e58a",
       "donation_url": null,
       "docs_urls": [
-        "https://github.com/tetramorphosis-lab/pda/tree/main/packages/wormhole-launcher"
+        "https://github.com/tetramorphosis-lab/pda-registry/releases/tag/source-wormhole-launcher-0.2.3-2-e528a0c2e58a"
       ]
     }
   ]
