@@ -1,7 +1,7 @@
 {
   "name": "Wormhole",
   "description": "Wormhole — a curated StartOS storefront for private, operator-tested self-hosting.",
-  "generated_at": "2026-08-08T05:01:49Z",
+  "generated_at": "2026-08-16T10:54:40Z",
   "schema_version": 2,
   "curated_upstream": {
     "mode": "allowlist",
@@ -11,9 +11,11 @@
       "rustdesk-server",
       "tailscale",
       "wormhole-android-setup",
-      "wormhole-launcher"
+      "wormhole-launcher",
+      "vendure"
     ],
     "advanced_package_ids": [
+      "vendure",
       "synapse"
     ],
     "registries": [
@@ -378,6 +380,66 @@
       "donation_url": null,
       "docs_urls": [
         "https://github.com/tetramorphosis-lab/pda-registry/releases/tag/source-wormhole-launcher-0.2.3-2-e528a0c2e58a"
+      ]
+    },
+    {
+      "name": "vendure",
+      "manifest_version": "3.7.1:11",
+      "registry_version": "3.7.1-11",
+      "description": "One-shop-per-box commerce with scoped agent access. Preproduction testing only.",
+      "source_repo": "major-projects/e-commerce-automation",
+      "metadata": "major-projects/e-commerce-automation/package-metadata.json",
+      "tier": 2,
+      "upstream": "https://github.com/vendurehq/vendure",
+      "architectures": [
+        "x86_64"
+      ],
+      "artifacts": [
+        {
+          "arch": "x86_64",
+          "filename": "vendure_x86_64_3.7.1-11.s9pk",
+          "path": "s9pks/vendure_x86_64_3.7.1-11.s9pk",
+          "sha256": "3bcb80d08d8ca8be888e098ab6ad427fef58e4bee43300a501a758bd18b91126",
+          "size_bytes": 273670458,
+          "merkle_root_sighash": "zqfH/mqzfTbWWK1wGQrzpk0jrvV3OSBX+AcEM3uCkN4",
+          "merkle_root_maxsize": 380,
+          "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-vendure-3.7.1-11/vendure_x86_64_3.7.1-11.s9pk"
+        }
+      ],
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c.1"
+      ],
+      "version": "3.7.1-11",
+      "tags": [
+        "s9pk",
+        "commerce",
+        "automation",
+        "preproduction",
+        "x86_64",
+        "lane-a",
+        "lane-b",
+        "lane-c.1",
+        "tier-2"
+      ],
+      "s9pk": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/registry-vendure-3.7.1-11/vendure_x86_64_3.7.1-11.s9pk",
+      "sha256": "3bcb80d08d8ca8be888e098ab6ad427fef58e4bee43300a501a758bd18b91126",
+      "size_bytes": 273670458,
+      "merkle_root_sighash": "zqfH/mqzfTbWWK1wGQrzpk0jrvV3OSBX+AcEM3uCkN4",
+      "merkle_root_maxsize": 380,
+      "license": "GPL-3.0",
+      "git_hash": "b8a38e557f1104223637b7b7794f322613571834",
+      "published_at": "2026-08-16T10:54:40Z",
+      "sdk_version": "1.5.3",
+      "os_version": "0.4.0-beta.9",
+      "package_repo": "https://github.com/tetramorphosis-lab/pda-registry/releases/download/source-vendure-3.7.1-11-b8a38e557f11/wormhole-source-vendure_3.7.1-11_b8a38e557f1104223637b7b7794f322613571834.tar.gz",
+      "release_notes": "Preproduction x86_64 listing. Revision 3.7.1:11 corrects manual-crypto invoice schema metadata and retains disabled-by-default Bitcoin regtest/testnet and Monero stagenet invoice modes. No chain watcher, wallet key, mainnet mode, automated refund, or automatic payment polling is bundled. Production dependency remediation, public ingress, real test-network adapters, and ARM64 validation remain open.",
+      "title": "Vendure",
+      "marketing_url": "https://www.vendure.io/",
+      "donation_url": null,
+      "docs_urls": [
+        "https://docs.vendure.io/"
       ]
     }
   ]
